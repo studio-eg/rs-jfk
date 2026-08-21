@@ -1,0 +1,357 @@
+- generic [ref=f12e1]:
+  - banner [ref=f12e2]:
+    - heading [level=1] [ref=f12e3]:
+      - link "www.rs-kennedy.de" [ref=f12e4] [cursor=pointer]:
+        - /url: index.html
+    - navigation [ref=f12e5]:
+      - list [ref=f12e6]:
+        - listitem [ref=f12e7]:
+          - link "Start" [ref=f12e8] [cursor=pointer]:
+            - /url: index.html
+        - listitem [ref=f12e9]:
+          - link "IServ-Login" [ref=f12e10] [cursor=pointer]:
+            - /url: https://www.rs-kennedy.de/idesk
+        - listitem [ref=f12e11]:
+          - link "Stundenplan" [ref=f12e12] [cursor=pointer]:
+            - /url: https://borys.webuntis.com/WebUntis/?school=rs%20jfk%20braunschweig#/basic/login
+        - listitem [ref=f12e13] [cursor=pointer]:
+          - link "Schulleben" [ref=f12e14]:
+            - /url: schulleben.html
+        - listitem [ref=f12e15]:
+          - link "Kontakt & Anfahrt" [ref=f12e16] [cursor=pointer]:
+            - /url: kontakt.html
+        - listitem [ref=f12e17]:
+          - link "Impressum" [ref=f12e18] [cursor=pointer]:
+            - /url: impressum.html
+        - listitem [ref=f12e19]:
+          - link "Datenschutz" [ref=f12e20] [cursor=pointer]:
+            - /url: datenschutz.html
+  - generic [ref=f12e21]:
+    - heading "Fachbereiche" [level=2] [ref=f12e23]
+    - generic [ref=f12e25]:
+      - heading "Sprachen" [level=3] [ref=f12e26]
+      - heading "Deutsch" [level=4] [ref=f12e27]
+      - paragraph [ref=f12e28]: Der Fachunterricht Deutsch ist an der Realschule John-F.-Kennedy grundsätzlich integrativ angelegt, d.h. er berücksichtigt immer alle Lernbereiche des Faches. Wir arbeiten dabei mit dem Lehrwerk „Praxis Deutsch“ aus dem Westermann Verlag. Am Anfang von Klasse 6, 8 und 10 wird eine Lernstandserhebung mit Hilfe der Online-Diagnose von Westermann durchgeführt. Den SchülerInnen wird damit aufgezeigt, wo ihre Stärken und Schwächen liegen. Außerdem kann mit individuellem Fördermaterial an den Schwächen gearbeitet werden.
+      - link [ref=f12e29] [cursor=pointer]:
+        - /url: fachbereiche.html
+      - paragraph [ref=f12e31]:
+        - strong [ref=f12e32]:
+          - emphasis [ref=f12e33]: Weitere Förderangebote
+      - list [ref=f12e34]:
+        - listitem [ref=f12e35]: "Jahrgang 5: Förderunterricht, Lesepaten"
+        - listitem [ref=f12e36]: "Jahrgang 6: WPK Fit-in-Deutsch, Lesepaten"
+        - listitem [ref=f12e37]: "Alle Jahrgänge: Sprachförderung für SchülerInnen mit Migrationshintergrund Schüler helfen Schülern"
+        - listitem [ref=f12e38]: Förderangebote durch Externe im Nachmittagsbereich (organisiert durch unseren Sozialpädagogen)
+      - paragraph [ref=f12e39]:
+        - strong [ref=f12e40]:
+          - emphasis [ref=f12e41]: Besondere Angebote
+      - list [ref=f12e42]:
+        - listitem [ref=f12e43]: WPK 10 – Stolpersteine
+        - listitem [ref=f12e44]: Schulbücherei
+      - paragraph [ref=f12e45]:
+        - strong [ref=f12e46]:
+          - emphasis [ref=f12e47]: Kooperationen
+      - list [ref=f12e48]:
+        - listitem [ref=f12e49]: "Staatstheater Braunschweig: THEATER.FIEBER"
+        - listitem [ref=f12e50]: "Braunschweiger Zeitung: SCHULZ"
+      - paragraph [ref=f12e51]:
+        - strong [ref=f12e52]:
+          - emphasis [ref=f12e53]: "Deutsch meets Medienkompetenz: Kurzgeschichten-Projekt der Klasse 10 a"
+      - paragraph [ref=f12e54]: Schülerinnen und Schüler der Klasse 10 a verfassten und vertonten unter Anleitung der Lehrkraft Frau Ollesch verschiedene Kurzgeschichten, die auf der Basis von Liedtexten entstanden sind.
+      - list [ref=f12e55]:
+        - listitem [ref=f12e56]:
+          - link "Er gehört zu mir" [ref=f12e57] [cursor=pointer]:
+            - /url: files/kurzgeschichten/er_gehoert_zu_mir.mp3
+        - listitem [ref=f12e58]:
+          - link "Lass' plaudern" [ref=f12e59] [cursor=pointer]:
+            - /url: files/kurzgeschichten/lass_plaudern.mp3
+        - listitem [ref=f12e60]:
+          - link "Sag' nicht sorry" [ref=f12e61] [cursor=pointer]:
+            - /url: files/kurzgeschichten/sag_nicht_sorry.mp3
+      - link [ref=f12e62] [cursor=pointer]:
+        - /url: fachbereiche.html
+      - heading "Englisch" [level=4] [ref=f12e64]
+      - paragraph [ref=f12e65]: An der John-F.-Kennedy Realschule wird das Fach Englisch 4 Stunden pro Woche in allen Jahrgängen unterrichtet, wobei das Lehrwerk „Lighthouse“ von Cornelsen die Grundlage schafft, um die Kompetenzen Lesen, Schreiben, Sprechen und Dolmetschen zu erarbeiten. Ein Muttersprachler aus dem englischsprachigen Raum unterstützt die Lehrkräfte als „Teaching Assistant“ (derzeit pandemiebedingt leider nicht möglich). In den Jahrgängen 6 und 8 wird eine Onlinediagnose durchgeführt, die den Schülerinnen und Schülern ihre Stärken und Schwächen aufzeigt und gleichzeitig individuelle Fördermaterialien bietet. Außerdem kann in diesen Jahrgängen eine Klassenarbeit durch eine mündliche Prüfung ersetzt werden, um auf die Abschlussprüfungen in Klasse 10 vorzubereiten und die sprachliche Kompetenz zu stärken.
+      - paragraph [ref=f12e66]: Ab Jahrgang 6 wählen Schülerinnen und Schüler Wahlpflichtkurse, aktuell besteht in den Jahrgängen 6, 8 und 10 die Möglichkeit, Englisch zu wählen, um dort lehrwerkunabhängig frei und kreativ arbeiten zu können (zum Beispiel das Lesen einer Lektüre).
+      - paragraph [ref=f12e67]:
+        - strong [ref=f12e68]:
+          - emphasis [ref=f12e69]: Förderangebote
+      - list [ref=f12e70]:
+        - listitem [ref=f12e71]: "Jahrgang 5: Förderkurs Englisch im Nachmittagsbereich"
+        - listitem [ref=f12e72]: "Jahrgänge 7 und 8: Schülerinnen und Schüler können Hilfe von älteren Jahrgängen erhalten, um ihre Englischkenntnisse zu verbessern (Schüler helfen Schülern)"
+        - listitem [ref=f12e73]: Eine weitere Fördermöglichkeit wird extern über unsere Sozialpädagogen im Nachmittagsbereich angeboten
+      - link [ref=f12e74] [cursor=pointer]:
+        - /url: fachbereiche.html
+      - heading "Französisch" [level=4] [ref=f12e76]
+      - paragraph [ref=f12e77]: Ab der 6. Klasse kann das Fach Französisch im Wahlpflichtbereich gewählt werden. Französisch ist ein Hauptfach und wird deshalb 4 Stunden pro Woche unterrichtet.
+      - paragraph [ref=f12e78]:
+        - strong [ref=f12e79]:
+          - emphasis [ref=f12e80]: Aber was wird im Französischunterricht gemacht?
+      - paragraph [ref=f12e81]: Ziel ist es, dass nach und nach gelernt wird, wie man Alltagsgespräche auf Französisch führt (z.B. wird gelernt, wie man sich vorstellt, wie man nach dem Weg fragt oder wie man sich etwas zu Essen zu bestellt). Geübt werden dabei die Bereiche Lesen, Hören, Schreiben, Übersetzen und natürlich Sprechen. Dafür müssen natürlich – wie im Englischunterricht auch – Grammatikregeln und Vokabeln gelernt werden.
+      - paragraph [ref=f12e82]:
+        - strong [ref=f12e83]:
+          - emphasis [ref=f12e84]: Womit wird gearbeitet?
+      - paragraph [ref=f12e85]: "Wir arbeiten z.B. mit:"
+      - list [ref=f12e86]:
+        - listitem [ref=f12e87]: dem Schulbuch und Arbeitsheft „Tous ensemble“ vom Klett-Verlag
+        - listitem [ref=f12e88]: Online-Spielen zu den aktuellen Vokabeln oder Grammatikregeln
+        - listitem [ref=f12e89]: Vokabelspielen im Klassenraum
+        - listitem [ref=f12e90]: Erklärvideos für Grammatikregeln
+      - paragraph [ref=f12e91]:
+        - text: Im Französischunterricht werden neben Klassenarbeiten auch mündliche Prüfungen gemacht und wir erstellen - je nach Thema - z.B. auch Comics online, Power-Point-Präsentationen oder Audio-Dateien. Ein schöner Zusatz ist, dass man sich auch mal mit
+        - link "selbst gebackenen Crêpes" [ref=f12e92] [cursor=pointer]:
+          - /url: video/crepes.mp4
+        - text: belohnen oder am
+        - emphasis [ref=f12e93]: Cinéfête
+        - text: teilnehmen kann!
+      - paragraph [ref=f12e94]:
+        - strong [ref=f12e95]:
+          - emphasis [ref=f12e96]: Schülerarbeiten
+      - list [ref=f12e97]:
+        - listitem [ref=f12e98]:
+          - link "Audiobeitrag zum Thema Kino" [ref=f12e99] [cursor=pointer]:
+            - /url: files/cinema.mp3
+        - link:
+          - /url: files/cinema.mp3
+        - listitem [ref=f12e100]:
+          - link:
+            - /url: files/cinema.mp3
+          - link "Präsentation \"Le cinéma\"" [ref=f12e101] [cursor=pointer]:
+            - /url: files/presentation.pdf
+        - link:
+          - /url: files/presentation.pdf
+        - listitem [ref=f12e102]:
+          - link:
+            - /url: files/presentation.pdf
+          - link "Präsentation \"Le cinéma\" von Ceylin und Zuzanna" [ref=f12e103] [cursor=pointer]:
+            - /url: files/presentation_ceylin_zuzanna.pdf
+        - link:
+          - /url: files/presentation_ceylin_zuzanna.pdf
+        - listitem [ref=f12e104]:
+          - link:
+            - /url: files/presentation_ceylin_zuzanna.pdf
+          - link "Comic \"Une histoire d'amour\"" [ref=f12e105] [cursor=pointer]:
+            - /url: https://read.bookcreator.com/aH3mngTx2rXTLCQMB6HiSKyWMA7WXp9F359p5bW-Ot9xv_xEHfFJKg/zrvYV9p2T56jjXjSvTts0Q
+        - listitem [ref=f12e106]:
+          - link "Comic \"Une morale importante\"" [ref=f12e107] [cursor=pointer]:
+            - /url: https://read.bookcreator.com/8FNvv13JModU86tsWsQ3EiNHmRQ-ctqeBJJdLV_2dmy6kXPX88dC3Q/SbQNeTXkRa6fXZpoSNMFbA
+      - separator [ref=f12e108]
+      - heading "Mathematik / Naturwissenschaften" [level=3] [ref=f12e109]
+      - link [ref=f12e110] [cursor=pointer]:
+        - /url: images/mathe.png
+      - heading "Mathematik" [level=4] [ref=f12e112]
+      - paragraph [ref=f12e113]: Mathematik …ja, das kennst du schon aus der Grundschule! Unser Mathematikunterricht wird sich auch vom Inhalt her von dem der anderen Schulen wenig unterscheiden! Du wirst weiter erfahren, wo überall Mathematik im täglichen Leben steckt! Du wirst den Unterricht lieben, verfluchen oder hinnehmen … wie auch anderswo. Du wirst aber hier auf Lehrerinnen und Lehrer treffen, die versuchen werden, dir alles so gut wie möglich zu erklären.
+      - separator [ref=f12e114]
+      - link [ref=f12e115] [cursor=pointer]:
+        - /url: fachbereiche.html
+      - heading "Naturwissenschaften" [level=4] [ref=f12e117]
+      - paragraph [ref=f12e118]: Liebe Eltern und zukünftige Fünftklässler, herzlich Willkommen im Fachbereich Naturwissenschaften.
+      - paragraph [ref=f12e119]: Unter Naturwissenschaften werden die Fächer Biologie, Chemie und Physik zusammengefasst. Diese drei Fächer sind nicht ganz neu für Euch, da ihr diese in der Grundschule schon als Fach Sachkunde kennengelernt habt. Hinter den drei Fächern verbirgt sich natürlich mehr als dass was ihr schon bis jetzt im Fach Sachkunde kennengelernt habt. Hier bekommt ihr einen kleinen Einblick in die einzelnen Fächer. Schaut Euch einmal das Begrüßungsvideo an, indem sich die einzelnen Fächer kurz vorstellen.
+      - paragraph [ref=f12e120]:
+        - link "Begrüßungsvideo ansehen" [ref=f12e121] [cursor=pointer]:
+          - /url: video/bio_chemie_physik.mp4
+      - paragraph [ref=f12e122]: Für die, die schon zu Hause naturwissenschaftlichen Arbeiten möchten, haben wir eine Sammlung verschiedener Versuche erstellt. Wichtig, die Versuche dürfen nur unter Aufsicht der Erziehungsberechtigten durchgeführt werden.
+      - list [ref=f12e123]:
+        - listitem [ref=f12e124]:
+          - link "Biologie - Experiment für zuhause" [ref=f12e125] [cursor=pointer]:
+            - /url: files/biologie_experiment_zuhause.pdf
+        - listitem [ref=f12e126]:
+          - link "Chemie - Experiment für zuhause" [ref=f12e127] [cursor=pointer]:
+            - /url: files/chemie_experiment_zuhause.pdf
+        - listitem [ref=f12e128]:
+          - link "Physik - Experiment für zuhause" [ref=f12e129] [cursor=pointer]:
+            - /url: https://www.leifiphysik.de/optik/lichtausbreitung/versuche/lochkamera-heimversuch
+      - paragraph [ref=f12e130]:
+        - emphasis [ref=f12e131]: Viel Spaß!
+      - separator [ref=f12e132]
+      - heading "Geschichtlich-soziale Weltkunde" [level=3] [ref=f12e133]
+      - paragraph [ref=f12e134]: Die Abkürzung für "Geschichtlich-soziale Weltkunde" lautet GSW und beinhaltet die Fächer Geschichte, Politik und Erdkunde. Die Fächer Erdkunde und Geschichte werden ab der 5. Klasse unterrichtet und Politik ab der 7. Klasse.
+      - link [ref=f12e135] [cursor=pointer]:
+        - /url: images/geschichte.png
+      - heading [level=4] [ref=f12e137]:
+        - strong [ref=f12e138]:
+          - emphasis [ref=f12e139]: Womit beschäftige ich mich im Fach Geschichte?
+      - paragraph [ref=f12e140]: Das Fach Geschichte vermittelt Kenntnisse über vergangenes Handeln und Zusammenleben der Menschen von der Steinzeit bis zur Neuzeit. Ihr erfahrt, welche verschiedenen Probleme sich dadurch ergeben haben und auf welche Weise diese gelöst wurden. Bei der Wissensvermittlung spielen sowohl digitale Medien als auch außerschulische Lernorte eine Rolle. Der jeweilige Jahrgang 9 übernimmt die Patenschaft für einige Stolpersteine. Zudem haben wir eine Zusammenarbeit mit der Gedenkstätte Schillstraße und dem IJN.
+      - heading [level=4] [ref=f12e141]:
+        - strong [ref=f12e142]:
+          - emphasis [ref=f12e143]: Worum geht es im Politikunterricht?
+      - paragraph [ref=f12e144]: Durch den Politikunterricht sollt ihr eine konkrete Vorstellung davon bekommen, was Politik alles sein kann und wo ihr in eurem Umfeld mit Politik in Kontakt kommen. So lernt ihr beispielsweise die Grund- und Menschenrechte für euch und eure Mitmenschen im Umgang miteinander zu nutzen und zu achten, ihr „baut“ eure eigene Gemeinde und lernt so die politischen Strukturen spielerisch kennen. Das Ziel ist das Verständnis für die demokratische Gestaltung der Gesellschaft und Schutz dieser. Außerdem erwerbt ihr ein grundlegendes Verständnis der demokratischen Prinzipien und lernen, wie wichtig es ist, diese zu schützen. Dieses Wissen wird auch mithilfe von digitalen Medien vermittelt, denn diese bestimmen auch euren Alltag und es sind auch diese, die zur Informationsbeschaffung genutzt werden. Somit sind sie im Unterricht Lernmittel als auch Unterrichtsgegenstand.
+      - paragraph [ref=f12e145]:
+        - strong [ref=f12e146]:
+          - emphasis [ref=f12e147]: Schülerarbeiten "EU in der Streichholzschachtel"
+      - list [ref=f12e148]:
+        - listitem [ref=f12e149]:
+          - link "Die EU" [ref=f12e150] [cursor=pointer]:
+            - /url: images/eu3.jpg
+        - listitem [ref=f12e151]:
+          - link "EU-Länder und ihre Besonderheiten" [ref=f12e152] [cursor=pointer]:
+            - /url: images/eu1.jpg
+        - listitem [ref=f12e153]:
+          - link "Klimawandel" [ref=f12e154] [cursor=pointer]:
+            - /url: images/eu2.jpg
+      - heading [level=4] [ref=f12e155]:
+        - strong [ref=f12e156]:
+          - emphasis [ref=f12e157]: Was lerne ich eigentlich in Erdkunde?
+      - paragraph [ref=f12e158]: Das Fach Erdkunde beschäftigt sich mit der Erde und den durch die Natur und den Menschen verursachten Veränderungen. Ihr sollt die Einsicht in diese Zusammenhänge zwischen natürlichen Begebenheiten und menschlichen Aktivitäten in verschiedenen Regionen der Erde erhalten. Vor allem die Räumliche Orientierung spielt eine wichtige Rolle im Unterricht– auch wenn die digitalen Medien die Kartenarbeit im Alltag verdrängen, ist sie weiterhin wichtig. Wie orientiere ich mich eigentlich ohne Handy, Google Maps & Co.? Aber auch digitale Medien spielen eine Rolle im Erdkundeunterricht und helfen uns bei der Erkundung der Welt.
+      - paragraph [ref=f12e159]:
+        - strong [ref=f12e160]:
+          - emphasis [ref=f12e161]: Schülerarbeiten
+      - list [ref=f12e162]:
+        - listitem [ref=f12e163]:
+          - link "Hurrikan" [ref=f12e164] [cursor=pointer]:
+            - /url: images/hurrikan.jpg
+        - listitem [ref=f12e165]:
+          - link "Tsunami" [ref=f12e166] [cursor=pointer]:
+            - /url: images/tsunami.jpg
+        - listitem [ref=f12e167]:
+          - link "Vulkan Fagradalsfjall" [ref=f12e168] [cursor=pointer]:
+            - /url: images/vulkan.jpg
+      - paragraph [ref=f12e169]:
+        - strong [ref=f12e170]:
+          - emphasis [ref=f12e171]: Mögliche außerschulische Aktivitäten des Fachbereichs GSW
+      - list [ref=f12e172]:
+        - listitem [ref=f12e173]: Museumsbesuche, z.B. der Museen in Salzgitter, Wolfenbüttel und Braunschweig, PHAENO Wolfsburg, Grenzmuseum Helmstedt/Marienborn, Bremerhaven
+        - listitem [ref=f12e174]: Besuch eines Planetariums, z.B. in Wolfsburg
+        - listitem [ref=f12e175]: Besuch des Landtages in Hannover oder des Bundestages
+        - listitem [ref=f12e176]: Besuch einer Gedenkstätte oder eines ehemaligen Konzentrationslagers
+      - separator [ref=f12e177]
+      - link [ref=f12e178] [cursor=pointer]:
+        - /url: fachbereiche.html
+      - heading "Arbeit / Wirtschaft - Technik" [level=3] [ref=f12e180]
+      - paragraph [ref=f12e181]: Hast du schon einen Traumberuf? Auf unserer schuleigenen Berufsmesse bekommst du Einblicke in verschiedenste Berufe und lernst Unternehmen aus der Region kennen. Zudem kannst du hier Plätze für ein Berufspraktikum oder eine spätere Ausbildung ergattern. Wir helfen dir dabei, einen Beruf zu finden, der dir gefällt und zu dir passt. In diesem Rahmen besuchst du z.B. die Agentur für Arbeit, weitere Berufsmessen in Braunschweig, wählst Profile sowie Wahlpflichtkurse, nimmst an einem Bewerbungstraining teil und besuchst verschiedene Unternehmen in Praxistagen.
+      - link [ref=f12e182] [cursor=pointer]:
+        - /url: fachbereiche.html
+      - heading "Werken/Technik" [level=4] [ref=f12e184]
+      - text: In
+      - strong [ref=f12e185]: Klasse 6
+      - text: erstellen die SchülerInnen im Fach Werken je nach Lerngruppe einen Bilderständer, Handyhalter oder Puzzle, um Grundlagen in der Holzbearbeitung kennen zu lernen und ein Gefühl für das Material zu bekommen.
+      - paragraph
+      - paragraph [ref=f12e186]:
+        - text: In
+        - strong [ref=f12e187]: Klasse 8
+        - text: "erstellen alle SchülerInnen ein Steckspiel mit der Hand. Dauer: Ein Halbjahr ; Ziel: Erleichterung der Profilwahl"
+      - link [ref=f12e188] [cursor=pointer]:
+        - /url: fachbereiche.html
+      - paragraph [ref=f12e190]:
+        - text: In den
+        - strong [ref=f12e191]: Jahrgängen 9 und 10
+        - text: ist Technik ein Profilfach.
+      - paragraph [ref=f12e192]: Durch die Kooperation mit der BBS Johannes- Selenka- Schule findet der Unterricht in Klasse 9 auch in der Bauhalle am Inselwall statt, wo Grundlagen des Betonbaus vermittelt werden. Im 10. Jahrgang werden die in Klasse 8 erworbenen Kenntnisse derart erweitert, dass das Steckspiel mit einer CNC-Maschine erstellt wird. Ferner werden verschiedene Werkstücke an einer Drechselmaschine hergestellt.
+      - heading "Hauswirtschaft" [level=4] [ref=f12e193]
+      - paragraph [ref=f12e194]:
+        - 'link "Film: Muffins backen in der Schulküche" [ref=f12e195] [cursor=pointer]':
+          - /url: video/muffins.mp4
+      - separator [ref=f12e196]
+      - heading "Musisch-kulturelle Bildung" [level=3] [ref=f12e197]
+      - paragraph [ref=f12e198]: "Musisch-kulturelle Bildung hat - gerade in der heutigen Zeit - einen hohen Stellenwert. Einen kleinen Überblick über aktuelle Schülerarbeiten bietet der folgende Film (bitte Bild anklicken, um zu starten):"
+      - link [ref=f12e199] [cursor=pointer]:
+        - /url: video/mukubi.mp4
+      - separator [ref=f12e201]
+      - heading "Religion / Werte und Normen" [level=3] [ref=f12e202]
+      - paragraph [ref=f12e203]:
+        - strong [ref=f12e204]:
+          - emphasis [ref=f12e205]: Religion oder Werte und Normen?
+      - paragraph [ref=f12e206]: Der Artikel 4 des Grundgesetzes betont die Religionsfreiheit! Das heißt, du hast ein Recht auf Religion, andererseits hast du aber auch das Recht auf Abmeldung vom Religionsunterricht und die Entscheidung für das Fach „Werte und Normen“. Du triffst bei deiner Anmeldung an der John-F.-Kennedy-Schule also die Entscheidung, ob „WuN“ oder „Reli“!
+      - link [ref=f12e207] [cursor=pointer]:
+        - /url: fachbereiche.html
+      - heading "Religion" [level=4] [ref=f12e209]
+      - paragraph [ref=f12e210]: Laut Artikel 7 des Grundgesetzes und der Paragrafen 124 bis 128 des Niedersächsischen Schulgesetztes ist das Fach Religion ein „ordentliches Unterrichtsfach“ und wird als einziges Fach im Grundgesetz namentlich erwähnt. Der Religionsunterricht leistet damit einen eigenständigen und wichtigen Beitrag zum Bildungsauftrag der Schule.
+      - paragraph [ref=f12e211]:
+        - strong [ref=f12e212]:
+          - emphasis [ref=f12e213]: Wie ist der Religionsunterricht an unserer Schule organisiert?
+      - paragraph [ref=f12e214]: Religion wird überwiegend konfessionell unterrichtet. Das bedeutet für dich, du kannst zwischen dem katholischen und evangelischen Religionsunterricht wählen.
+      - paragraph [ref=f12e215]: In einigen Jahrgängen lernen aber Schüler:innen der evangelischen und katholischen Konfession in einer Gruppe zusammen. Das nennt man dann konfessionell-kooperativen Religionsunterricht. Egal wie, katholische und evangelische Religionslehrer:innen, arbeiten an unserer Schule eng zusammen.
+      - paragraph [ref=f12e216]:
+        - strong [ref=f12e217]:
+          - emphasis [ref=f12e218]: Damit wirst du dich im Unterricht beschäftigen
+      - paragraph [ref=f12e219]: "Wir möchten mit euch fragen, diskutieren, lernen und lachen. Der Religionsunterricht soll dir Zeit geben, um über Fragen wie diese nachzudenken:"
+      - list [ref=f12e220]:
+        - listitem [ref=f12e221]: Ist es besser zu wissen als zu glauben?
+        - listitem [ref=f12e222]: Gibt es (einen) Gott?
+        - listitem [ref=f12e223]: Woher kommt die Welt?
+        - listitem [ref=f12e224]: Woran glauben andere Menschen?
+        - listitem [ref=f12e225]: Wieso gibt es so viel Leid in der Welt?
+        - listitem [ref=f12e226]: Was ist gerecht?
+      - paragraph [ref=f12e227]: Dabei werden wir unterschiedliche Antworten finden.
+      - paragraph [ref=f12e228]:
+        - strong [ref=f12e229]:
+          - emphasis [ref=f12e230]: Das erwartet dich bei uns
+      - paragraph [ref=f12e231]: Erstmalig soll die Zeugnisausgabe der Schüler:innen der Abschlussklassen im Rahmen eines Gottesdienstes in der Magni-Kirche stattfinden. Des Weiteren möchten wir in diesem Jahr in den letzten Schultagen vor den Weihnachtsferien einen Schulgottesdienst veranstalten.
+      - paragraph [ref=f12e232]: "Außerdem sind folgende weitere schulische Aktivitäten für die Jahrgänge 5-10 möglich:"
+      - list [ref=f12e233]:
+        - listitem [ref=f12e234]: Besuch von christlichen Gemeinden
+        - listitem [ref=f12e235]: Besuch von Moschee und Synagoge
+        - listitem [ref=f12e236]: Besuch des Hospizes
+        - listitem [ref=f12e237]: Besuch diakonischer Einrichtungen
+        - listitem [ref=f12e238]: Interviews mit Braunschweiger:innen
+      - paragraph [ref=f12e239]:
+        - link "Flyer herunterladen" [ref=f12e240] [cursor=pointer]:
+          - /url: files/reli_flyer.pdf
+      - separator [ref=f12e241]
+      - heading "Werte und Normen" [level=4] [ref=f12e242]
+      - paragraph [ref=f12e243]:
+        - strong [ref=f12e244]:
+          - emphasis [ref=f12e245]: Warum ist das Fach „WuN“ so wichtig?
+      - paragraph [ref=f12e246]: Der Unterricht soll
+      - list [ref=f12e247]:
+        - listitem [ref=f12e248]: deine Persönlichkeitsentwicklung unterstützen,
+        - listitem [ref=f12e249]: deine Selbstständigkeit und Eigenverantwortung fördern,
+        - listitem [ref=f12e250]: dich zu einer ethischen Urteilsbildung befähigen
+        - listitem [ref=f12e251]: dir Wertevorstellungen vermitteln (z.B. Grund- und Menschenrechte).
+      - paragraph [ref=f12e252]:
+        - strong [ref=f12e253]:
+          - emphasis [ref=f12e254]: Worum geht es im Fach „Werte und Normen“?
+      - paragraph [ref=f12e255]: In dem Fach „Werte und Normen“ geht es um alltägliche Themen und Fragen, die jeden von uns früher oder später betreffen. Dabei unterscheiden sich die Fächer „Religion“ und „Werte und Normen“ kaum inhaltlich, sie betrachten ähnliche Fragestellungen, Probleme und Sachverhalte. Im Fach „Werte und Normen“ betrachtest du Fragestellungen aus religionswissenschaftlicher, gesellschaftlicher und philosophischer Sicht.
+      - paragraph [ref=f12e256]:
+        - strong [ref=f12e257]:
+          - emphasis [ref=f12e258]: "Damit wirst du dich im Unterricht beschäftigen:"
+      - paragraph [ref=f12e259]: Wir möchten mit euch Fragen entwickeln, diskutieren, reflektieren, lernen und lachen. Der Unterricht soll dir Zeit geben, um über Fragen wie
+      - list [ref=f12e260]:
+        - listitem [ref=f12e261]: Wer bin ich?
+        - listitem [ref=f12e262]: Ist es besser zu wissen als zu glauben?
+        - listitem [ref=f12e263]: Gibt es (einen) Gott oder nicht?
+        - listitem [ref=f12e264]: Woher kommt die Welt?
+        - listitem [ref=f12e265]: Gibt es ein Leben nach dem Tod?
+        - listitem [ref=f12e266]: Woran glauben andere Menschen?
+        - listitem [ref=f12e267]: Wieso gibt es so viel Leid in der Welt?
+        - listitem [ref=f12e268]: Was ist gerecht?
+        - listitem [ref=f12e269]: Darf man Notlügen gebrauchen?
+        - listitem [ref=f12e270]: Was ist Glück?
+      - paragraph [ref=f12e271]: nachzudenken.
+      - paragraph [ref=f12e272]:
+        - link "Flyer herunterladen" [ref=f12e273] [cursor=pointer]:
+          - /url: files/wun.pdf
+      - separator [ref=f12e274]
+      - heading [level=3] [ref=f12e275]:
+        - text: Sport
+        - img "Sport" [ref=f12e277]
+      - paragraph [ref=f12e278]: Unsere Halle ist klein und auch der Schulhof bietet nur eingeschränkten Sportunterricht ….. ABER, wir haben schon oft die Auszeichnung als sportfreundliche Schule bekommen! Wir nutzen den Vorteil der Innenstadt!
+      - list [ref=f12e279]:
+        - listitem [ref=f12e280]: Eigene Kanus für eine Okertour!
+        - listitem [ref=f12e281]: Frisbee, Orientierungsläufe, Disc-Golf im Bürgerpark!
+        - listitem [ref=f12e282]: Sponsoren-Lauftag am Lünischteich
+        - listitem [ref=f12e283]: Sportspiele und Leichtathletik auf dem Löwenwall!
+        - listitem [ref=f12e284]: "Außerschulische Sportorte wie: Kletterhalle und Wakepark in Wolfsburg sind von uns aus gut zu erreichen!"
+        - listitem [ref=f12e285]: Kooperation mit Eintracht Braunschweig und dem VfL Wolfsburg, für Fußball-Turniere und Freikarten zu Spielen!
+      - paragraph [ref=f12e286]: "Bei uns lernst DU durch Sport, Spiel und Bewegung mit den Materialien, die DIR die Schülerinnen und Schüler im Bild präsentieren, wie DU:"
+      - list [ref=f12e287]:
+        - listitem [ref=f12e288]: Techniken der vielen Sportarten verbesserst,
+        - listitem [ref=f12e289]: ebenfalls wirst du neue Sportspiele kennen lernen und diese mit Änderungen des Regelwerks auf deine neue Klasse anpassen!
+        - listitem [ref=f12e290]: Du wirst mit Sieg und Niederlage weiter umgehen lernen und vertiefen, dass jedes Klassenmitglied ein positives Sporterlebnis erfahren wird, wenn Ihr rücksichtsvoll miteinander umgeht, weil Sport für Euer Sozialverhalten total wichtig ist!
+        - listitem [ref=f12e291]: Sportunterricht ist kein Vereinssport, bei uns steht das Miteinander im Vordergrund!
+  - contentinfo [ref=f12e292]:
+    - list [ref=f12e293]:
+      - list [ref=f12e294]:
+        - listitem [ref=f12e295]:
+          - link "Schule ohne Rassismus - Schule mit Courage" [ref=f12e296] [cursor=pointer]:
+            - /url: http://www.schule-ohne-rassismus.org
+        - listitem [ref=f12e297]:
+          - link "Sportfreundliche Schule (3. Zert.)" [ref=f12e298] [cursor=pointer]:
+            - /url: http://www.mk.niedersachsen.de/startseite/schule/schuelerinnen_und_schueler_eltern/schulsport/schulsport-6289.html
+        - listitem [ref=f12e299]:
+          - link "Zivilcouragepreis 2014 der Polizeidirektion Braunschweig" [ref=f12e300] [cursor=pointer]:
+            - /url: http://www.unser38.de/braunschweig-innenstadt/menschen/von-einem-schulgeist-der-inspiriert-d7277.html
+      - generic [ref=f12e301]:
+        - text: © Copyright Realschule John-F.-Kennedy-Platz. All rights reserved. Design by
+        - link "Responsive Web Templates" [ref=f12e302] [cursor=pointer]:
+          - /url: http://www.html5webtemplates.co.uk

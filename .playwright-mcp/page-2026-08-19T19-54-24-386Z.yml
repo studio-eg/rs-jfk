@@ -1,0 +1,199 @@
+- generic [ref=f17e1]:
+  - banner [ref=f17e2]:
+    - heading [level=1] [ref=f17e3]:
+      - link "www.rs-kennedy.de" [ref=f17e4] [cursor=pointer]:
+        - /url: index.html
+    - navigation [ref=f17e5]:
+      - list [ref=f17e6]:
+        - listitem [ref=f17e7]:
+          - link "Start" [ref=f17e8] [cursor=pointer]:
+            - /url: index.html
+        - listitem [ref=f17e9]:
+          - link "IServ-Login" [ref=f17e10] [cursor=pointer]:
+            - /url: https://www.rs-kennedy.de/idesk
+        - listitem [ref=f17e11]:
+          - link "Stundenplan" [ref=f17e12] [cursor=pointer]:
+            - /url: https://borys.webuntis.com/WebUntis/?school=rs%20jfk%20braunschweig#/basic/login
+        - listitem [ref=f17e13] [cursor=pointer]:
+          - link "Schulleben" [ref=f17e14]:
+            - /url: schulleben.html
+        - listitem [ref=f17e15]:
+          - link "Kontakt & Anfahrt" [ref=f17e16] [cursor=pointer]:
+            - /url: kontakt.html
+        - listitem [ref=f17e17]:
+          - link "Impressum" [ref=f17e18] [cursor=pointer]:
+            - /url: impressum.html
+        - listitem [ref=f17e19]:
+          - link "Datenschutz" [ref=f17e20] [cursor=pointer]:
+            - /url: datenschutz.html
+  - generic [ref=f17e21]:
+    - heading "Lehrkräfte" [level=2] [ref=f17e23]
+    - generic [ref=f17e25]:
+      - link [ref=f17e26] [cursor=pointer]:
+        - /url: kollgiumsfoto.jpg
+      - heading "Fachkonferenzleitungen" [level=3] [ref=f17e28]
+      - table [ref=f17e29]:
+        - rowgroup [ref=f17e30]:
+          - row [ref=f17e31]:
+            - cell "Deutsch" [ref=f17e32]
+            - cell "Herr Werner" [ref=f17e33]
+          - row [ref=f17e34]:
+            - cell "Englisch" [ref=f17e35]
+            - cell "Frau Kuert" [ref=f17e36]
+          - row [ref=f17e37]:
+            - cell "Französisch" [ref=f17e38]
+            - cell "Frau von Skopnik" [ref=f17e39]
+          - row [ref=f17e40]:
+            - cell "Mathematik" [ref=f17e41]
+            - cell "Herr Heinz" [ref=f17e42]
+          - row [ref=f17e43]:
+            - cell "Physik" [ref=f17e44]
+            - cell "Herr Petermann" [ref=f17e45]
+          - row [ref=f17e46]:
+            - cell "Chemie" [ref=f17e47]
+            - cell "Frau Stiemerling" [ref=f17e48]
+          - row [ref=f17e49]:
+            - cell "Biologie" [ref=f17e50]
+            - cell "Frau Haybat" [ref=f17e51]
+          - row [ref=f17e52]:
+            - cell "Informatik" [ref=f17e53]
+            - cell "Herr Nadjib" [ref=f17e54]
+          - row [ref=f17e55]:
+            - cell "Geschichte" [ref=f17e56]
+            - cell "Frau Stieghan (komm.)" [ref=f17e57]
+          - row [ref=f17e58]:
+            - cell "Politik" [ref=f17e59]
+            - cell "Frau Stieghan (komm.)" [ref=f17e60]
+          - row [ref=f17e61]:
+            - cell "Erdkunde" [ref=f17e62]
+            - cell "Frau Stieghan (komm.)" [ref=f17e63]
+          - row [ref=f17e64]:
+            - cell "AW" [ref=f17e65]
+            - cell "Herr Meyn" [ref=f17e66]
+          - row [ref=f17e67]:
+            - cell "Hauswirtschaft" [ref=f17e68]
+            - cell "Frau Rahman" [ref=f17e69]
+          - row [ref=f17e70]:
+            - cell "Kunst" [ref=f17e71]
+            - cell "Frau Amelsberg" [ref=f17e72]
+          - row [ref=f17e73]:
+            - cell "Musik" [ref=f17e74]
+            - cell "Frau Kanngießer" [ref=f17e75]
+          - row [ref=f17e76]:
+            - cell "Sport" [ref=f17e77]
+            - cell "Herr Schmidt" [ref=f17e78]
+          - row [ref=f17e79]:
+            - cell "Textiles Gestalten" [ref=f17e80]
+            - cell "Frau Bakker" [ref=f17e81]
+          - row [ref=f17e82]:
+            - cell "Werken" [ref=f17e83]
+            - cell "Herr Kupferschmidt" [ref=f17e84]
+          - row [ref=f17e85]:
+            - cell "Technik" [ref=f17e86]
+            - cell "Herr Kupferschmidt" [ref=f17e87]
+          - row [ref=f17e88]:
+            - cell "Religion/WuN" [ref=f17e89]
+            - cell "Frau Krüger (komm.)" [ref=f17e90]
+      - heading "Klassenlehrer/innen" [level=3] [ref=f17e91]
+      - table [ref=f17e92]:
+        - rowgroup [ref=f17e93]:
+          - row [ref=f17e94]:
+            - cell [ref=f17e95]:
+              - strong [ref=f17e96]: Klasse
+            - cell [ref=f17e97]:
+              - strong [ref=f17e98]: Klassenlehrer/in
+            - cell [ref=f17e99]:
+              - strong [ref=f17e100]: Vertreter/in
+          - row [ref=f17e101]:
+            - cell "5 a" [ref=f17e102]
+            - cell "Frau Ammann" [ref=f17e103]
+            - cell "Herr Werner" [ref=f17e104]
+          - row [ref=f17e105]:
+            - cell "5 b" [ref=f17e106]
+            - cell "Frau Haybat" [ref=f17e107]
+            - cell "Herr Petermann" [ref=f17e108]
+          - row [ref=f17e109]:
+            - cell "5 c" [ref=f17e110]
+            - cell "Frau Stiemerling" [ref=f17e111]
+            - cell "Frau Stieghan" [ref=f17e112]
+          - row
+          - row [ref=f17e113]:
+            - cell "6 a" [ref=f17e114]
+            - cell "Herr Aydin" [ref=f17e115]
+            - cell "Frau Haybat" [ref=f17e116]
+          - row [ref=f17e117]:
+            - cell "6 b" [ref=f17e118]
+            - cell "Frau Bakker" [ref=f17e119]
+            - cell "Frau Kanngießer" [ref=f17e120]
+          - row [ref=f17e121]:
+            - cell "6 c" [ref=f17e122]
+            - cell "Herr Heinz" [ref=f17e123]
+            - cell "Frau Baake" [ref=f17e124]
+          - row [ref=f17e125]:
+            - cell "7 a" [ref=f17e126]
+            - cell "Herr Petermann" [ref=f17e127]
+            - cell "Frau Krüger" [ref=f17e128]
+          - row [ref=f17e129]:
+            - cell "7 b" [ref=f17e130]
+            - cell "Frau Rahman-K." [ref=f17e131]
+            - cell "Frau Kubitz" [ref=f17e132]
+          - row [ref=f17e133]:
+            - cell "7 c" [ref=f17e134]
+            - cell "Herr Schmidt" [ref=f17e135]
+            - cell "Frau von Skopnik" [ref=f17e136]
+          - row [ref=f17e137]:
+            - cell "8 a" [ref=f17e138]
+            - cell "Frau Amelsberg" [ref=f17e139]
+            - cell "Herr Müller" [ref=f17e140]
+          - row [ref=f17e141]:
+            - cell "8 b" [ref=f17e142]
+            - cell "Frau Birner" [ref=f17e143]
+            - cell "Herr Nadjib" [ref=f17e144]
+          - row [ref=f17e145]:
+            - cell "8 c" [ref=f17e146]
+            - cell "Frau Wiechmann" [ref=f17e147]
+            - cell "Herr Meyn" [ref=f17e148]
+          - row [ref=f17e149]:
+            - cell "9 a" [ref=f17e150]
+            - cell "Frau von Skopnik" [ref=f17e151]
+            - cell "Frau Krüger" [ref=f17e152]
+          - row [ref=f17e153]:
+            - cell "9 b" [ref=f17e154]
+            - cell "Frau Neumann" [ref=f17e155]
+            - cell "Frau Wiechmann" [ref=f17e156]
+          - row [ref=f17e157]:
+            - cell "9 c" [ref=f17e158]
+            - cell "Herr Werner" [ref=f17e159]
+            - cell "Frau Ammann" [ref=f17e160]
+          - row [ref=f17e161]:
+            - cell "10 a" [ref=f17e162]
+            - cell "Frau Krüger" [ref=f17e163]
+            - cell "Herr Aydin" [ref=f17e164]
+          - row [ref=f17e165]:
+            - cell "10 b" [ref=f17e166]
+            - cell "Frau Stieghan" [ref=f17e167]
+            - cell "Frau Rahman-K." [ref=f17e168]
+          - row [ref=f17e169]:
+            - cell "10 c" [ref=f17e170]
+            - cell "Frau Kuert" [ref=f17e171]
+            - cell "Herr Nadjib" [ref=f17e172]
+      - heading "Schülerbücherei" [level=3] [ref=f17e173]
+      - paragraph [ref=f17e174]: Frau Ammann
+      - heading "SV-Lehrkräfte" [level=3] [ref=f17e175]
+      - paragraph [ref=f17e176]: Frau Amelsberg / Herr Meyn
+  - contentinfo [ref=f17e177]:
+    - list [ref=f17e178]:
+      - list [ref=f17e179]:
+        - listitem [ref=f17e180]:
+          - link "Schule ohne Rassismus - Schule mit Courage" [ref=f17e181] [cursor=pointer]:
+            - /url: http://www.schule-ohne-rassismus.org
+        - listitem [ref=f17e182]:
+          - link "Sportfreundliche Schule (3. Zert.)" [ref=f17e183] [cursor=pointer]:
+            - /url: http://www.mk.niedersachsen.de/startseite/schule/schuelerinnen_und_schueler_eltern/schulsport/schulsport-6289.html
+        - listitem [ref=f17e184]:
+          - link "Zivilcouragepreis 2014 der Polizeidirektion Braunschweig" [ref=f17e185] [cursor=pointer]:
+            - /url: http://www.unser38.de/braunschweig-innenstadt/menschen/von-einem-schulgeist-der-inspiriert-d7277.html
+      - generic [ref=f17e186]:
+        - text: © Copyright Realschule John-F.-Kennedy-Platz. All rights reserved. Design by
+        - link "Responsive Web Templates" [ref=f17e187] [cursor=pointer]:
+          - /url: http://www.html5webtemplates.co.uk

@@ -1,0 +1,101 @@
+- generic [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - heading [level=1] [ref=f3e3]:
+      - link "www.rs-kennedy.de" [ref=f3e4] [cursor=pointer]:
+        - /url: index.html
+    - navigation [ref=f3e5]:
+      - list [ref=f3e6]:
+        - listitem [ref=f3e7]:
+          - link "Start" [ref=f3e8] [cursor=pointer]:
+            - /url: index.html
+        - listitem [ref=f3e9]:
+          - link "IServ-Login" [ref=f3e10] [cursor=pointer]:
+            - /url: https://www.rs-kennedy.de/idesk
+        - listitem [ref=f3e11]:
+          - link "Stundenplan" [ref=f3e12] [cursor=pointer]:
+            - /url: https://borys.webuntis.com/WebUntis/?school=rs%20jfk%20braunschweig#/basic/login
+        - listitem [ref=f3e13] [cursor=pointer]:
+          - link "Schulleben" [ref=f3e14]:
+            - /url: schulleben.html
+        - listitem [ref=f3e15]:
+          - link "Kontakt & Anfahrt" [ref=f3e16] [cursor=pointer]:
+            - /url: kontakt.html
+        - listitem [ref=f3e17]:
+          - link "Impressum" [ref=f3e18] [cursor=pointer]:
+            - /url: impressum.html
+        - listitem [ref=f3e19]:
+          - link "Datenschutz" [ref=f3e20] [cursor=pointer]:
+            - /url: datenschutz.html
+  - generic [ref=f3e21]:
+    - heading "Unser Angebot" [level=2] [ref=f3e23]
+    - generic [ref=f3e24]:
+      - generic [ref=f3e25]:
+        - link [ref=f3e26] [cursor=pointer]:
+          - /url: angebot.html
+        - heading "Fachbereiche" [level=3] [ref=f3e28]
+        - paragraph [ref=f3e29]: "Zum Pflichtunterricht einer Realschule gehören folgende Fächer, die jeweils in verschiedene Fachbereiche gegliedert sind:"
+        - list [ref=f3e30]:
+          - listitem [ref=f3e31]: "Sprachen: Deutsch, Englisch"
+          - listitem [ref=f3e32]: "Mathematik-Naturwissenschaften: Mathematik, Physik, Chemie, Biologie"
+          - listitem [ref=f3e33]: "Geschichtlich-soziale Weltkunde: Geschichte, Erdkunde, Politik"
+          - listitem [ref=f3e34]: "Arbeit/Wirtschaft - Technik: Wirtschaft (ab dem 8. Schuljahrgang), Technik und Hauswirtschaft ( im 8. Schuljahrgang)"
+          - listitem [ref=f3e35]: "Musisch-kulturelle Bildung: Musik, Kunst, Gestaltendes Werken, Textiles Gestalten"
+          - listitem [ref=f3e36]: Religion / Werte und Normen
+          - listitem [ref=f3e37]: Sport
+        - list [ref=f3e39]:
+          - listitem [ref=f3e40]:
+            - link "Mehr erfahren" [ref=f3e41] [cursor=pointer]:
+              - /url: fachbereiche.html
+      - separator [ref=f3e42]
+      - generic [ref=f3e43]:
+        - heading "Wahlpflichtkurse" [level=3] [ref=f3e44]
+        - paragraph [ref=f3e45]: Der Unterricht in der Realschule besteht aus Pflichtunterricht sowie aus Angeboten im Wahlpflichtunterricht und im wahlfreien Unterricht. Eine zweite Fremdsprache (in der Regel Französisch) wird als vierstündiger Wahlpflichtkurs ab dem 6. Schuljahrgang angeboten. Schülerinnen und Schüler, die das Angebot der zweiten Fremdsprache nicht wählen, erhalten Unterricht in zwei jeweils zweistündigen anderen Wahlpflichtkursen. Das Erlernen der zweiten Fremdsprache ab dem 6. Schuljahrgang ist nicht Voraussetzung für einen möglichen Übergang in die Einführungsphase der gymnasialen Oberstufe oder für den Besuch des beruflichen Gymnasiums. Neben der 2. Fremdsprache bieten wir in den Schuljahrgängen 9 und 10 im Wahlpflichtbereich die Profile Wirtschaft, Technik und Gesundheit und Soziales an.
+        - list [ref=f3e47]:
+          - listitem [ref=f3e48]:
+            - link "Mehr erfahren" [ref=f3e49] [cursor=pointer]:
+              - /url: wpk.html
+      - separator [ref=f3e50]
+      - generic [ref=f3e51]:
+        - heading "Arbeitsgemeinschaften" [level=3] [ref=f3e52]
+        - paragraph [ref=f3e53]: In Arbeitsgemeinschaften können die Schülerinnen und Schüler Dinge lernen, die sie persönlich besonders interessieren, zum Beispiel Theater oder Basketball spielen.
+        - list [ref=f3e55]:
+          - listitem [ref=f3e56]:
+            - link "Mehr erfahren" [ref=f3e57] [cursor=pointer]:
+              - /url: ag.html
+      - separator [ref=f3e58]
+      - generic [ref=f3e59]:
+        - heading "Berufsorientierung" [level=3] [ref=f3e60]
+        - paragraph [ref=f3e61]: Berufsorientierende Maßnahmen werden als Praxistage an mindestens insgesamt 30 Schultagen vorrangig in den Schuljahrgängen 8 bis 10 durchgeführt. Im 8. Schuljahrgang dienen sie u.a. der Vorbereitung auf die Profilwahl im 9. und 10. Schuljahrgang. Die Zusammenarbeit mit der Berufsberatung der Arbeitsverwaltung, den Kammern, Unterricht in Kooperation mit berufsbildenden Schulen und Praxiserfahrungen in Betrieben oder in anderen Einrichtungen sind Teil des fächerübergreifenden schulischen Konzepts zur Durchführung berufsorientierender Maßnahmen.
+        - list [ref=f3e63]:
+          - listitem [ref=f3e64]:
+            - link "Mehr erfahren" [ref=f3e65] [cursor=pointer]:
+              - /url: bo.html
+      - separator [ref=f3e66]
+      - generic [ref=f3e67]:
+        - heading "Gewaltprävention" [level=3] [ref=f3e68]
+        - paragraph [ref=f3e69]: "In Anlehnung an das \"Braunschweiger Modell\" zur Gewaltprävention wird an unserer Schule ein Präventionsprojekt in mehreren Stufen durchgeführt:"
+        - list [ref=f3e70]:
+          - listitem [ref=f3e71]: "\"Lions Quest\" in Klasse 5 - 7"
+          - listitem [ref=f3e72]: "\"Schritte gegen Tritte\" in allen 7. Klassen"
+          - listitem [ref=f3e73]: Antigewalttraining in allen 8. Klassen
+          - listitem [ref=f3e74]: Konfliktlotsenintensivschulung für Schüler/- innen ab Klasse 8
+        - list [ref=f3e76]:
+          - listitem [ref=f3e77]:
+            - link "Mehr erfahren" [ref=f3e78] [cursor=pointer]:
+              - /url: gp.html
+  - contentinfo [ref=f3e79]:
+    - list [ref=f3e80]:
+      - list [ref=f3e81]:
+        - listitem [ref=f3e82]:
+          - link "Schule ohne Rassismus - Schule mit Courage" [ref=f3e83] [cursor=pointer]:
+            - /url: http://www.schule-ohne-rassismus.org
+        - listitem [ref=f3e84]:
+          - link "Sportfreundliche Schule (3. Zert.)" [ref=f3e85] [cursor=pointer]:
+            - /url: http://www.mk.niedersachsen.de/startseite/schule/schuelerinnen_und_schueler_eltern/schulsport/schulsport-6289.html
+        - listitem [ref=f3e86]:
+          - link "Zivilcouragepreis 2014 der Polizeidirektion Braunschweig" [ref=f3e87] [cursor=pointer]:
+            - /url: http://www.unser38.de/braunschweig-innenstadt/menschen/von-einem-schulgeist-der-inspiriert-d7277.html
+      - generic [ref=f3e88]:
+        - text: © Copyright Realschule John-F.-Kennedy-Platz. All rights reserved. Design by
+        - link "Responsive Web Templates" [ref=f3e89] [cursor=pointer]:
+          - /url: http://www.html5webtemplates.co.uk

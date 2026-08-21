@@ -1,0 +1,80 @@
+- generic [ref=f10e1]:
+  - banner [ref=f10e2]:
+    - heading [level=1] [ref=f10e3]:
+      - link "www.rs-kennedy.de" [ref=f10e4] [cursor=pointer]:
+        - /url: index.html
+    - navigation [ref=f10e5]:
+      - list [ref=f10e6]:
+        - listitem [ref=f10e7]:
+          - link "Start" [ref=f10e8] [cursor=pointer]:
+            - /url: index.html
+        - listitem [ref=f10e9]:
+          - link "IServ-Login" [ref=f10e10] [cursor=pointer]:
+            - /url: https://www.rs-kennedy.de/idesk
+        - listitem [ref=f10e11]:
+          - link "Stundenplan" [ref=f10e12] [cursor=pointer]:
+            - /url: https://borys.webuntis.com/WebUntis/?school=rs%20jfk%20braunschweig#/basic/login
+        - listitem [ref=f10e13] [cursor=pointer]:
+          - link "Schulleben" [ref=f10e14]:
+            - /url: schulleben.html
+        - listitem [ref=f10e15]:
+          - link "Kontakt & Anfahrt" [ref=f10e16] [cursor=pointer]:
+            - /url: kontakt.html
+        - listitem [ref=f10e17]:
+          - link "Impressum" [ref=f10e18] [cursor=pointer]:
+            - /url: impressum.html
+        - listitem [ref=f10e19]:
+          - link "Datenschutz" [ref=f10e20] [cursor=pointer]:
+            - /url: datenschutz.html
+  - generic [ref=f10e21]:
+    - heading "Impressum" [level=2] [ref=f10e23]
+    - generic [ref=f10e25]:
+      - generic [ref=f10e27]:
+        - generic [ref=f10e28]:
+          - heading "Diensteanbieter im Sinne des Telemediengesetzes" [level=4] [ref=f10e29]
+          - paragraph [ref=f10e30]: "Land Niedersachsen vertreten durch:"
+          - paragraph [ref=f10e31]: Felix Müller, Realschulrektor (komm.) Johannes Nadjib, Realschulkonrektor (komm.)
+          - paragraph [ref=f10e32]: "Realschule John-F.-Kennedy-Platz John-F.-Kennedy-Platz 1 38100 Braunschweig Telefon: (0531) 470 5030 Telefax: (0531) 470 5031 E-Mail: rskennedyplatz (at) braunschweig.de"
+        - separator [ref=f10e33]
+        - generic [ref=f10e34]:
+          - heading "Schulträger (Diensteanbieter im Sinne des TDG/MDStV):" [level=4] [ref=f10e35]
+          - paragraph [ref=f10e36]: Stadtverwaltung Braunschweig Platz der Deutschen Einheit 1 38100 Braunschweig
+          - paragraph [ref=f10e37]: "Telefon: (05 31) 4 70-1 Telefax: (05 31) 1 51 12 E-Mail: stadt (at) braunschweig.de"
+        - separator [ref=f10e38]
+        - generic [ref=f10e39]:
+          - heading "Verantwortliche für die Schulhomepage i.S.d. § 10 Abs. 3 MDStV" [level=4] [ref=f10e40]
+          - text: "Felix Müller, Realschulrektor (komm.) Realschule John-F.-Kennedy-Platz John-F.-Kennedy-Platz 1 38100 Braunschweig E-Mail: rskennedyplatz (at) braunschweig.de"
+          - paragraph
+      - generic [ref=f10e42]:
+        - link [ref=f10e43] [cursor=pointer]:
+          - /url: impressum.html
+        - heading "Haftungsausschluss" [level=4] [ref=f10e45]
+        - paragraph [ref=f10e46]: Die Informationen, die Sie auf diesem Internetauftritt vorfinden, wurden nach bestem Wissen und Gewissen sorgfältig zusammengestellt und geprüft. Es wird jedoch keine Gewähr - weder ausdrücklich noch stillschweigend - für die Vollständigkeit, Richtigkeit, Aktualität oder Qualität und jederzeitige Verfügbarkeit der bereit gestellten Informationen übernommen. In keinem Fall wird für Schäden, die sich aus der Verwendung der abgerufenen Informationen ergeben, eine Haftung übernommen.
+        - heading "Internetseiten dritter Anbieter / Links" [level=4] [ref=f10e47]
+        - paragraph [ref=f10e48]: Diese Website enthält auch Links oder Verweise auf Internetauftritte Dritter. Diese Links zu den Internetauftritten Dritter stellen keine Zustimmung zu deren Inhalten durch den Herausgeber dar. Es wird keine Verantwortung für die Verfügbarkeit oder den Inhalt solcher Internetauftritte übernommen und keine Haftung für Schäden oder Verletzungen, die aus der Nutzung - gleich welcher Art - solcher Inhalte entstehen. Mit den Links zu anderen Internetauftritten wird den Nutzern lediglich der Zugang zur Nutzung der Inhalte vermittelt. Für illegale, fehlerhafte oder unvollständige Inhalte und für Schäden, die aus der Nutzung entstehen, haftet allein der Anbieter der Seite, auf welche verwiesen wurde.
+        - paragraph [ref=f10e49]:
+          - text: Diese Website verwendet Google Maps von Google Inc. Google Inc., deren Vertreter sowie Dritte erheben automatisiert Daten. Durch Nutzung dieser Website erklären Sie sich mit der Erfassung, Bearbeitung sowie Nutzung dieser Daten einverstanden. Die Nutzungsbedingungen von Google Maps finden sie
+          - link "hier" [ref=f10e50] [cursor=pointer]:
+            - /url: https://www.google.com/intl/de_US/help/terms_maps
+          - text: .
+        - paragraph [ref=f10e51]:
+          - text: "Quelle:"
+          - link "eRecht24" [ref=f10e52] [cursor=pointer]:
+            - /url: https://www.e-recht24.de/
+        - paragraph [ref=f10e53]: Abmahnungen müssen mindestens vier Wochen vorangekündigt werden und haben persönlich und kostenlos vom Abmahner und nicht vom Anwalt zu erfolgen. Wird berechtigt aber ohne Ankündigung abgemahnt, so hat der Abmahner die entstehenden Kosten zu tragen.
+  - contentinfo [ref=f10e54]:
+    - list [ref=f10e55]:
+      - list [ref=f10e56]:
+        - listitem [ref=f10e57]:
+          - link "Schule ohne Rassismus - Schule mit Courage" [ref=f10e58] [cursor=pointer]:
+            - /url: http://www.schule-ohne-rassismus.org
+        - listitem [ref=f10e59]:
+          - link "Sportfreundliche Schule (3. Zert.)" [ref=f10e60] [cursor=pointer]:
+            - /url: http://www.mk.niedersachsen.de/startseite/schule/schuelerinnen_und_schueler_eltern/schulsport/schulsport-6289.html
+        - listitem [ref=f10e61]:
+          - link "Zivilcouragepreis 2014 der Polizeidirektion Braunschweig" [ref=f10e62] [cursor=pointer]:
+            - /url: http://www.unser38.de/braunschweig-innenstadt/menschen/von-einem-schulgeist-der-inspiriert-d7277.html
+      - generic [ref=f10e63]:
+        - text: © Copyright Realschule John-F.-Kennedy-Platz. All rights reserved. Design by
+        - link "Responsive Web Templates" [ref=f10e64] [cursor=pointer]:
+          - /url: http://www.html5webtemplates.co.uk

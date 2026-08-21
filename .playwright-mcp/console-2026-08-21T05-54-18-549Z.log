@@ -1,0 +1,14 @@
+[    1767ms] [ERROR] Refused to execute script from 'https://www.relume.ai/app/intake-bridge.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ https://www.relume.ai/preview?cid=navbars/navbar14_component:528
+[    1875ms] TypeError: Cannot read properties of undefined (reading 'getToken')
+    at https://www.relume.ai/preview?cid=navbars/navbar14_component:945:47
+[    2097ms] ReferenceError: MemberStack is not defined
+    at https://www.relume.ai/preview?cid=navbars/navbar14_component:962:3
+[    2071ms] [LOG] Pulling component navbars/navbar14_component @ https://d3ixo2kr99szog.cloudfront.net/preview.js:0
+[    2130ms] [LOG] Rewardful Ready! @ https://www.relume.ai/preview?cid=navbars/navbar14_component:91
+[    3054ms] [ERROR] The path of the provided scope ('/v2645sy3qzdjNjE3NzczOTQ0OGJhYTY2NDA0Y2UxZDlj/_/service_worker') is not under the max scope allowed ('/v2645sy3qzdjNjE3NzczOTQ0OGJhYTY2NDA0Y2UxZDlj/_/service_worker/68d0/'). Adjust the scope, move the Service Worker script, or use the Service-Worker-Allowed HTTP header to allow the scope. @ :0
+[    3499ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://apis.relume.io/v1/component/relume/ignored/navbar14_component/?no_copy_event=true&trigger=preview-onload:0
+[    3542ms] [ERROR] Error getting component json Ba: HTTP 403: {"error": "Not logged in", "requestId": ""}
+    at Fa.<anonymous> (https://d3ixo2kr99szog.cloudfront.net/preview.js:1:152539)
+    at Generator.next (<anonymous>)
+    at n (https://d3ixo2kr99szog.cloudfront.net/preview.js:1:150985) @ https://php.relume.io/static/posthog-recorder.js?v=1.258.6:0
+[    4184ms] Unexpected token ';'

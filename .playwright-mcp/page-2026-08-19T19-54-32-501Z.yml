@@ -1,0 +1,186 @@
+- generic [ref=f18e1]:
+  - banner [ref=f18e2]:
+    - heading [level=1] [ref=f18e3]:
+      - link "www.rs-kennedy.de" [ref=f18e4] [cursor=pointer]:
+        - /url: index.html
+    - navigation [ref=f18e5]:
+      - list [ref=f18e6]:
+        - listitem [ref=f18e7]:
+          - link "Start" [ref=f18e8] [cursor=pointer]:
+            - /url: index.html
+        - listitem [ref=f18e9]:
+          - link "IServ-Login" [ref=f18e10] [cursor=pointer]:
+            - /url: https://www.rs-kennedy.de/idesk
+        - listitem [ref=f18e11]:
+          - link "Stundenplan" [ref=f18e12] [cursor=pointer]:
+            - /url: https://borys.webuntis.com/WebUntis/?school=rs%20jfk%20braunschweig#/basic/login
+        - listitem [ref=f18e13] [cursor=pointer]:
+          - link "Schulleben" [ref=f18e14]:
+            - /url: schulleben.html
+        - listitem [ref=f18e15]:
+          - link "Kontakt & Anfahrt" [ref=f18e16] [cursor=pointer]:
+            - /url: kontakt.html
+        - listitem [ref=f18e17]:
+          - link "Impressum" [ref=f18e18] [cursor=pointer]:
+            - /url: impressum.html
+        - listitem [ref=f18e19]:
+          - link "Datenschutz" [ref=f18e20] [cursor=pointer]:
+            - /url: datenschutz.html
+  - generic [ref=f18e21]:
+    - heading "Infos & Elternbriefe" [level=2] [ref=f18e23]
+    - generic [ref=f18e25]:
+      - generic [ref=f18e27]:
+        - generic [ref=f18e28]:
+          - heading "Sprechzeiten - Beratungslehrkraft" [level=4] [ref=f18e29]
+          - paragraph [ref=f18e30]: "Unsere Beratungslehrerin Frau Kanngießer hat folgende Sprechzeiten:"
+          - list [ref=f18e31]:
+            - listitem [ref=f18e32]: montags, in der Zeit von 9.40 - 10.25 Uhr
+            - listitem [ref=f18e33]: nach Vereinbarung
+          - paragraph [ref=f18e34]: Das Büro ist in Raum 3.05. Termine können unter 0531 7074437 oder 0531 470-5030 vereinbart werden.
+        - separator [ref=f18e35]
+        - generic [ref=f18e36]:
+          - heading "Braunschweiger Jugendnetzwerk \"Die 2. Chance\"" [level=4] [ref=f18e37]
+          - list [ref=f18e38]:
+            - listitem [ref=f18e39]: Gehst Du nicht mehr in den Englischunterricht?
+            - listitem [ref=f18e40]: Hast Du Angst vor Mitschülern oder Klassenarbeiten?
+            - listitem [ref=f18e41]: Träumst Du in der Mathestunde?
+            - listitem [ref=f18e42]: Hast Du keinen Bock auf Lernen?
+            - listitem [ref=f18e43]: Schreibst Du schlechte Noten?
+            - listitem [ref=f18e44]: Weißt Du nicht, welche Berufsausbildung gut zu Dir passt?
+            - listitem [ref=f18e45]: Hast Du Stress in der Schule?
+            - listitem [ref=f18e46]: Verschläfst Du regelmäßig, wenn Du zur ersten Stunde in die Schule musst?
+          - paragraph [ref=f18e47]:
+            - text: Die
+            - strong [ref=f18e48]: Koordinierungsstelle „Schulverweigerung – Die 2. Chance“
+            - text: kann Dir helfen.
+          - link [ref=f18e49] [cursor=pointer]:
+            - /url: http://www.braunschweig.de/schulverweigerung
+            - img "Braunschweiger Jugendnetzwerk" [ref=f18e50]
+      - generic [ref=f18e52]:
+        - heading "Schulbuchausleihe 2026/2027" [level=4] [ref=f18e53]
+        - list [ref=f18e54]:
+          - listitem [ref=f18e55]:
+            - link "Anschreiben zur Schulbuchausleihe 5" [ref=f18e56] [cursor=pointer]:
+              - /url: files/schulbuecher/Anschreiben zur Schulbuchausleihe und Materialliste Klasse 5.pdf
+          - listitem [ref=f18e57]:
+            - link "Anschreiben zur Schulbuchausleihe Klasse 5 (sonderpädagogischer Förderbedarf)" [ref=f18e58] [cursor=pointer]:
+              - /url: files/schulbuecher/Anschreiben zur Schulbuchausleihe und Materialliste Klasse 5_Sopäd.pdf
+          - listitem [ref=f18e59]:
+            - link "Anschreiben zur Schulbuchausleihe 6" [ref=f18e60] [cursor=pointer]:
+              - /url: files/schulbuecher/Anschreiben zur Schulbuchausleihe und Materialliste Klasse 6.pdf
+          - listitem [ref=f18e61]:
+            - link "Anschreiben zur Schulbuchausleihe Klasse 6 (sonderpädagogischer Förderbedarf)" [ref=f18e62] [cursor=pointer]:
+              - /url: files/schulbuecher/Anschreiben zur Schulbuchausleihe und Materialliste Klasse 6_Sopäd.pdf
+          - listitem [ref=f18e63]:
+            - link "Anschreiben zur Schulbuchausleihe 7" [ref=f18e64] [cursor=pointer]:
+              - /url: files/schulbuecher/Anschreiben zur Schulbuchausleihe und Materialliste Klasse 7.pdf
+          - listitem [ref=f18e65]:
+            - link "Anschreiben zur Schulbuchausleihe Klasse 7 (sonderpädagogischer Förderbedarf)" [ref=f18e66] [cursor=pointer]:
+              - /url: files/schulbuecher/Anschreiben zur Schulbuchausleihe und Materialliste Klasse 7_Sopäd.pdf
+          - listitem [ref=f18e67]:
+            - link "Anschreiben zur Schulbuchausleihe 8" [ref=f18e68] [cursor=pointer]:
+              - /url: files/schulbuecher/Anschreiben zur Schulbuchausleihe und Materialliste Klasse 8.pdf
+          - listitem [ref=f18e69]:
+            - link "Anschreiben zur Schulbuchausleihe Klasse 8 (sonderpädagogischer Förderbedarf)" [ref=f18e70] [cursor=pointer]:
+              - /url: files/schulbuecher/Anschreiben zur Schulbuchausleihe und Materialliste Klasse 8_Sopäd.pdf
+          - listitem [ref=f18e71]:
+            - link "Anschreiben zur Schulbuchausleihe 9" [ref=f18e72] [cursor=pointer]:
+              - /url: files/schulbuecher/Anschreiben zur Schulbuchausleihe und Materialliste Klasse 9.pdf
+          - listitem [ref=f18e73]:
+            - link "Anschreiben zur Schulbuchausleihe Klasse 9 (sonderpädagogischer Förderbedarf)" [ref=f18e74] [cursor=pointer]:
+              - /url: files/schulbuecher/Anschreiben zur Schulbuchausleihe und Materialliste Klasse 9_Sopäd.pdf
+          - listitem [ref=f18e75]:
+            - link "Anschreiben zur Schulbuchausleihe 10" [ref=f18e76] [cursor=pointer]:
+              - /url: files/schulbuecher/Anschreiben zur Schulbuchausleihe und Materialliste Klasse 10.pdf
+          - listitem [ref=f18e77]:
+            - link "Anschreiben zur Schulbuchausleihe Klasse 10 (sonderpädagogischer Förderbedarf)" [ref=f18e78] [cursor=pointer]:
+              - /url: files/schulbuecher/Anschreiben zur Schulbuchausleihe und Materialliste Klasse 10_Sopäd.pdf
+        - separator [ref=f18e79]
+        - link [ref=f18e80] [cursor=pointer]:
+          - /url: info.html
+        - heading "Schulbuchausleihe 2024/2025" [level=4] [ref=f18e82]
+        - list [ref=f18e83]:
+          - listitem [ref=f18e84]:
+            - link "Schulbücher und selbst anzuschaffende Materialien - Klasse 5" [ref=f18e85] [cursor=pointer]:
+              - /url: files/schulbuecher/buecher2425_Jg5.pdf
+          - listitem [ref=f18e86]:
+            - link "Schulbücher und selbst anzuschaffende Materialien - Klasse 6" [ref=f18e87] [cursor=pointer]:
+              - /url: files/schulbuecher/buecher2425_Jg6.pdf
+          - listitem [ref=f18e88]:
+            - link "Schulbücher und selbst anzuschaffende Materialien - Klasse 7" [ref=f18e89] [cursor=pointer]:
+              - /url: files/schulbuecher/buecher2425_Jg7.pdf
+          - listitem [ref=f18e90]:
+            - link "Schulbücher und selbst anzuschaffende Materialien - Klasse 8" [ref=f18e91] [cursor=pointer]:
+              - /url: files/schulbuecher/buecher2425_Jg8.pdf
+          - listitem [ref=f18e92]:
+            - link "Schulbücher und selbst anzuschaffende Materialien - Klasse 9" [ref=f18e93] [cursor=pointer]:
+              - /url: files/schulbuecher/buecher2425_Jg9.pdf
+          - listitem [ref=f18e94]:
+            - link "Schulbücher und selbst anzuschaffende Materialien - Klasse 10" [ref=f18e95] [cursor=pointer]:
+              - /url: files/schulbuecher/buecher2425_Jg10.pdf
+        - separator [ref=f18e96]
+        - heading "Infoblätter" [level=4] [ref=f18e97]
+        - list [ref=f18e98]:
+          - listitem [ref=f18e99]:
+            - link "Wohin gehe ich, wenn ..." [ref=f18e100] [cursor=pointer]:
+              - /url: schuleingangsmappe/wohingeheich.pdf
+          - listitem [ref=f18e101]:
+            - link "Unterrichtszeiten und Raumpläne" [ref=f18e102] [cursor=pointer]:
+              - /url: schuleingangsmappe/zeiten_raeume.pdf
+          - listitem [ref=f18e103]:
+            - link "Leitbild und Leitziele unserer Schule" [ref=f18e104] [cursor=pointer]:
+              - /url: schuleingangsmappe/leitbild_leitziele.pdf
+          - listitem [ref=f18e105]:
+            - link "Schulordnung" [ref=f18e106] [cursor=pointer]:
+              - /url: schuleingangsmappe/schulordnung.pdf
+          - listitem [ref=f18e107]:
+            - link "Schule ohne Rassismus - Schule mit Courage" [ref=f18e108] [cursor=pointer]:
+              - /url: schuleingangsmappe/sor.pdf
+          - listitem [ref=f18e109]:
+            - link "Social Media Guideline" [ref=f18e110] [cursor=pointer]:
+              - /url: schuleingangsmappe/socialmedia.pdf
+          - listitem [ref=f18e111]:
+            - link "Hinweise zur Benutzung der Schulrechner" [ref=f18e112] [cursor=pointer]:
+              - /url: schuleingangsmappe/pc_nutzung.pdf
+          - listitem [ref=f18e113]:
+            - link "Informationen zum Infektionsschutz" [ref=f18e114] [cursor=pointer]:
+              - /url: schuleingangsmappe/infektionsschutz.pdf
+          - listitem [ref=f18e115]:
+            - link "Verhalten bei Kopflausbefall" [ref=f18e116] [cursor=pointer]:
+              - /url: schuleingangsmappe/laeuse.pdf
+          - listitem [ref=f18e117]:
+            - link "Waffenerlass" [ref=f18e118] [cursor=pointer]:
+              - /url: schuleingangsmappe/waffenerlass.pdf
+          - listitem [ref=f18e119]:
+            - link "Sportunterricht" [ref=f18e120] [cursor=pointer]:
+              - /url: schuleingangsmappe/sportunterricht.pdf
+          - listitem [ref=f18e121]:
+            - 'link "Kriterien der Beurteilung: Arbeitsverhalten" [ref=f18e122] [cursor=pointer]':
+              - /url: schuleingangsmappe/av.pdf
+          - listitem [ref=f18e123]:
+            - 'link "Kriterien der Beurteilung: Sozialverhalten" [ref=f18e124] [cursor=pointer]':
+              - /url: schuleingangsmappe/sv.pdf
+          - listitem [ref=f18e125]:
+            - link "Unsere Schule von A - Z" [ref=f18e126] [cursor=pointer]:
+              - /url: schuleingangsmappe/a_z.pdf
+        - heading "Formulare" [level=4] [ref=f18e127]
+        - list [ref=f18e128]:
+          - listitem [ref=f18e129]:
+            - link "Blankoformular für Entschuldigungen" [ref=f18e130] [cursor=pointer]:
+              - /url: files/Entschuldigung.pdf
+  - contentinfo [ref=f18e131]:
+    - list [ref=f18e132]:
+      - list [ref=f18e133]:
+        - listitem [ref=f18e134]:
+          - link "Schule ohne Rassismus - Schule mit Courage" [ref=f18e135] [cursor=pointer]:
+            - /url: http://www.schule-ohne-rassismus.org
+        - listitem [ref=f18e136]:
+          - link "Sportfreundliche Schule (3. Zert.)" [ref=f18e137] [cursor=pointer]:
+            - /url: http://www.mk.niedersachsen.de/startseite/schule/schuelerinnen_und_schueler_eltern/schulsport/schulsport-6289.html
+        - listitem [ref=f18e138]:
+          - link "Zivilcouragepreis 2014 der Polizeidirektion Braunschweig" [ref=f18e139] [cursor=pointer]:
+            - /url: http://www.unser38.de/braunschweig-innenstadt/menschen/von-einem-schulgeist-der-inspiriert-d7277.html
+      - generic [ref=f18e140]:
+        - text: © Copyright Realschule John-F.-Kennedy-Platz. All rights reserved. Design by
+        - link "Responsive Web Templates" [ref=f18e141] [cursor=pointer]:
+          - /url: http://www.html5webtemplates.co.uk

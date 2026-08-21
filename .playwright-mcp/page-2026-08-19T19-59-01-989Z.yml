@@ -1,0 +1,328 @@
+- generic [ref=f23e1]:
+  - banner [ref=f23e2]:
+    - heading [level=1] [ref=f23e3]:
+      - link "www.rs-kennedy.de" [ref=f23e4] [cursor=pointer]:
+        - /url: index.html
+    - navigation [ref=f23e5]:
+      - list [ref=f23e6]:
+        - listitem [ref=f23e7]:
+          - link "Start" [ref=f23e8] [cursor=pointer]:
+            - /url: index.html
+        - listitem [ref=f23e9]:
+          - link "IServ-Login" [ref=f23e10] [cursor=pointer]:
+            - /url: https://www.rs-kennedy.de/idesk
+        - listitem [ref=f23e11]:
+          - link "Stundenplan" [ref=f23e12] [cursor=pointer]:
+            - /url: https://borys.webuntis.com/WebUntis/?school=rs%20jfk%20braunschweig#/basic/login
+        - listitem [ref=f23e13] [cursor=pointer]:
+          - link "Schulleben" [ref=f23e14]:
+            - /url: schulleben.html
+        - listitem [ref=f23e15]:
+          - link "Kontakt & Anfahrt" [ref=f23e16] [cursor=pointer]:
+            - /url: kontakt.html
+        - listitem [ref=f23e17]:
+          - link "Impressum" [ref=f23e18] [cursor=pointer]:
+            - /url: impressum.html
+        - listitem [ref=f23e19]:
+          - link "Datenschutz" [ref=f23e20] [cursor=pointer]:
+            - /url: datenschutz.html
+  - generic [ref=f23e22]:
+    - heading "Realschule John-F.-Kennedy-Platz" [level=2] [ref=f23e23]
+    - paragraph [ref=f23e24]: Eigenverantwortliches und kooperatives Lernen und Arbeiten in einer gewaltfreien Schule, in der kein Platz für diskriminierende Äußerungen und Handlungen ist.
+    - list [ref=f23e25]:
+      - listitem [ref=f23e26]:
+        - link "Weiter zur Startseite" [ref=f23e27] [cursor=pointer]:
+          - /url: "#main"
+  - generic [ref=f23e30]:
+    - generic [ref=f23e32]:
+      - heading "Digitaler \"Schulrundgang\"" [level=4] [ref=f23e33]
+      - list [ref=f23e34]:
+        - listitem [ref=f23e35]:
+          - link "Unsere Schule - Profil und Angebote" [ref=f23e36] [cursor=pointer]:
+            - /url: files/unsere_schule.pdf
+        - listitem [ref=f23e37]:
+          - link "Schulformen im Vergleich" [ref=f23e38] [cursor=pointer]:
+            - /url: files/informationen_grundschuleltern.pdf
+        - listitem [ref=f23e39]:
+          - link "Inklusion an der Realschule John-F.-Kennedy-Platz" [ref=f23e40] [cursor=pointer]:
+            - /url: files/inklusion.pdf
+        - listitem [ref=f23e41]:
+          - link "Aktive Pause" [ref=f23e42] [cursor=pointer]:
+            - /url: files/aktive_pause.pdf
+        - listitem [ref=f23e43]:
+          - link "Die Fachbereiche stellen sich vor" [ref=f23e44] [cursor=pointer]:
+            - /url: fachbereiche.html
+      - heading "Schulgarten" [level=4] [ref=f23e45]
+      - paragraph [ref=f23e46]: Unser Schulgarten im Juni ...
+      - list [ref=f23e48]:
+        - listitem [ref=f23e49]:
+          - link "Ansehen" [ref=f23e50] [cursor=pointer]:
+            - /url: files/schulgarten_juni.pdf
+      - separator [ref=f23e51]
+      - heading "Anmeldungen Klasse 6 - 10" [level=4] [ref=f23e52]
+      - paragraph [ref=f23e53]: Sollten Sie Ihren Sohn / Ihre Tochter an unserer Schule für Jahrgang 6 – 10 anmelden wollen, stellen wir Ihnen hier ein Anmeldeformular zur Verfügung.
+      - paragraph [ref=f23e54]: Wir müssen Sie bereits jetzt darauf hinweisen, dass wir leider nur sehr begrenzt freie Schulplätze in den oberen Jahrgängen anbieten können. Wir arbeiten daher mit einer Vormerkliste. Bitte melden Sie ihr Kind nur an EINER Realschule (Erstwunsch) an. Sie haben auf dem Anmeldeformular die Möglichkeit, einen Zweit- und Drittwunsch anzugeben.
+      - paragraph [ref=f23e55]: Um sich vormerken zu lassen, benötigen wir von Ihnen das Anmeldeformular, das letzte Zeugnis in Kopie sowie einen Überweisungsbeschluss der abgebenden Schule. Der Überweisungsbeschluss kann nachgereicht werden. Bei Wechsel von der IGS benötigen wir zusätzlich ein Notenzeugnis. Bei Wechsel von einer Braunschweiger Realschule, setzen Sie sich bitte vorab mit der jeweiligen Schulleitung in Verbindung.
+      - paragraph [ref=f23e56]: Nach unseren Zensurenkonferenzen in Kalenderwoche 26 setzt sich die aufnehmende Schule mit Ihnen in Verbindung. Wir bitten Sie, von telefonischen Anfragen abzusehen.
+      - paragraph [ref=f23e57]:
+        - link "Anmeldeformular für Jg. 6-10 herunterladen" [ref=f23e58] [cursor=pointer]:
+          - /url: files/Anmeldung Klasse 6 - 10.pdf
+      - separator [ref=f23e59]
+      - heading "Organigramm 2024/25" [level=4] [ref=f23e60]
+      - list [ref=f23e62]:
+        - listitem [ref=f23e63]:
+          - link "Ansehen" [ref=f23e64] [cursor=pointer]:
+            - /url: files/organigramm.pdf
+      - heading "Schulordnung" [level=4] [ref=f23e65]
+      - list [ref=f23e67]:
+        - listitem [ref=f23e68]:
+          - link "Ansehen" [ref=f23e69] [cursor=pointer]:
+            - /url: files/schulordnung.pdf
+      - heading "Epochalplan 2025/26" [level=4] [ref=f23e70]
+      - list [ref=f23e72]:
+        - listitem [ref=f23e73]:
+          - link "Ansehen" [ref=f23e74] [cursor=pointer]:
+            - /url: files/epochalplan25_26.pdf
+      - separator [ref=f23e75]
+      - heading "Schließfach mieten" [level=4] [ref=f23e76]
+      - paragraph [ref=f23e77]: Auf der Homepage der Firma Mietra finden Sie die Möglichkeit, ein Schließfach online zu mieten.
+      - list [ref=f23e79]:
+        - listitem [ref=f23e80]:
+          - link "Ansehen" [ref=f23e81] [cursor=pointer]:
+            - /url: https://www.schliessfaecher.de/de/pages/service-fuer-mieter/mieten/?School=Realschule+John-F.-Kennedy&Place=Braunschweig
+      - separator [ref=f23e82]
+      - heading "Digitalisierung der Eltern-Lehrkräfte-Schüler:innen-Kommunikation" [level=4] [ref=f23e83]
+      - paragraph [ref=f23e84]: "In diesem Schuljahr steht die Digitalisierung der Eltern-Lehrkräfte-Schüler:innen-Kommunikation im Vordergrund. Als Plattform wird das IServ-Modul genutzt. Alle Fünftklässler:innen haben bereits eine Grundlagenschulung erhalten. Für die Eltern stellen wir an dieser Stelle zunächst einige Anleitungen in mehreren Sprachen zur Verfügung:"
+      - list [ref=f23e85]:
+        - listitem [ref=f23e86]:
+          - link "IServ für Eltern (deutsch)" [ref=f23e87] [cursor=pointer]:
+            - /url: files/iserv/iserv_deutsch.pdf
+        - listitem [ref=f23e88]:
+          - link "IServ-FAQ (deutsch)" [ref=f23e89] [cursor=pointer]:
+            - /url: files/iserv/iserv-faq_deutsch.pdf
+        - listitem [ref=f23e90]:
+          - link "IServ für Eltern (englisch)" [ref=f23e91] [cursor=pointer]:
+            - /url: files/iserv/iserv_englisch.pdf
+        - listitem [ref=f23e92]:
+          - link "IServ-FAQ (englisch)" [ref=f23e93] [cursor=pointer]:
+            - /url: files/iserv/iserv-faq_englisch.pdf
+        - listitem [ref=f23e94]:
+          - link "IServ für Eltern (ukrainisch)" [ref=f23e95] [cursor=pointer]:
+            - /url: files/iserv/iserv_ukrainisch.pdf
+        - listitem [ref=f23e96]:
+          - link "IServ-FAQ (ukrainisch)" [ref=f23e97] [cursor=pointer]:
+            - /url: files/iserv/iserv-faq_ukrainisch.pdf
+        - listitem [ref=f23e98]:
+          - link "IServ für Eltern (polnisch)" [ref=f23e99] [cursor=pointer]:
+            - /url: files/iserv/iserv_polnisch.pdf
+        - listitem [ref=f23e100]:
+          - link "IServ-FAQ (polnisch)" [ref=f23e101] [cursor=pointer]:
+            - /url: files/iserv/iserv-faq_polnisch.pdf
+        - listitem [ref=f23e102]:
+          - link "IServ für Eltern (türkisch)" [ref=f23e103] [cursor=pointer]:
+            - /url: files/iserv/iserv_tuerkisch.pdf
+        - listitem [ref=f23e104]:
+          - link "IServ-FAQ (türkisch)" [ref=f23e105] [cursor=pointer]:
+            - /url: files/iserv/iserv-faq_tuerkisch.pdf
+        - listitem [ref=f23e106]:
+          - link "IServ für Eltern (arabisch)" [ref=f23e107] [cursor=pointer]:
+            - /url: files/iserv/iserv_arabisch.pdf
+        - listitem [ref=f23e108]:
+          - link "IServ-FAQ (arabisch)" [ref=f23e109] [cursor=pointer]:
+            - /url: files/iserv/iserv-faq_arabisch.pdf
+      - paragraph [ref=f23e110]:
+        - strong [ref=f23e111]: Ab sofort müssen Krankmeldungen über das Modul "Abwesenheiten" erfolgen.
+      - separator [ref=f23e112]
+      - heading "Antrag auf Unterrichtsbefreiung zur Teilnahme an religiösen Feiern" [level=4] [ref=f23e113]
+      - paragraph [ref=f23e114]: "Der Erlass „Unterricht an kirchlichen Feiertagen und Teilnahme an kirchlichen Veranstaltungen“ (RdErl. d. MK v. 15.10.2019 – 36-82013) gewährt Schülerinnen und Schülern Unterrichtsbefreiung zur Teilnahme an religiösen Feiern. Ein Antrag auf Unterrichtsbefreiung kann auschließlich mit folgendem Formular erfolgen:"
+      - paragraph [ref=f23e115]:
+        - link "Formular Unterrichtsbefreiung" [ref=f23e116] [cursor=pointer]:
+          - /url: files/antrag_unterrichtsbefreiung_rel_feste.pdf
+    - generic [ref=f23e118]:
+      - heading "Aktuelles" [level=2] [ref=f23e119]
+      - generic [ref=f23e120]:
+        - link [ref=f23e121] [cursor=pointer]:
+          - /url: images/infoabend.jpg
+        - heading "Infoabend für Grundschüler" [level=4] [ref=f23e123]
+        - paragraph [ref=f23e124]: Für alle interessierten Grundschüler bietet sich am 21. April die Möglichkeit, unsere Schule kennenzulernen.
+        - paragraph [ref=f23e125]: In der Zeit von 16:30 bis 18:30 Uhr bietet die Schule den Kindern und Eltern einen Einblick in unseren Schulalltag. Angeboten werden Führungen mit verschiedenen Stationen, bei denen zum Mitmachen und Beobachten eingeladen wird.
+        - text: Schüler und Lehrer bereiten traditionell viele Aktionen und Informationen in den Klassen- und Fachräumen und auch auf dem Schulhof vor. Darüber hinaus wird der Schulelternverein über seine Arbeit informieren. Für das leibliche Wohl wird gesorgt.
+        - paragraph
+        - generic [ref=f23e126]:
+          - paragraph [ref=f23e127]:
+            - generic [ref=f23e128]: "Die Termine für die Anmeldung sind:"
+            - text: Mittwoch, 20.05.2026 von 8:00 bis 13:00 Uhr Donnerstag, 21.05.2026 von 8:00 bis 13:00 Uhr und von 15:00 bis 16:30 Uhr Freitag, 22.05.2026 von 8:00 bis 10:00 Uhr
+          - paragraph [ref=f23e129]:
+            - text: Das
+            - link "Anmeldeformular für Jg. 5" [ref=f23e130] [cursor=pointer]:
+              - /url: files/Anmeldung Klasse 5.pdf
+            - text: können Sie auch vor Ort ausfüllen.
+          - paragraph [ref=f23e131]: "Bitte bringen Sie mit:"
+          - list [ref=f23e132]:
+            - listitem [ref=f23e133]: Originalzeugnis der 4. Klasse (1. Halbjahr)
+            - listitem [ref=f23e134]: Impfnachweis über den Masernschutz
+            - listitem [ref=f23e135]: Schwimmnachweis Bronze
+          - paragraph [ref=f23e136]: "Und wenn vorhanden:"
+          - list [ref=f23e137]:
+            - listitem [ref=f23e138]: Beratungsprotokoll der Grundschule
+            - listitem [ref=f23e139]: Verfügung zur Feststellung eines sonderpädagogischen Unterstützungsbedarfs oder anderes Fördergutachten
+            - listitem [ref=f23e140]: Sorgerechtsnachweis (im Falle einer Scheidung / Trennung)
+            - listitem [ref=f23e141]: aktuelle Meldebescheinigung, sofern man sich neu in Deutschland aufhält
+          - separator [ref=f23e142]
+          - link [ref=f23e143] [cursor=pointer]:
+            - /url: images/buchzimmer.jpg
+          - heading "Kunstprojekt „Buchzimmer“ - Kreativität auf hohem Niveau" [level=4] [ref=f23e145]
+          - paragraph [ref=f23e146]: "Die Klassen 5a, 6b und 7c haben im Rahmen des Kunstunterrichts an einem besonderen Projekt gearbeitet: Es galt, ein kreatives Buchzimmer zu gestalten - ein Raum im Miniaturformat, inspiriert von der Welt der Bücher."
+          - paragraph [ref=f23e147]:
+            - text: Aus den vielfältigen und ideenreichen Ergebnissen wurde im Rahmen eines schulinternen Wettbewerbs eine Bewertung vorgenommen. Drei besonders gelungene Objekte wurden zu unseren Schulgewinnern gekürt (
+            - link "siehe Bilder" [ref=f23e148] [cursor=pointer]:
+              - /url: files/buchzimmer.pdf
+            - text: "). Eines der Kunstwerke wird sogar beim Niedersächsischen Schulbibliothekswettbewerb eingereicht - wir drücken die Daumen! Wer die fantasievollen Buchzimmer einmal selbst sehen möchte: Viele der tollen Objekte sind derzeit im Nawigang in der Vitrine ausgestellt und laden zum Staunen ein."
+          - paragraph [ref=f23e149]:
+            - link "Infos zum Wettbewerb ansehen" [ref=f23e150] [cursor=pointer]:
+              - /url: https://www.alf-hannover.de/schulbibliothekswettbewerb-2025
+          - heading "Die SV-Lehrkräfte stellen sich vor" [level=4] [ref=f23e151]
+          - paragraph [ref=f23e152]: SV-Lehrkräfte beraten und unterstützen die Schülervertretung und tragen aktiv zur Förderung demokratischer Prozesse und Partizipation in der Schule bei. Wir freuen uns daher ganz besonders, dass Herr Werner und Frau Haybat dieses wichtige Amt übernommen haben.
+          - paragraph [ref=f23e153]:
+            - link "Schreiben der SV-Lehrkräfte ansehen" [ref=f23e154] [cursor=pointer]:
+              - /url: files/sv-lehrkraefte.pdf
+          - img "Spendenscheck - Weggefährten e. V." [ref=f23e156]
+          - heading "Spende an den Verein Weggefährten e. V." [level=4] [ref=f23e157]
+          - paragraph [ref=f23e158]:
+            - emphasis [ref=f23e159]: Ein Bericht der Schülervertretung der Realschule John-F.-Kennedy-Platz
+          - paragraph [ref=f23e160]:
+            - text: "Wir, die Schülervertretung der Realschule am John-F.-Kennedy-Platz, haben am 6. Mai ein Frühlingsfest organisiert, um die kulturelle Vielfalt unserer Schule zu feiern, um unsere Schulgemeinschaft näher zusammenzubringen. Es war ein buntes, fröhliches Fest mit Musik, leckerem Essen und vielen tollen Aktionen - ein Tag, der gezeigt hat, wie viel Herz, Engagement und Zusammenhalt in unserer Schule steckt. Ein besonderes Highlight war unsere Tombola, die wir als Schülervertretung mit viel Einsatz auf die Beine gestellt haben. Zahlreiche Gewinne wurden von lokalem Unterstützer*innen gespendet und sorgten für große Freude - und haben gleichzeitig etwas viel Größeres ermöglicht: eine gemeinsame Spendenaktion für einen guten Zweck. Denn uns war von Anfang an klar: Der Erlös aus der Tombola soll helfen. Helfen dort, wo Unterstützung und Hoffnung dringend gebraucht werden."
+            - strong [ref=f23e161]: Deshalb spenden wir den gesamten Betrag von 293,31 Euro an den Verein Weggefährten e. V. Braunschweig, der sich liebevoll und engagiert um krebskranke Kinder und ihre Familien kümmert.
+            - text: Mit dieser Spende möchten wir zeigen, dass Schule mehr sein kann als Unterricht - nämlich ein Ort, an dem Mitgefühl gelebt und Verantwortung übernommen wird. Wir sind stolz, dass unsere Aktion nicht nur Freude gebracht, sondern auch Hoffnung geschenkt hat. Danke an alle, die mitgemacht, gespendet und unterstützt haben. Gemeinsam haben wir etwas bewegt.
+          - paragraph [ref=f23e162]: Eure Schülervertretung Realschule John-F.-Kennedy-Platz
+          - list [ref=f23e163]:
+            - listitem [ref=f23e164]:
+              - link "Übergabe der Spendenurkunde" [ref=f23e165] [cursor=pointer]:
+                - /url: images/weggefaehrten_treffenvorort.jpg
+            - listitem [ref=f23e166]:
+              - link "Spendenurkunde ansehen" [ref=f23e167] [cursor=pointer]:
+                - /url: files/spendenurkunde_weggefaehrten.pdf
+          - img "Stolpersteine in Braunschweig - Putzaktion 2025" [ref=f23e169]
+          - heading "Stadtweite Putzaktion der Stolpersteine zum 80. Jahrestag der Befreiung vom Nazi-Regime" [level=4] [ref=f23e170]
+          - paragraph [ref=f23e171]: Am 8. Mai wurden in ganz Braunschweig Stolpersteine geputzt. Auch unsere Schule, die sich seit vielen Jahren in Zusammenarbeit mit dem Verein „Stolpersteine für Braunschweig“ durch Recherchen und Präsentation selbiger im Roten Saal gegen das Vergessen einsetzt, nahm daran teil. Dabei wurden die Steine poliert und die Geschichte der Opfer des Nazi-Regimes vorgetragen. Die Schüler gedachten dabei unter anderem der fünfköpfigen Familie Bremer, die einst in der Wolfenbüttler Straße lebten und wie viele andere Familien mit teilweise jüdischen Wurzeln dem Terror und der Verfolgung ausgesetzt waren. Im Anschluss legten die Schülerinnen und Schüler Blumen um die polierten Steine.
+          - heading "Bonjour Paris! - Die unvergessliche Reise des Französisch-Profilkurses 9 –" [level=4] [ref=f23e172]
+          - paragraph [ref=f23e173]:
+            - text: "Fünf Tage voller Abenteuer, Kultur und neuen Freundschaften: Unser Französisch-Profilkurs machte sich im März 2025 gemeinsam mit Schüler*innen der Nibelungenrealschule auf den Weg in die Stadt der Lichter – Paris! ..."
+            - link "Vollständigen Bericht lesen" [ref=f23e174] [cursor=pointer]:
+              - /url: files/paris.pdf
+          - img "Vorstellung Phase BE" [ref=f23e176]
+          - paragraph [ref=f23e177]:
+            - strong [ref=f23e178]: Sommerakademie Braunschweig 2025 – eine Kooperation der Bürgerstiftung Braunschweig und der Phase BE
+          - paragraph [ref=f23e179]: "Einen attraktiven Beitrag zur Berufsorientierung bietet die Sommerakademie. Herr Merah (Phase BE) besuchte unsere Schülerinnen und Schüler, um die Sommerakademie vorzustellen. Und darum geht es:"
+          - paragraph [ref=f23e180]:
+            - strong [ref=f23e181]: 3 Wochen Sommercamp und 1 Jahr weitere Begleitung für deine berufliche Zukunft.
+          - paragraph [ref=f23e182]: In drei Wochen Sommerferien geht es um Kompetenzen, Interessen und Entwicklung. Highlights sind der Berufspraxistag, Bewerbungsgespräche mit Unernehmensvertreter:innen und ein fachkundig angeleitetes Musical-Projekt. Berufsorientierung, schulisches Lernen und Kreativität greifen über alle Module hinweg ineinander.
+          - paragraph [ref=f23e183]: "Im neuen Schuljahr treffen sich alle Sommercamp-Teilnehmer:innen bis zum nächsten Sommer wöchentlich in Kleingruppen und regelmäßig auch in der Gesamtgruppe für besondere Aktivitäten. Schulische Herausforderungen, persönliche Themen und laufende Bewerbungsprozese werden so in der Gemeinschaft und auch in individuellen Settings unterstützt. Klares Ziel: Nachhaltige Unterstützung bei den nächsten Schritten ins Berufsleben."
+          - paragraph [ref=f23e184]:
+            - text: Du hast Interesse teilzunehmen?
+            - link "Dann bewirb dich jetzt!" [ref=f23e185] [cursor=pointer]:
+              - /url: https://www.phasebe.de/die-sommerakademie
+          - img "Präventionsprojekt LARS & LISA" [ref=f23e187]
+          - heading "LARS & LISA wieder an der Realschule John-F.-Kennedy-Platz" [level=4] [ref=f23e188]
+          - paragraph [ref=f23e189]:
+            - text: Wir freuen uns sehr, dass das von der Stadt Braunschweig geförderte Präventionsprojekt
+            - strong [ref=f23e190]: „LARS & LISA – Lust an realistischer Sicht und Leichtigkeit im sozialen Alltag“
+            - text: erneut an unserer Schule durchgeführt wird – diesmal in der Klasse
+            - strong [ref=f23e191]: 8b
+            - text: .
+          - paragraph [ref=f23e192]:
+            - text: Mit dem Projekt reagiert die Realschule John-F.-Kennedy-Platz auf die Ergebnisse der
+            - strong [ref=f23e193]: CTC-Jugendbefragung (Communities That Care)
+            - text: aus dem Jahr 2022, die unter anderem den Bedarf an Maßnahmen zur Förderung psychischer Gesundheit bei Jugendlichen verdeutlichte.
+            - strong [ref=f23e194]: Ziel des Programms
+            - text: ist es, die psychosoziale Kompetenz der Schüler*innen zu stärken und ihnen Werkzeuge mitzugeben, die für das ganze Leben von Bedeutung sind – insbesondere im Bereich der
+            - strong [ref=f23e195]: Resilienz
+            - text: ", also der seelischen Widerstandskraft. In"
+            - strong [ref=f23e196]: zehn Doppelstunden
+            - text: "werden unter anderem folgende Themen behandelt:"
+          - list [ref=f23e197]:
+            - listitem [ref=f23e198]: Wie setze ich mir sinnvolle Ziele – und wie erreiche ich sie?
+            - listitem [ref=f23e199]: Was ist der Zusammenhang zwischen Gedanken, Gefühlen und Verhalten?
+            - listitem [ref=f23e200]: Wie erkenne ich negative Denkmuster – und wie kann ich sie in positive umwandeln?
+            - listitem [ref=f23e201]: Was bedeutet selbstsicheres Verhalten – und wie lässt es sich trainieren?
+            - listitem [ref=f23e202]: Wie kann ich besser mit anderen in Kontakt kommen?
+          - paragraph [ref=f23e203]: "Begleitet wird das Training von zwei speziell geschulten Trainer*innen: Eine Studentin der Sozialpädagogik sowie unsere Schulsozialarbeiterin Frau Meyer führen das Programm durch. Dieses wird sich über einen Zeitraum von rund drei Monaten erstrecken."
+          - paragraph [ref=f23e204]: Wir wünschen unseren Schüler*innen eine bereichernde und stärkende Zeit mit LARS & LISA!
+          - link [ref=f23e205] [cursor=pointer]:
+            - /url: images/fruehling.jpg
+          - heading "Das Projekt \"Schulgarten\"" [level=4] [ref=f23e207]
+          - paragraph [ref=f23e208]: Vor einem knappen Jahr initiierte unser Konrektor Herr Müller die Neugestaltung des Schulgartens. Dank der Beratung durch Herrn Schebesta von der Bürgerstiftung, der tollen Planung durch den Fachbereich Stadtgrün und der tatkräftigen Unterstützung von unserem Hausmeister Herrn Fuhl haben nun der WPK Schulgarten unter der Leitung von Frau Ammann und die Schülerinnen und Schüler, die am Werken-Unterricht teilnehmen, eine tolle Grundlage für kreative Outdoor-Ideen.
+          - paragraph [ref=f23e209]:
+            - link "Bilder ansehen" [ref=f23e210] [cursor=pointer]:
+              - /url: files/schulgarten.pdf
+          - link [ref=f23e212] [cursor=pointer]:
+            - /url: images/stadtputz2025.JPEG
+            - img "Teilnahme der 8 a am Stadtputztag" [ref=f23e213]
+          - heading "Stadtputztag 2025" [level=4] [ref=f23e214]
+          - paragraph [ref=f23e215]: Auch in diesem Jahr fand in Braunschweig wieder der Stadtputztag statt. Wir freuen uns ganz besonders über das Engagement der Klasse 8 a unter der Leitung von Frau Amelsberg.
+          - heading "Berufsmesse" [level=4] [ref=f23e216]
+          - paragraph [ref=f23e217]:
+            - text: Am 27.03. fand unsere hausinterne Berufsmesse statt. Hier stellten sich Firmen, die Ausbildungsplätze anbieten, vor. Einen Eindruck von der Messe gibt es
+            - link "hier" [ref=f23e218] [cursor=pointer]:
+              - /url: files/berufsmesse_2025.pdf
+            - text: .
+          - link [ref=f23e219] [cursor=pointer]:
+            - /url: images/tulpen_pflanzen.jpg
+          - heading "Tulpen für Brot – WPK Schulgarten hilft mit" [level=4] [ref=f23e221]
+          - paragraph [ref=f23e222]: "Im Herbst erhielten die Schülerinnen und Schüler des WPK Schulgartens eine besondere Lieferung: Tulpenzwiebeln aus Holland, die sie in der darauffolgenden Pausen verkauften und einen großartigen Erlös von 130 Euro sammelten. Die restlichen Tuplenzwiebeln pflanzten sie gemeinsam im Schulgarten an. Das gesammelte Geld kommt gleich drei wichtigen Hilfsorganisationen zugute:"
+          - list [ref=f23e223]:
+            - listitem [ref=f23e224]: BOS Deutschland e.V. unterstützt in zwei Rettungszentren auf Borneo über 400 Orang-Utans und engagiert sich für den Schutz des Regenwaldes.
+            - listitem [ref=f23e225]: UNICEF Deutschland hilft mit Spezialnahrung und weiteren Maßnahmen Kindern in Krisengebieten, damit sie wieder gesund und stark werden können.
+            - listitem [ref=f23e226]: Die Deutsche KinderKrebshilfe setzt sich für die Erforschung von Krebserkrankungen, die Verbesserung der Behandlung und die Förderung der Nachsorge für betroffene Kinder ein.
+          - paragraph [ref=f23e227]: Aktuell verkaufen die Schülerinnen und Schüler Pflanztöpfe mit den bereits gewachsenen Tulpen. Jeder kann sihc beim Kauf eine blühend eÜberraschung freuen. Eine wunderschöne Aktion, die sowohl den Schulgarten verschönert als auch einen wertvollen Beitrag zu wichtigen Hilfsprojekten leistet.
+          - heading "Braunschweiger Zeitung schreibt zum Handyverbot an unserer Schule" [level=4] [ref=f23e228]
+          - paragraph [ref=f23e229]: Seit letztem Jahr gilt ein Handyverbot an unserer Schule. Dieses wurde von Herrn Müller in Absprache mit der SV und dem Schulelternrat initiiert und von der Gesamtkonferenz beschlossen. Wir haben sehr gute Erfahrungen damit gemacht und freuen uns über eine Schülerschaft, die im Gespräch bleibt.
+          - paragraph [ref=f23e230]:
+            - link "Artikel in der Braunschweiger Zeitung lesen" [ref=f23e231] [cursor=pointer]:
+              - /url: files/Braunschweiger_Zeitung_Handyverbot.pdf
+          - heading "Neue Schulleitung" [level=4] [ref=f23e232]
+          - paragraph [ref=f23e233]: Seit Beginn des Halbjahres wird die Schule von Sabine Schawe geleitet. Gemeinsam mit dem Konrektor, Herrn Müller, den Lehrkräften, Mitarbeiter:innen und der Schülervertretung wird sie sich für das Wohl der Schule und der Schulgemeinschaft engagieren.
+          - paragraph [ref=f23e234]:
+            - link "Artikel in der Braunschweiger Zeitung ansehen" [ref=f23e235] [cursor=pointer]:
+              - /url: images/bz_15032025.png
+          - link [ref=f23e237] [cursor=pointer]:
+            - /url: images/bootsanleger2025.jpg
+            - img "Der sanierte Bootsanleger" [ref=f23e238]
+          - heading "Bootsanleger der Schule saniert" [level=4] [ref=f23e239]
+          - paragraph [ref=f23e240]: Wir freuen uns über unseren sanierten Bootsanleger. Vielen Dank an die Stadt Braunschweig und unseren Hausmeister Herrn Fuhl.
+          - heading "Bericht zum 110-jährigen Jubiläum des Schulgebäudes" [level=4] [ref=f23e241]
+          - paragraph [ref=f23e242]:
+            - text: Der ehemalige Lehrer Henning Habekost hat uns freundlicherweise einen Bericht zum 110-jährigen Jubiläum des Schulgebäudes (2024) zur Verfügung gestellt. Wir freuen uns sehr über diese informative und mit vielen Bildern versehene Lektüre und haben sie auf unserer Seite
+            - link "Chronik" [ref=f23e243] [cursor=pointer]:
+              - /url: files/110Jahre_JFK-Gebaeude.pdf
+            - text: veröffentlicht.
+          - link [ref=f23e245] [cursor=pointer]:
+            - /url: images/aidshilfe.jpg
+            - img "SV sammelt für AIDS-Hilfe" [ref=f23e246]
+          - heading "SV sammelt für AIDS-Hilfe" [level=4] [ref=f23e247]
+          - paragraph [ref=f23e248]: Unsere SV hat auch in diesem Jahr für die AIDS-Hilfe gesammelt. Insgesamt konnten über 160,17 Euro gespendet werden. Vielen Dank für euer Engagement!
+          - paragraph [ref=f23e249]:
+            - link "Dankschreiben der AIDS-Hilfe ansehen" [ref=f23e250] [cursor=pointer]:
+              - /url: files/dankschreiben_wat2024.pdf
+          - heading "Team der Schule gewinnt 1. Preis in der MINT-Liga" [level=4] [ref=f23e251]
+          - paragraph [ref=f23e252]: Mit Hilfe der MINT Liga sollen Kinder und Jugendliche für außerschulische MINT Angebote begeistert werden. Das „Verbundprojekt Zukunftsliga MINT – MINT-Liga“ wird in den Jahren 2022 bis 2025 von der Haus der Wissenschaft Braunschweig GmbH gemeinsam mit dem Institut für Fachdidaktik der Naturwissenschaften (IFdN) der Technischen Universität Braunschweig, der phaeno gGmbH und den Codenauten durchgeführt und vom Bundesministerium für Bildung und Forschung (BMBF) gefördert.
+          - paragraph [ref=f23e253]: Unsere Schülerinnen und Schüler haben als Team an der MINT-Liga teilgenommen und verschiedenste Experimente durchgeführt, z. B. einen Wasser-Filter aus Naturmaterialien und eine Wasserdruck-Rakete bauen, eine Geheimschrift mit Farbfiltern erstellen, einen "Um-die-Ecken-Gucker" und ein mit Teelicht betriebenes Boot bauen, Mini Seifenkisten konstruieren und ein Fernglas aus Chipstüten erstellen. Dabei haben sie viel gelernt und waren mit Spaß dabei. Herzlichen Glückwunsch an alle, die mitgemacht haben!
+          - paragraph [ref=f23e254]:
+            - link "Homepage MINT-Liga" [ref=f23e255] [cursor=pointer]:
+              - /url: https://mintliga.de
+  - contentinfo [ref=f23e256]:
+    - list [ref=f23e257]:
+      - list [ref=f23e258]:
+        - listitem [ref=f23e259]:
+          - link "Schule ohne Rassismus - Schule mit Courage" [ref=f23e260] [cursor=pointer]:
+            - /url: http://www.schule-ohne-rassismus.org
+        - listitem [ref=f23e261]:
+          - link "Sportfreundliche Schule (3. Zert.)" [ref=f23e262] [cursor=pointer]:
+            - /url: http://www.mk.niedersachsen.de/startseite/schule/schuelerinnen_und_schueler_eltern/schulsport/schulsport-6289.html
+        - listitem [ref=f23e263]:
+          - link "Zivilcouragepreis der Polizeidirektion Braunschweig" [ref=f23e264] [cursor=pointer]:
+            - /url: https://www.polizei-beratung.de/themen-und-tipps/zivilcourage/
+      - generic [ref=f23e265]:
+        - text: "© Copyright Realschule John-F.-Kennedy-Platz. All rights reserved. © Copyright Luftbild: Stadt Braunschweig. All rights reserved. Design by"
+        - link "Responsive Web Templates" [ref=f23e266] [cursor=pointer]:
+          - /url: http://www.html5webtemplates.co.uk

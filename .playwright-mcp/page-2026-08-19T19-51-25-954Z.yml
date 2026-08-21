@@ -1,0 +1,376 @@
+- generic [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - heading [level=1] [ref=f1e3]:
+      - link "www.rs-kennedy.de" [ref=f1e4] [cursor=pointer]:
+        - /url: index.html
+    - navigation [ref=f1e5]:
+      - list [ref=f1e6]:
+        - listitem [ref=f1e7]:
+          - link "Start" [ref=f1e8] [cursor=pointer]:
+            - /url: index.html
+        - listitem [ref=f1e9]:
+          - link "IServ-Login" [ref=f1e10] [cursor=pointer]:
+            - /url: https://www.rs-kennedy.de/idesk
+        - listitem [ref=f1e11]:
+          - link "Stundenplan" [ref=f1e12] [cursor=pointer]:
+            - /url: https://borys.webuntis.com/WebUntis/?school=rs%20jfk%20braunschweig#/basic/login
+        - listitem [ref=f1e13] [cursor=pointer]:
+          - link "Schulleben" [ref=f1e14]:
+            - /url: schulleben.html
+        - listitem [ref=f1e15]:
+          - link "Kontakt & Anfahrt" [ref=f1e16] [cursor=pointer]:
+            - /url: kontakt.html
+        - listitem [ref=f1e17]:
+          - link "Impressum" [ref=f1e18] [cursor=pointer]:
+            - /url: impressum.html
+        - listitem [ref=f1e19]:
+          - link "Datenschutz" [ref=f1e20] [cursor=pointer]:
+            - /url: datenschutz.html
+  - generic [ref=f1e21]:
+    - heading "Schulleben" [level=2] [ref=f1e23]
+    - generic [ref=f1e25]:
+      - generic [ref=f1e27]:
+        - heading "Impressionen" [level=2] [ref=f1e28]
+        - link [ref=f1e30] [cursor=pointer]:
+          - /url: images/jannes_horn.jpg
+          - img "Jannes Horn zu Besuch" [ref=f1e31]
+        - heading "Ehemaliger Schüler und Fußballprofi Jannes Horn zu Besuch an unserer Schule" [level=4] [ref=f1e32]
+        - paragraph [ref=f1e33]: "Ein ganz besonderer Tag für unsere Schule: Der ehemalige Schüler und heutige Fußballprofi Jannes Horn hat uns besucht! Nach einem Austausch mit Herrn Aydin kam es zu diesem besonderen Besuch, bei dem die Schülerinnen und Schüler die Gelegenheit hatten, spannende Fragen an Jannes zu stellen. Jannes nahm sich viel Zeit, um offen und ehrlich zu antworten, was für die Schülerinnen und Schüler eine inspirierende Erfahrung war."
+        - paragraph [ref=f1e34]: Doch nicht nur die Schülerinnen und Schüler waren begeistert – auch im Kollegium kam Jannes mit seinen ehemaligen Lehrkräften und seinem damaligen Klassenlehrer ins Gespräch. Gemeinsam tauschten sie sich über die vergangenen Schuljahre aus.
+        - paragraph [ref=f1e35]: Ein ganz besonderes Highlight war der Videocall mit Ismail Jakobs, der aktuell bei Galatasaray Istanbul spielt. Ismail, ein ehemaliger Teamkollege von Jannes, nahm sich Zeit für ein Gespräch mit der Klasse und sorgte für strahlende Gesichter bei den Galatasaray-Fans.
+        - link [ref=f1e37] [cursor=pointer]:
+          - /url: images/trikot_horn.jpg
+          - img "Das Trikot von Jannes Horn" [ref=f1e38]
+        - paragraph [ref=f1e39]: Als besondere Erinnerung brachte Jannes uns ein Trikot aus seiner Zeit beim VfL Wolfsburg mit. Dieses wird eingerahmt und bekommt einen ganz besonderen Platz an unserer Schule – ein sichtbares Zeichen dafür, dass große Träume hier beginnen können.
+        - paragraph [ref=f1e40]: Wir bedanken uns recht herzlich bei Jannes Horn für diesen unvergesslichen Besuch und wünschen ihm weiterhin viel Erfolg auf seinem Weg. Das Trikot wird eingerahmt und bekommt eine ganz besondere Stelle.
+        - paragraph [ref=f1e41]:
+          - strong [ref=f1e42]:
+            - emphasis [ref=f1e43]: Willkommen zurück und viel Erfolg weiterhin, Jannes!
+        - link [ref=f1e45] [cursor=pointer]:
+          - /url: images/kicker1.jpg
+          - img "Einweihung Kicker" [ref=f1e46]
+        - heading "SV und Schulleitung weihen neuen Kicker ein" [level=4] [ref=f1e47]
+        - paragraph [ref=f1e48]: Mit viel Spaß weihten die Schülervertretung und die Schulleitung den neuen Kickertisch in der Pausenhalle ein. Hiermit sind nicht nur spannende Kickerturniere, sondern auch andere Spiele, wie Billard möglich. Wir freuen uns auf viele spannende Matches!
+        - link [ref=f1e50] [cursor=pointer]:
+          - /url: images/lauftag_2024.png
+          - img "Impressionen vom Lauftag" [ref=f1e51]
+        - heading "Lauftag 2024" [level=4] [ref=f1e52]
+        - paragraph [ref=f1e53]: Am 18. September fand unser jährlicher Lauftag statt. Die Schülerinnen und Schüler liefen fleißig viele Kilometer und holten sich an den von Lehrkräften besetzten Stationen ihre Stempel ab, um ihre Laufkarten zu füllen. Wir freuen uns, dass seitens der Elternschaft viele leckere Kuchen gespendet worden sind. Die Einnahmen aus dem Kuchenverkauf werden für den Schulgarten und für den Sportbereich verwendet, ebenso die Gelder, die von den Sponsoren unserer Schülerinnen und Schüler überwiesen werden. Wir bedanken uns herzlich bei allen Organisatoren, Helfern, Sponsoren und Läufern. Ein besonderer Dank geht auch an den Schulelternverein, der Mineralwasser für alle spendiert hat.
+        - heading "\"Tag der Schiene\" bei Siemens in Braunschweig" [level=4] [ref=f1e54]
+        - paragraph [ref=f1e55]: Schülerinnen und Schüler des 8. Jahrgangs besuchten gemeinsam mit den Lehrkräften Frau Amelsberg und Herrn Meyn den "Tag der Schiene" bei Siemens. Sie haben mit viel Spaß verschiedene Ausbildungsberufe kennengelernt und durften Berufe praktisch erkunden.
+        - paragraph [ref=f1e56]:
+          - link "Schülerbericht lesen" [ref=f1e57] [cursor=pointer]:
+            - /url: files/tag_der_schiene.pdf
+        - heading "Berufsfelderkundung für Schülerinnen und Schüler des 8. Jahrgangs" [level=4] [ref=f1e58]
+        - paragraph [ref=f1e59]: Am 11. September stand im Rahmen unseres Programms zur Stärkung der Berufswahlkompetenz die Erkundung berufspraktischer Tätigkeiten im Hinblick auf verschiedene Berufsfelder an. In Zusammenarbeit mit der Ausbildungwerkstatt Braunschweig e. V. war es den Schülerinnen und Schülern möglich, verschiedene regionale Unternehmen kennenzulernen. Wir bedanken uns bei allen Beteiligten.
+        - paragraph [ref=f1e60]:
+          - link "Bilder ansehen" [ref=f1e61] [cursor=pointer]:
+            - /url: files/berufsfelderkundung.pdf
+        - heading "Waldtage der Jahrgänge 5 & 6" [level=4] [ref=f1e62]
+        - paragraph [ref=f1e63]: Dank der tatkräftigen Unterstützung der Herbert Balke-Stiftung unter dem Dach der Bürgerstiftung Braunschweig, hatten die Schülerinnen und Schüler des 5. und des 6 Jahrgangs die Gelegenheit, drei Tage den Wald unter pädagogischer Anleitung kennenzulernen.
+        - list [ref=f1e64]:
+          - listitem [ref=f1e65]:
+            - link "Bericht und Bilder ansehen" [ref=f1e66] [cursor=pointer]:
+              - /url: files/waldtage_6b.pdf
+        - link [ref=f1e67] [cursor=pointer]:
+          - /url: images/zeitzeugen_2024.jpg
+        - heading "Zeitzeugen" [level=4] [ref=f1e69]
+        - paragraph [ref=f1e70]: In diesem Jahr haben Schüler:innen der 10. Klassen wieder Stolpersteinrecherchen durchgeführt. Besonders in diesem Jahr war, dass sie die Möglichkeit hatten, mit Verwandten der zu recherchierenden Familien in Kontakt zu treten. Daher kam es dazu, dass uns am 17.01.2024 Klaus Scheelhaase aus Hannover in unserer Schule besuchte und von seinen Erfahrungen berichtete. Das Zeitzeugeninterview war für uns alle sehr aufschlussreich und brachte uns die Geschichte etwas näher bzw. machte das Leben, welches seine Familie führte, für uns greifbarer/lebendiger.
+        - paragraph [ref=f1e71]:
+          - text: Die Ergebnisse unserer Recherchen haben wir am 12.03.2024 im Roten Saal vorgestellt. Nach der Präsentation ist von Okerwelle ein
+          - link "Radiobeitrag" [ref=f1e72] [cursor=pointer]:
+            - /url: https://okerwelle.de/2024/03/15/neue-stolpersteine-fuer-ns-opfer-braunschweiger-schueler-recherchierten-die-lebensgeschichten-betroffener-familien
+          - text: verfasst worden.
+        - heading "Besuch der Braunschweiger Azubi-Messe" [level=4] [ref=f1e73]
+        - paragraph [ref=f1e74]:
+          - text: Gestern fand die Braunschweiger Azubi-Messe im Eintracht-Stadion statt. Interessierte Schülerinnen und Schüler besuchten diese - gemeinsam mit Lehrkräften des entsprechenden Fachbereichs. Mehr Informationen zur Messe gibt es unter
+          - link "www.ausbildungsstart.com" [ref=f1e75] [cursor=pointer]:
+            - /url: https://www.ausbildungsstart.com
+          - text: .
+        - heading "Präventionsprojekt \"LARS & LISA\"" [level=4] [ref=f1e76]
+        - paragraph [ref=f1e77]: Das von der Stadt Braunschweig geförderte Präventionsprojekt zur Förderung psychischer Gesundheit und Wohlbefinden für Schüler*innen kommt an unsere Schule, genauer in die Klasse 8b! Die Realschule John-F.-Kennedy- Platz reagiert damit als eine der ersten Schulen in Braunschweig auf die Ergebnisse der CTC-Jugendbefragung (Communities That Care) aus dem Jahr 2022.
+        - paragraph [ref=f1e78]:
+          - text: Das Programm „LARS & LISA – Lust an realistischer Sicht und Leichtigkeit im sozialen Alltag“ wollen wir in 10 Doppelstunden- immer freitags in der 1. und 2. Schulstunde- durchführen. Es geht in dem Training um die Stärkung von Fähigkeiten, die für das ganze Leben wertvoll sind, wie z.B. Resilienz ... weitere Infos
+          - link "hier" [ref=f1e79] [cursor=pointer]:
+            - /url: files/larsundlisa.pdf
+          - text: .
+        - link [ref=f1e81] [cursor=pointer]:
+          - /url: images/out.jpg
+        - heading "„Out-Gefangen im Netz“ - Das Lessingtheater Wolfenbüttel im Klassenzimmer" [level=4] [ref=f1e83]
+        - paragraph [ref=f1e84]: Zusammen mit Frau Fricke, der Präventionsbeamtin der Polizei Braunschweig, dem Präventionsrat Braunschweig und dem Lessingtheater Wolfenbüttel gelang es, Präventionstage zum Thema Cybermobbing für den 9. Jahrgang durchzuführen. Hierzu kam an mehreren Tagen das Lessingtheater Wolfenbüttel an unserer Schule, um das Stück „Out-Gefangen im Netz“ aufzuführen. In diesem gelang es dem Schauspieler Ronald Schober auf brillante Weise die Geschichte der Schülerin Viktoria darzustellen.
+        - paragraph [ref=f1e85]: Viktoria, zentrale Figur des Stückes, wird gemobbt. Posts von Partys und einer Kursfahrt nach London sowie Fake-Fotos werden von allen geteilt und kommentiert. Die Dinge geraten außer Kontrolle und der Zuschauer erfährt, wie ohnmächtig Victoria und selbst die Erwachsenen dem Ganzen gegenüberstehen.
+        - paragraph [ref=f1e86]: „Out-Gefangen im Netz“ ist ein Stück, dass uns die Gefahren des Internets vor Augen gehalten und die Bedeutsamkeit von Zivilcourage verdeutlicht hat.
+        - paragraph [ref=f1e87]: Wir danken Frau Fricke für die tolle inhaltliche Aufarbeitung des Stückes mit unseren Schüler:innen, dem Präventionsrat Braunschweig für die großzügige finanzielle Unterstützung sowie dem Theater Wolfenbüttel für die großartige Vorstellung!
+        - blockquote [ref=f1e88]:
+          - strong [ref=f1e89]: Out – Gefangen im Netz - ein Bericht von Rafaela Petsiani und Berat Sener, 9 b
+          - text: Am 14. November hatte unsere Klasse großes Glück das Theaterstück von Knut Winkmann „Out-Gefangen im Netz“ erleben zu dürfen. Ein etwas komischer Mann kam in unser Klassenzimmer und gab sich als ein Kriminalkommissar aus. Wir alle waren sehr verwundert und verstanden auf den ersten Blick nicht genau, was uns alle nun erwarten würde. Doch es stellte sich heraus, dass der Mann, Ronald Schober, ein Schauspieler, war und er uns näher bringen wollte, was das Gefährliche an Cybermobbing sein kann. Nach ungefähr einer Stunde, war das Stück vorbei und wir haben in unserer Klasse noch weiter über das Thema Cybermobbing gesprochen und über den Vorfall, den Ronald Schober uns vorgespielt hatte. Es ging um ein Mädchen, das sie Victoria genannt hatten. Sie war sehr offen, doch sie hatte sehr viele Probleme, was Freundschaften anging, weil sie einen Online-Blog machte und viele Menschen sie wegen ihrer Darbietung nicht ernst genommen hatten. Sie wurde gemobbt in ihrer neuen Klasse und musste miterleben, wie es sein kann, von allen Menschen in seinem Umfeld wegestoßen zu werden. Unserer Meinung nach war das Stück ein voller Erfolg. Ronald Schober zeigte uns etwas sehr Trauriges und machte es uns durch seine Darstellung verständlich. Daher bedanken wir uns bei den Sponsoren, die es uns ermöglicht haben, dieses Stück anzusehen und wir bedanken uns vor allem, bei unserer Klassenlehrerin Frau Pohle.
+      - generic [ref=f1e91]:
+        - generic [ref=f1e92]:
+          - heading "Schulprofil" [level=4] [ref=f1e93]
+          - paragraph [ref=f1e94]: "Alle Infos rund um unsere Schule: Schulprogramm, Schulordnung, Lage und Ausstattung, Historie u. v. m."
+          - list [ref=f1e96]:
+            - listitem [ref=f1e97]:
+              - link "Mehr erfahren" [ref=f1e98] [cursor=pointer]:
+                - /url: schulprofil.html
+        - separator [ref=f1e99]
+        - generic [ref=f1e100]:
+          - link [ref=f1e101] [cursor=pointer]:
+            - /url: angebot.html
+          - heading "Unser Angebot" [level=4] [ref=f1e103]
+          - paragraph [ref=f1e104]: "Angebote für unsere Schülerinnen und Schüler: Arbeitsgemeinschaften, Wahlpflichtkurse, Gewaltprävention und Berufsorientierung."
+          - list [ref=f1e106]:
+            - listitem [ref=f1e107]:
+              - link "Mehr erfahren" [ref=f1e108] [cursor=pointer]:
+                - /url: angebot.html
+        - separator [ref=f1e109]
+        - generic [ref=f1e110]:
+          - link [ref=f1e111] [cursor=pointer]:
+            - /url: organisatorisches.html
+          - heading "Organisatorisches" [level=4] [ref=f1e113]
+          - paragraph [ref=f1e114]: Unser Terminkalender, Infoblätter, Formulare, Elternbriefe und Informationen für den 10. Jahrgang zum Abschlussverfahren.
+          - list [ref=f1e116]:
+            - listitem [ref=f1e117]:
+              - link "Mehr erfahren" [ref=f1e118] [cursor=pointer]:
+                - /url: organisatorisches.html
+        - separator [ref=f1e119]
+        - generic [ref=f1e120]:
+          - link [ref=f1e121] [cursor=pointer]:
+            - /url: personen_gremien.html
+          - heading "Personen & Gremien" [level=4] [ref=f1e123]
+          - paragraph [ref=f1e124]: Das "Wer ist wer?" unserer Schule ...
+          - list [ref=f1e126]:
+            - listitem [ref=f1e127]:
+              - link "Mehr erfahren" [ref=f1e128] [cursor=pointer]:
+                - /url: personen_gremien.html
+          - separator [ref=f1e129]
+        - generic [ref=f1e130]:
+          - heading "Kreatives" [level=4] [ref=f1e131]
+          - paragraph [ref=f1e132]:
+            - strong [ref=f1e133]: Friedenskonzert 2022
+          - paragraph [ref=f1e134]: Der Fachbereich Musik der Realschule John-F.-Kennedy-Platz (Schule ohne Rassismus – Schule mit Courage) unter der Leitung von Britta Kanngießer sowie Peter Stoppok mit seinen Chören luden am 20. Juni 2022 in die Braunschweiger Magnikirche zu einem ungewöhnlichen Konzert ein. Gemeinsam mit dem Publikum wurden generationsübergreifend Lieder über das Leben und von der Sehnsucht nach Vielfalt, Toleranz und Frieden gesungen.
+          - paragraph [ref=f1e135]:
+            - link "Flyer herunterladen" [ref=f1e136] [cursor=pointer]:
+              - /url: files/flyer_friedenskonzert.pdf
+          - list [ref=f1e137]:
+            - listitem [ref=f1e138]:
+              - link "Wozu sind Kriege da?" [ref=f1e139] [cursor=pointer]:
+                - /url: files/friedenskonzert2022/01_wozu_sind_kriege_da.mp3
+            - listitem [ref=f1e140]:
+              - link "Video killed the radio star" [ref=f1e141] [cursor=pointer]:
+                - /url: files/friedenskonzert2022/02_video_killed_the_radio_star.mp3
+            - listitem [ref=f1e142]:
+              - link "I don't like mondays" [ref=f1e143] [cursor=pointer]:
+                - /url: files/friedenskonzert2022/03_i_dont_like_mondays.mp3
+            - listitem [ref=f1e144]:
+              - link "Take me to church" [ref=f1e145] [cursor=pointer]:
+                - /url: files/friedenskonzert2022/04_take_me_to_church.mp3
+            - listitem [ref=f1e146]:
+              - link "Regenbogenfarben" [ref=f1e147] [cursor=pointer]:
+                - /url: files/friedenskonzert2022/05_regenbogenfarben.mp3
+            - listitem [ref=f1e148]:
+              - link "Wir bauen eine grüne Mauer" [ref=f1e149] [cursor=pointer]:
+                - /url: files/friedenskonzert2022/06_wir_bauen_eine_gruene_mauer.mp3.mp3
+            - listitem [ref=f1e150]:
+              - link "Alt wie ein Baum" [ref=f1e151] [cursor=pointer]:
+                - /url: files/friedenskonzert2022/07_alt_wie_ein_baum.mp3
+            - listitem [ref=f1e152]:
+              - link "Wunder gescheh'n" [ref=f1e153] [cursor=pointer]:
+                - /url: files/friedenskonzert2022/08_wunder_geschehn.mp3
+            - listitem [ref=f1e154]:
+              - link "Chiquitita" [ref=f1e155] [cursor=pointer]:
+                - /url: files/friedenskonzert2022/09_chiquitita.mp3
+            - listitem [ref=f1e156]:
+              - link "My way" [ref=f1e157] [cursor=pointer]:
+                - /url: files/friedenskonzert2022/10_my_way.mp3
+            - listitem [ref=f1e158]:
+              - link "Hallelujah" [ref=f1e159] [cursor=pointer]:
+                - /url: files/friedenskonzert2022/11_hallelujah.mp3
+            - listitem [ref=f1e160]:
+              - link "Applaus Applaus" [ref=f1e161] [cursor=pointer]:
+                - /url: files/friedenskonzert2022/12_applaus_applaus.mp3
+            - listitem [ref=f1e162]:
+              - link "Obijmey" [ref=f1e163] [cursor=pointer]:
+                - /url: files/friedenskonzert2022/13_obijmey.mp3
+            - listitem [ref=f1e164]:
+              - link "Wir zieh'n in den Frieden" [ref=f1e165] [cursor=pointer]:
+                - /url: files/friedenskonzert2022/14_wir_ziehen_in_den_frieden.mp3
+            - listitem [ref=f1e166]:
+              - link "Imagine" [ref=f1e167] [cursor=pointer]:
+                - /url: files/friedenskonzert2022/15_imagine.mp3
+            - listitem [ref=f1e168]:
+              - link "The way old friends do" [ref=f1e169] [cursor=pointer]:
+                - /url: files/friedenskonzert2022/16_the_way_old_friends_do.mp3
+            - listitem [ref=f1e170]:
+              - link "Sag' mir wo die Blumen sind" [ref=f1e171] [cursor=pointer]:
+                - /url: files/friedenskonzert2022/17_sag_mir_wo_die_blumen_sind.mp3
+            - listitem [ref=f1e172]:
+              - link "Freiheit" [ref=f1e173] [cursor=pointer]:
+                - /url: files/friedenskonzert2022/18_freiheit.mp3
+            - listitem [ref=f1e174]:
+              - link "Bonnie und Clyde" [ref=f1e175] [cursor=pointer]:
+                - /url: files/friedenskonzert2022/19_bonnie_und_clyde.mp3
+          - paragraph [ref=f1e176]:
+            - link "Urheber" [ref=f1e177] [cursor=pointer]:
+              - /url: files/friedenskonzert2022/urheber.pdf
+          - paragraph [ref=f1e178]:
+            - strong [ref=f1e179]: Weihnachtskonzert 2019
+          - list [ref=f1e180]:
+            - listitem [ref=f1e181]:
+              - link "Video \"Wunder geschehen\"" [ref=f1e182] [cursor=pointer]:
+                - /url: files/wunder_geschehen.mp4
+              - text: "(Text: Nena; Musik: Jürgen Dehmel & Nena"
+              - link "(Originalvideo)" [ref=f1e183] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=FZXMVlwUSVE
+              - text: "; Produktion: Britta Kanngießer; Mitwirkende: Schülerinnen und Schüler der Realschule John-F.-Kennedy-Platz)"
+            - listitem [ref=f1e184]:
+              - link "Dezembertage" [ref=f1e185] [cursor=pointer]:
+                - /url: files/dezembertage.mp4
+              - text: "(Text & Musik: Dieter Birr"
+              - link "(Originalvideo)" [ref=f1e186] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=1R13Dz03rTs
+              - text: "; Produktion: Britta Kanngießer; Mitwirkende: Schülerinnen und Schüler der Realschule John-F.-Kennedy-Platz)"
+            - listitem [ref=f1e187]:
+              - link "Away in a manger" [ref=f1e188] [cursor=pointer]:
+                - /url: files/away_in_a_manger.mp4
+          - paragraph [ref=f1e189]:
+            - strong [ref=f1e190]: Friedenskonzert 2019
+          - paragraph
+          - paragraph [ref=f1e191]: Leitung Peter Stoppok und Britta Kanngießer
+          - list [ref=f1e192]:
+            - listitem [ref=f1e193]:
+              - link "Mad World" [ref=f1e194] [cursor=pointer]:
+                - /url: files/friedenskonzert2019/mad_world.mp4
+              - text: "(Text & Musik: Roland Orzabal, Curth Smith 1982; Arr.: Britta Kanngießer)"
+            - listitem [ref=f1e195]:
+              - link "Schlagzeugsolo" [ref=f1e196] [cursor=pointer]:
+                - /url: files/friedenskonzert2019/schlagzeugsolo.mp3
+            - listitem [ref=f1e197]:
+              - link "It it be your will" [ref=f1e198] [cursor=pointer]:
+                - /url: files/friedenskonzert2019/if_it_be_your_will.mp3
+              - text: "(Text & Musik: Leonhard Cohen 1984; Arr.: Britta Kanngießer)"
+            - listitem [ref=f1e199]:
+              - link "Whale song" [ref=f1e200] [cursor=pointer]:
+                - /url: files/friedenskonzert2019/whale_song.mp3
+              - text: "(Text & Musik: Tommy DeFilm 1990; Arr.: Britta Kanngießer, Peter Stoppok)"
+            - listitem [ref=f1e201]:
+              - link "The way old friends do" [ref=f1e202] [cursor=pointer]:
+                - /url: files/friedenskonzert2019/the_way_old_friends_do.mp3
+              - text: "(Text & Musik: Benny Andersson, Björn Ulvaeus 1979; Arr.: Britta Kanngießer, Peter Stoppok)"
+          - link [ref=f1e203] [cursor=pointer]:
+            - /url: schulleben.html
+          - paragraph [ref=f1e205]:
+            - strong [ref=f1e206]: JFK-Chor in der Stadthalle
+          - paragraph [ref=f1e207]: Am 18. Februar trat unser Chor bei der Show "Beat it!" in der Stadthalle auf.
+          - list [ref=f1e208]:
+            - listitem [ref=f1e209]:
+              - link "Erste Probe - Heal the world" [ref=f1e210] [cursor=pointer]:
+                - /url: files/healtheworld.mp4
+            - listitem [ref=f1e211]:
+              - link "Probe in der Stadthalle" [ref=f1e212] [cursor=pointer]:
+                - /url: images/probe.png
+            - listitem [ref=f1e213]:
+              - link "Auf der Bühne" [ref=f1e214] [cursor=pointer]:
+                - /url: images/buehne.jpg
+            - listitem [ref=f1e215]:
+              - link "Artikel in der \"neuen braunschweiger\" lesen (auf Seite 2)" [ref=f1e216] [cursor=pointer]:
+                - /url: files/nb_2020-02-26_beat_it.pdf
+          - paragraph [ref=f1e217]:
+            - strong [ref=f1e218]: Weihnachtskonzert 2018
+          - paragraph [ref=f1e219]: "Mitwirkende: Schülerinnen und Schüler der Realschule John-F.-Kennedy-Platz; Musikalische Leitung: Britta Kanngießer"
+          - list [ref=f1e220]:
+            - listitem [ref=f1e221]:
+              - link "Der er noget i luften" [ref=f1e222] [cursor=pointer]:
+                - /url: files/weihnachtskonzert2018/derernogetiluften.mp4
+              - text: Dänisches Weihnachtslied von 1911
+            - listitem [ref=f1e223]:
+              - link "Stille Nacht" [ref=f1e224] [cursor=pointer]:
+                - /url: files/weihnachtskonzert2018/stille_nacht.mp4
+              - text: "Uraufführung am 24. Dezember 1818 in der St. Nikola Kirche in Salzburg; Text: Pfarrer Joseph Mohr; Musik: Lehrer Franz Xaver Gruber - seit 2011 immaterielles Kulturerbe der UNESCO -"
+            - listitem [ref=f1e225]:
+              - link "Jedes Kind braucht einen Engel" [ref=f1e226] [cursor=pointer]:
+                - /url: files/weihnachtskonzert2018/jedes_kind_braucht_einen_engel.mp4
+              - text: "(Text & Musik: Klaus Hoffmann 1989)"
+            - listitem [ref=f1e227]:
+              - link "Merry Christmas mit Schlagzeugdoppel" [ref=f1e228] [cursor=pointer]:
+                - /url: files/weihnachtskonzert2018/merry_christmas_mit_schlagzeugdoppel.mp4
+              - text: "(Text: Dieter Birr; Musik: Dieter Birr & Peter Meyer; Produktion: Dieter Birr & André Kuntze; Album: Dezembertage; Sony Music Entertainment Germany GmbH)"
+            - listitem [ref=f1e229]:
+              - link "Irischer Segenswunsch" [ref=f1e230] [cursor=pointer]:
+                - /url: files/irischer_segenswunsch.mp3
+          - paragraph [ref=f1e231]:
+            - strong [ref=f1e232]: Schulgottesdienst am Buß- und Bettag 2018
+          - paragraph [ref=f1e233]: Am Buß- und Bettag nahmen unsere Schülerinnen und Schüler an einem Schulgottesdienst in der Kirche St. Magni teil.
+          - list [ref=f1e234]:
+            - listitem [ref=f1e235]:
+              - link "Liedzettel ansehen" [ref=f1e236] [cursor=pointer]:
+                - /url: images/liedzettel_bb2018.JPG
+          - paragraph [ref=f1e237]:
+            - strong [ref=f1e238]: Friedenskonzert 2018
+          - paragraph [ref=f1e239]: Am 1. März 2018 fand unter der Leitung von Britta Kanngießer und Susanne Focke-Thon unser großes Friedenskonzert statt, das wir im Rahmen unserer Selbstverpflichtung "Schule ohne Rassismus – Schule mit Courage" veranstalteten.
+          - list [ref=f1e240]:
+            - listitem [ref=f1e241]:
+              - link "Applaus Applaus" [ref=f1e242] [cursor=pointer]:
+                - /url: files/friedenskonzert2018/applaus_applaus.mp4
+              - text: "mus (Text & Musik: P. S. Brugger, R. Linhof, F. Weber 2013)"
+            - listitem [ref=f1e243]:
+              - link "Beyaz gyme" [ref=f1e244] [cursor=pointer]:
+                - /url: files/friedenskonzert2018/beyaz_gyme.mp3
+              - text: "(Text & Musik: Emin Aldemir)"
+            - listitem [ref=f1e245]:
+              - link "Was tut dir gut" [ref=f1e246] [cursor=pointer]:
+                - /url: files/friedenskonzert2018/was_tut_dir_gut.mp3
+              - text: "(Text & Musik: Andreas Bourani 2014; Arr.: Britta Kanngießer)"
+            - listitem [ref=f1e247]:
+              - link "Wozu sind Kriege da" [ref=f1e248] [cursor=pointer]:
+                - /url: files/friedenskonzert2018/wozu_sind_kriege_da.mp4
+              - text: "(Text & Musik: Udo Lindenberg 1981)"
+          - paragraph [ref=f1e249]: "Mitwirkende: Schülerinnen und Schüler der Realschule John-F.-Kennedy-Platz, Peter Stoppok und Chöre. Musikalische Leitung: Britta Kanngießer"
+          - paragraph [ref=f1e250]:
+            - strong [ref=f1e251]: Weihnachtskonzert 2015 "Refugees welcome"
+          - list [ref=f1e252]:
+            - listitem [ref=f1e253]:
+              - link "Home is where my heart is" [ref=f1e254] [cursor=pointer]:
+                - /url: music/sonder_homeiswheremyheartis.mp3
+              - text: "T./M.: Osho International Foundation, Arr.: B. Kanngießer"
+            - listitem [ref=f1e255]:
+              - link "Refugees welcome" [ref=f1e256] [cursor=pointer]:
+                - /url: music/sonder_refugeeswelcome.mp3
+              - text: Komposition unserer Schüler unter der Leitung von Frau Kanngießer
+          - heading "Frieden" [level=4] [ref=f1e257]
+          - paragraph [ref=f1e258]: Wir alle wünschen uns Frieden in der Ukraine und der gesamten Welt!
+          - list [ref=f1e260]:
+            - listitem [ref=f1e261]:
+              - link "Schülerarbeiten ansehen" [ref=f1e262] [cursor=pointer]:
+                - /url: images/ukraine/frieden.png
+          - paragraph [ref=f1e263]:
+            - strong [ref=f1e264]: Bilder unserer Fünftklässler zum Ukraine-Krieg
+          - paragraph [ref=f1e265]:
+            - link [ref=f1e266] [cursor=pointer]:
+              - /url: video/kunstjg5.mp4
+            - emphasis [ref=f1e268]: "Film: \"Bilder zum Ukraine-Krieg - Kunst in Jahrgang 5\""
+            - text: (Zum Abspielen bitte ins Bild klicken)
+          - heading "Schüler machen Musik - Dialog zwischen Alt und Jung" [level=4] [ref=f1e269]
+          - paragraph [ref=f1e270]: Gratulation an Vanessa aus der 10 b für ihren gelungenen Beitrag zum Projekt k·now·ledge mit dem Song "Hör zu" (gemeinsam mit Daniel und Elly).
+          - list [ref=f1e271]:
+            - listitem [ref=f1e272]:
+              - link "Link zum YouTube-Video \"Hör zu\"" [ref=f1e273] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=uOYhZx9T6FU
+            - listitem [ref=f1e274]:
+              - link "Link zum Artikel unter \"Aktuelle Projekte\"" [ref=f1e275] [cursor=pointer]:
+                - /url: https://www.braunschweig.de/kultur/kulturelle_einrichtungen/ghw/kulturpunktwest.php
+  - contentinfo [ref=f1e276]:
+    - list [ref=f1e277]:
+      - list [ref=f1e278]:
+        - listitem [ref=f1e279]:
+          - link "Schule ohne Rassismus - Schule mit Courage" [ref=f1e280] [cursor=pointer]:
+            - /url: http://www.schule-ohne-rassismus.org
+        - listitem [ref=f1e281]:
+          - link "Sportfreundliche Schule (3. Zert.)" [ref=f1e282] [cursor=pointer]:
+            - /url: http://www.mk.niedersachsen.de/startseite/schule/schuelerinnen_und_schueler_eltern/schulsport/schulsport-6289.html
+        - listitem [ref=f1e283]:
+          - link "Zivilcouragepreis 2014 der Polizeidirektion Braunschweig" [ref=f1e284] [cursor=pointer]:
+            - /url: http://www.unser38.de/braunschweig-innenstadt/menschen/von-einem-schulgeist-der-inspiriert-d7277.html
+      - generic [ref=f1e285]:
+        - text: © Copyright Realschule John-F.-Kennedy-Platz. All rights reserved. Design by
+        - link "Responsive Web Templates" [ref=f1e286] [cursor=pointer]:
+          - /url: http://www.html5webtemplates.co.uk

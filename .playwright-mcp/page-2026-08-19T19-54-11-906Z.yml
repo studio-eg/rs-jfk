@@ -1,0 +1,68 @@
+- generic [ref=f16e1]:
+  - banner [ref=f16e2]:
+    - heading [level=1] [ref=f16e3]:
+      - link "www.rs-kennedy.de" [ref=f16e4] [cursor=pointer]:
+        - /url: index.html
+    - navigation [ref=f16e5]:
+      - list [ref=f16e6]:
+        - listitem [ref=f16e7]:
+          - link "Start" [ref=f16e8] [cursor=pointer]:
+            - /url: index.html
+        - listitem [ref=f16e9]:
+          - link "IServ-Login" [ref=f16e10] [cursor=pointer]:
+            - /url: https://www.rs-kennedy.de/idesk
+        - listitem [ref=f16e11]:
+          - link "Stundenplan" [ref=f16e12] [cursor=pointer]:
+            - /url: https://borys.webuntis.com/WebUntis/?school=rs%20jfk%20braunschweig#/basic/login
+        - listitem [ref=f16e13] [cursor=pointer]:
+          - link "Schulleben" [ref=f16e14]:
+            - /url: schulleben.html
+        - listitem [ref=f16e15]:
+          - link "Kontakt & Anfahrt" [ref=f16e16] [cursor=pointer]:
+            - /url: kontakt.html
+        - listitem [ref=f16e17]:
+          - link "Impressum" [ref=f16e18] [cursor=pointer]:
+            - /url: impressum.html
+        - listitem [ref=f16e19]:
+          - link "Datenschutz" [ref=f16e20] [cursor=pointer]:
+            - /url: datenschutz.html
+  - generic [ref=f16e21]:
+    - heading "Berufsorientierung" [level=2] [ref=f16e23]
+    - generic [ref=f16e25]:
+      - paragraph:
+        - generic [ref=f16e26]: "\"In den Schulen ist die Berufs- und Studienorientierung ebenso wie in der Politik und der Wirtschaft ein wichtiges Thema. Jugendliche stehen in vielerlei Hinsicht, z.B. durch den sich rasant wandelnden Arbeitsmarkt, vor immer neuen Herausforderungen. Schülerinnen und Schüler sind gefordert, vorhandene berufliche Möglichkeiten an ihren Fähigkeiten und Interessen zu spiegeln [...]\" (Quelle: Nds. Kultusministerium, Frauke Heiligenstadt)."
+      - paragraph [ref=f16e28]: "Wir unterstützen unsere Schülerinnen und Schüler mit einem umfangreichen Angebot zur Berufsorientierung. Das aktuelle Konzept zur Berufsorientierung bietet einen kompletten - nach Jahrgängen sortierten - Überblick über alle Maßnahmen:"
+      - paragraph [ref=f16e29]:
+        - 'link "Konzept \"Berufsorientierung\" (Stand: 08/2025)" [ref=f16e30] [cursor=pointer]':
+          - /url: files/berufsorientierung.pdf
+      - heading "Profilbildung in Jahrgang 9 und 10" [level=3] [ref=f16e31]
+      - paragraph [ref=f16e32]: An der Realschule John-F.-Kennedy-Platz sind seit dem 01.08.2011 alle Schüler und Schülerinnen der jetzigen 8. Klassen dazu verpflichtet, ein berufsvorbereitendes Profil zu wählen, welches mit zwei Wochenstunden im Wahlpflichtbereich unterrichtet wird.
+      - paragraph [ref=f16e33]: "Bei uns stehen folgende Profile zur Auswahl:"
+      - list [ref=f16e34]:
+        - listitem [ref=f16e35]: "Profil 1: Sprachen (Französisch) - 4 Std."
+        - listitem [ref=f16e36]: "Profil 2: Technik – 2 Std."
+        - listitem [ref=f16e37]: "Profil 3: Gesundheit und Soziales - 2 Std."
+        - listitem [ref=f16e38]: "Profil 4: Wirtschaft - 2 Std."
+      - list [ref=f16e40]:
+        - listitem [ref=f16e41]:
+          - link "Mehr erfahren" [ref=f16e42] [cursor=pointer]:
+            - /url: files/profile.pdf
+      - paragraph [ref=f16e43]:
+        - link "Die Bundesagentur für Arbeit informiert und berät zu allen Fragen rund um die Themen Berufsausbildung und Studium an dieser Schule. Weitere Informationen dazu im Portal der Bundesagentur für Arbeit." [ref=f16e44] [cursor=pointer]:
+          - /url: https://www.arbeitsagentur.de/vor-ort/braunschweig-goslar/realschule-john-f-kennedy-platz?pk_campaign=schulwebsite
+  - contentinfo [ref=f16e45]:
+    - list [ref=f16e46]:
+      - list [ref=f16e47]:
+        - listitem [ref=f16e48]:
+          - link "Schule ohne Rassismus - Schule mit Courage" [ref=f16e49] [cursor=pointer]:
+            - /url: http://www.schule-ohne-rassismus.org
+        - listitem [ref=f16e50]:
+          - link "Sportfreundliche Schule (3. Zert.)" [ref=f16e51] [cursor=pointer]:
+            - /url: http://www.mk.niedersachsen.de/startseite/schule/schuelerinnen_und_schueler_eltern/schulsport/schulsport-6289.html
+        - listitem [ref=f16e52]:
+          - link "Zivilcouragepreis 2014 der Polizeidirektion Braunschweig" [ref=f16e53] [cursor=pointer]:
+            - /url: http://www.unser38.de/braunschweig-innenstadt/menschen/von-einem-schulgeist-der-inspiriert-d7277.html
+      - generic [ref=f16e54]:
+        - text: © Copyright Realschule John-F.-Kennedy-Platz. All rights reserved. Design by
+        - link "Responsive Web Templates" [ref=f16e55] [cursor=pointer]:
+          - /url: http://www.html5webtemplates.co.uk

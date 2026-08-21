@@ -1,0 +1,72 @@
+- generic [ref=f13e1]:
+  - banner [ref=f13e2]:
+    - heading [level=1] [ref=f13e3]:
+      - link "www.rs-kennedy.de" [ref=f13e4] [cursor=pointer]:
+        - /url: index.html
+    - navigation [ref=f13e5]:
+      - list [ref=f13e6]:
+        - listitem [ref=f13e7]:
+          - link "Start" [ref=f13e8] [cursor=pointer]:
+            - /url: index.html
+        - listitem [ref=f13e9]:
+          - link "IServ-Login" [ref=f13e10] [cursor=pointer]:
+            - /url: https://www.rs-kennedy.de/idesk
+        - listitem [ref=f13e11]:
+          - link "Stundenplan" [ref=f13e12] [cursor=pointer]:
+            - /url: https://borys.webuntis.com/WebUntis/?school=rs%20jfk%20braunschweig#/basic/login
+        - listitem [ref=f13e13] [cursor=pointer]:
+          - link "Schulleben" [ref=f13e14]:
+            - /url: schulleben.html
+        - listitem [ref=f13e15]:
+          - link "Kontakt & Anfahrt" [ref=f13e16] [cursor=pointer]:
+            - /url: kontakt.html
+        - listitem [ref=f13e17]:
+          - link "Impressum" [ref=f13e18] [cursor=pointer]:
+            - /url: impressum.html
+        - listitem [ref=f13e19]:
+          - link "Datenschutz" [ref=f13e20] [cursor=pointer]:
+            - /url: datenschutz.html
+  - generic [ref=f13e21]:
+    - heading "Lage & Ausstattung" [level=2] [ref=f13e23]
+    - generic [ref=f13e25]:
+      - link [ref=f13e26] [cursor=pointer]:
+        - /url: lage_ausstattung.html
+      - heading "Lage" [level=3] [ref=f13e28]
+      - paragraph [ref=f13e29]: Die Realschule John-F.-Kennedy-Platz ist eine von sieben Realschulen in der Stadt Braunschweig. Der Schulstandort ist gekennzeichnet durch seine zentrale Lage in der Innenstadt und daher verkehrsgünstig zu erreichen.
+      - paragraph [ref=f13e30]: Da es keine Einzugsgebiete gibt, kommen Schülerinnen und Schüler aus dem gesamten Stadtgebiet zum Kennedy-Platz. Dabei gibt es eine gute Mischung von Schülern aus den eher ländlich strukturierten Randbereichen, der Innenstadt und dem Ballungsgebiet der Weststadt.
+      - heading "Ausstattung" [level=3] [ref=f13e31]
+      - paragraph [ref=f13e32]: Modernisierte Fachräume für Naturwissenschaften, Informatik, Musik, Hauswirtschaft, Textiles Gestalten und Werken stehen zur Verfügung. Die Schule ist flächendeckend mit WLAN versorgt.
+      - paragraph [ref=f13e33]: Alle Schülerinnen, Schüler und Lehrkräfte verfügen über einen IServ-Zugang und erhalten für die Zeit ihrer Schulzugehörigkeit das Office-Paket der Firma Microsoft.
+      - paragraph [ref=f13e34]: Es gibt mehrere Notebook-Wagen und IPad-Klassensätze, so dass mobiles Arbeiten möglich ist.
+      - heading "Beratungszimmer" [level=4] [ref=f13e35]
+      - paragraph [ref=f13e36]: Sollten Schülerinnen, Schüler und/oder Eltern Gesprächsbedarf haben, steht unsere Beratungslehrkraft, Frau Kanngießer, nach Absprache gern zur Verfügung. Diese - mitunter schwierigen - Gespräche finden dann in ruhiger und entspannter Atmosphäre im Beratungszimmer statt.
+      - heading "Caféteria" [level=4] [ref=f13e37]
+      - paragraph [ref=f13e38]: Eine Caféteria bietet Pausensnacks unter dem Gesichtspunkt "Gesundes Frühstück" an. Es gibt belegte Brötchen, Gebäck, Gemüse und vieles mehr. Die Bewirtschaftung erfolgt in Kooperation mit der VHS-Gruppe "Arbeit und Beruf" und wird von den Schülern in den Pausen sehr gut angenommen.
+      - heading "Schließfächer" [level=4] [ref=f13e39]
+      - paragraph [ref=f13e40]: An unserer Schule stehen Schließfächer der Firma Mietra bereit.
+      - paragraph [ref=f13e41]: "Ein Mietra Schul- Schließfach erleichtert die schwere Schultasche und bewahrt persönliche Sachen sicher auf. Anmeldung, Service und Kündigung können direkt im Internet abgewickelt werden. Mietra empfiehlt die Anmeldung des Schließfaches im Internet: Dafür gibt es einen Nachlass auf die Miete und einen noch schnelleren Zugang zum Schließfach."
+      - paragraph [ref=f13e42]:
+        - text: => Hier geht´s zu den
+        - link "Mietra Schließfächern" [ref=f13e43] [cursor=pointer]:
+          - /url: http://www.schliessfaecher.de
+      - heading "Sport" [level=4] [ref=f13e44]
+      - paragraph [ref=f13e45]: Neben der eigenen Turnhalle gibt es in der Schule einen von den Schülern eingerichteten Fitnesskeller, einen umfangreichen Skikeller mit Langlauf- und Alpinskiern sowie 9 Paddelboote mit eigenem Liegeplatz an der Oker.
+      - paragraph [ref=f13e46]: Der Schulhof verfügt u. a. über Tischtennisplatten, Kickertische, einen Niedrigseilgarten und ein Basketballfeld. In den großen Pausen werden Sportgeräte (z. B. kleine Fußballtore, Hockeyschläger, Softbälle) ausgeliehen.
+      - heading "Schulgarten" [level=4] [ref=f13e47]
+      - paragraph [ref=f13e48]: Die Schule hat einen eigenen Schulgarten, der unmittelbar an das Gebäude grenzt. Der Garten ist für Unterrichtszwecke im Freien sehr gut geeignet. Es befinden sich dort genügend Bänke sowie ein kleiner Teich.
+  - contentinfo [ref=f13e49]:
+    - list [ref=f13e50]:
+      - list [ref=f13e51]:
+        - listitem [ref=f13e52]:
+          - link "Schule ohne Rassismus - Schule mit Courage" [ref=f13e53] [cursor=pointer]:
+            - /url: http://www.schule-ohne-rassismus.org
+        - listitem [ref=f13e54]:
+          - link "Sportfreundliche Schule (3. Zert.)" [ref=f13e55] [cursor=pointer]:
+            - /url: http://www.mk.niedersachsen.de/startseite/schule/schuelerinnen_und_schueler_eltern/schulsport/schulsport-6289.html
+        - listitem [ref=f13e56]:
+          - link "Zivilcouragepreis 2014 der Polizeidirektion Braunschweig" [ref=f13e57] [cursor=pointer]:
+            - /url: http://www.unser38.de/braunschweig-innenstadt/menschen/von-einem-schulgeist-der-inspiriert-d7277.html
+      - generic [ref=f13e58]:
+        - text: © Copyright Realschule John-F.-Kennedy-Platz. All rights reserved. Design by
+        - link "Responsive Web Templates" [ref=f13e59] [cursor=pointer]:
+          - /url: http://www.html5webtemplates.co.uk

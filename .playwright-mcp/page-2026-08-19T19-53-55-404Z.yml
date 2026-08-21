@@ -1,0 +1,143 @@
+- generic [ref=f14e1]:
+  - banner [ref=f14e2]:
+    - heading [level=1] [ref=f14e3]:
+      - link "www.rs-kennedy.de" [ref=f14e4] [cursor=pointer]:
+        - /url: index.html
+    - navigation [ref=f14e5]:
+      - list [ref=f14e6]:
+        - listitem [ref=f14e7]:
+          - link "Start" [ref=f14e8] [cursor=pointer]:
+            - /url: index.html
+        - listitem [ref=f14e9]:
+          - link "IServ-Login" [ref=f14e10] [cursor=pointer]:
+            - /url: https://www.rs-kennedy.de/idesk
+        - listitem [ref=f14e11]:
+          - link "Stundenplan" [ref=f14e12] [cursor=pointer]:
+            - /url: https://borys.webuntis.com/WebUntis/?school=rs%20jfk%20braunschweig#/basic/login
+        - listitem [ref=f14e13] [cursor=pointer]:
+          - link "Schulleben" [ref=f14e14]:
+            - /url: schulleben.html
+        - listitem [ref=f14e15]:
+          - link "Kontakt & Anfahrt" [ref=f14e16] [cursor=pointer]:
+            - /url: kontakt.html
+        - listitem [ref=f14e17]:
+          - link "Impressum" [ref=f14e18] [cursor=pointer]:
+            - /url: impressum.html
+        - listitem [ref=f14e19]:
+          - link "Datenschutz" [ref=f14e20] [cursor=pointer]:
+            - /url: datenschutz.html
+  - generic [ref=f14e21]:
+    - heading "Schulchronik" [level=2] [ref=f14e23]
+    - generic [ref=f14e25]:
+      - link [ref=f14e26] [cursor=pointer]:
+        - /url: images/schueler1924.jpg
+      - paragraph [ref=f14e28]: 1911 wurde die Schule als Knaben-Mittelschule gegründet. Sie war die zweite Mittelschule in der Stadt Braunschweig. Nach einer Aufnahmeprüfung (Diktat, Rechnen und Aufsatz) wurden 82 Jungen dort aufgenommen.
+      - paragraph [ref=f14e29]:
+        - text: In den ersten Jahren wurde noch in den Schulen Comeniusstraße und Okerstraße unterrichtet. 1914 zog die Schule dann in das neu erbaute Gebäude am Augustplatz ein - und hieß nun offiziell "Mittelschule am Augustplatz". Einen interessanten Bericht zum 110-jährigen Jubiläum des Gebäudes im Jahr 2024 hat der ehemalige Lehrer Henning Habekost verfasst =>
+        - link "Jetzt lesen" [ref=f14e30] [cursor=pointer]:
+          - /url: files/110Jahre_JFK-Gebaeude.pdf
+      - paragraph [ref=f14e31]: Kurz nach der Einweihung begann der Erste Weltkrieg. Zwischen 1914 und 1917 gab es schulfrei, wenn die Zeitungen deutsche Siege von den Kriegsschauplätzen meldeten. Der preußische Kultusminister regelte das Verhalten der Schulbehörde bei militärischen Erfolgen der deutschen Truppen und sorgte für einheitlich gestaltete Siegesfeiern in den Schulen. Am Tag nach einer amtlichen Siegesmeldungen fand kein Unterricht, sondern eine Siegesfeier statt. Danach war schulfrei.
+      - heading "Der Nationalsozialismus und der zweite Weltkrieg" [level=3] [ref=f14e32]
+      - paragraph [ref=f14e33]: Mit der am 30. Januar 1933 erfolgten Ernennung Hitlers zum Reichskanzler ergriffen die Nationalsozialisten in ganz Deutschland die Macht.
+      - paragraph [ref=f14e34]: "Walter Tröller, Schüler in den Jahren 1938 bis 1944, gab uns den folgenden Bericht:"
+      - paragraph [ref=f14e35]: "\"Das Schulleben stand, wie auch schon auf der Volksschule, im Zeichen einer straffen Ordnung. Es war selbstverständlich, dass beim ein Eintreten des Lehrers die ganze Klasse zur Begrüßung wie auf Kommando aufstand. Eine Zeitlang begann der Unterricht aller Klassen am Morgen mit einem gemeinsamen Frühsport."
+      - paragraph [ref=f14e36]: Im übrigen gehörte es auch zu unseren Pflichten, regelmäßig unsere Beiträge zu der damals überall geforderten Altstoffsammlung zu liefern. Wir mussten Altpapier, Stanniol und Buntmetalle sammeln und auch Knochen aus dem Haushalt mitbringen, die dann auf dem Schulhof in Holzkisten geworfen wurden. Jedermann sollte zum Sparen angehalten werden. Es war kaum vorstellbar, dass ein Schüler ein Frühstückbrot in einen Papierkorb warf. Sicher hätte jeder Lehrer diesen Schüler zur Rechenschaft gezogen.
+      - paragraph [ref=f14e37]: Als dann 1939 der Krieg begann, wurden acht Lehrer zur Wehrmacht eingezogen, sieben Lehrkräfte blieben übrig, die den Unterricht in zwölf Klassen übernehmen mussten.
+      - paragraph [ref=f14e38]: Ich möchte betonen, dass eine politische Beeinflussung von seiten der Lehrerschaft kaum erfolgte, auch nicht von Lehrern, von denen wir wussten, dass sie der NSDAP angehörten. Allerdings gab es auch einige Ausnahmen.
+      - paragraph [ref=f14e39]: Die deutsche Geschichte wurde freilich recht eindeutig im Sinne des nationalsozialistischen Staates gelehrt, was wir damals als richtig empfanden.
+      - paragraph [ref=f14e40]: Wir Schüler kamen hin und wieder in HJ-Uniformen zur Schule, teils aus "Angabe" wegen der HJ-Führerschnur oder auch, weil wir erhofften, bei Rückgabe schlecht ausgefallener Klassenarbeiten die dann oft fällige "besondere Beachtung" durch einige Rohrstockhiebe vermeiden zu können. Aber damit war es meistens leider nichts!
+      - paragraph [ref=f14e41]: Der Krieg wurde in den Jahren 1941 - 1942 immer härter, die Lebensmittelzuteilungen knapper, und viele Dinge, zu denen auch Kleidung, Fahrräder oder Spiel- und Sportartikel gehörten, waren auch gegen gutes Geld nicht mehr zu bekommen.
+      - paragraph [ref=f14e42]: Ältere Schüler der Schule, die bereits Soldat waren, besuchten uns oft. Ich erinnere mich noch gut an den Vortrag eines Luftwaffensoldaten, der uns von riesigen Werksanlagen und großen Nachschubkolonnen der Roten Armee erzählte... "
+      - paragraph [ref=f14e43]: Die Schulchronik meldet, dass schon 1942 Eltern ihre Kinder zu Verwandten und Bekannten auf das Land schickten, um sie nicht den Gefahren der Bombenangriffe auszusetzen. Die Klassen wurden immer kleiner. Die zurückgebliebenen Schüler waren in keiner guten Verfassung, denn allzu oft wurden sie des Nachts aus dem Schlaf gerissen und mussten in der Dunklheit mit ihren Geschwistern und Müttern zum nächsten Luftschutzbunker rennen. Am nächsten Morgen saßen sie dann übermüdet, nervös und verängstigt in ihre Bänken.
+      - paragraph [ref=f14e44]: In den Zeitungen mehrten sich die Todesanzeigen mit dem schwarzen Eisernen Kreuz. Auch ehemalige Schüler der Knabenmittelschule am Augustplatz waren darunter.
+      - paragraph [ref=f14e45]: Die Schule selbst wurde nicht stark beschädigt, doch einige umliegenden Häuser wurden durch Bomben völlig zerstört.
+      - heading "Die Schule nach 1945" [level=3] [ref=f14e46]
+      - paragraph [ref=f14e47]: Nach dem Einmarsch der amerikanischen Truppen 1945 wurde das Schulgebäude erst von Amerikanern und danach von Engländern besetzt. Im Laufe des Sommers ruhte der Unterricht wegen der Aufräumungsarbeiten.
+      - paragraph [ref=f14e48]: Am 1. September wurde die Schulleitung beauftragt, einen Trupp kriegsgefangener deutscher Soldaten unter Aufsicht die beschädigten Türen , Fenster und Stühle ausbessern zu lassen. Am 29. Oktober wurde an den Mittelschulen der Unterricht zunächst mit den beiden unteren Klassenstufen aufgenommen. Am Augustplatz wurden die Klassen 1 a, 1 b, 2 a, 2 b eröffnet, dafür standen außer dem Schulleiter zwei Lehrkräfte zur Verfügung.
+      - paragraph [ref=f14e49]: "In dem Maße, wie suspendiert gewesene Lehrkräfte freigegeben und andere von der Wehrmacht entlassen wurden, wurden neue Klassen einberufen: zum 12. November die beiden 3. Klassen und zwei Lehrer, zum 19. November die beiden 4. Klassen, zum 26. November die beiden 5. Klassen und zwei Lehrer."
+      - paragraph [ref=f14e50]: "Der Stand am 1. Januar 1946 war: 10 Klassen mit 312 Schülern, ein Schulleiter und sieben Lehrer. Zwischen dem 29.10.1945 und dem 30.09.1946 stieg die Anzahl der Schüler, der Lehrer und auch der Klassenräume um das Dreifache an."
+      - paragraph [ref=f14e51]: Zwischen Februar 1946 bis Juni 1950 lieferte die Firma Struck & Witte warmes Essen an die Schule. Das Essen wurde dann an die Schüler verteilt.
+      - paragraph [ref=f14e52]: Die Lehrer waren in den Jahren 1947 bis 1954 sehr gefordert, da jede Klasse mindestens 40 Schüler hatte. Doch dieses Problem gab es auch an anderen Schulen.
+      - paragraph [ref=f14e53]: 1949/50 zog eine Mädchenklasse der Mittelschule Heydenstrasse in die Schule am Augustplatz ein, die bislang nur den Knaben vorbehalten war. Weitere Klassen folgten.
+      - paragraph [ref=f14e54]: 1955/56 wurde probeweise eine gemischte Jungen- und Mädchenklasse aufgemacht - die Klasse 9G. Der Klassenlehrer war zunächst Herr Decker und später Herr Sperber. Nach einigen Diskussionen, ob die Klasse aufgelöst werden soll oder nicht, hat der damalige Rektor Herr Ohlendorf letztendlich entschieden, dass die Klasse erhalten werden soll. Dauerhaft eingeführt wurden gemischte Jungen- und Mädchenklassen erst ab dem Schuljahr 1966/67 - nach Einführung der Koedukation.
+      - paragraph [ref=f14e55]: Im Jahre 1953 wurde der neue Anbau der Schule in der Mönchstrasse eingeweiht. Sechs neue Klassenräume entstanden.
+      - paragraph [ref=f14e56]: Nach der Ermordung des amerikanischen Präsidenten John-F-Kennedy wurde der Augustplatz am 27. November 1963 in John-F.-Kennedy-Platz umbenannt. Dies führte auch zur Namensänderung der Schule von "Mittelschule am Augustplatz" in "Realschule John-F.-Kennedy-Platz".
+      - paragraph [ref=f14e57]: Von 1969 bis 1978 wurden im Auftrag des Kultusministeriums Fachleistungskurse an dieser Schule erprobt. Es gab viele verschiedene Wahlpflichtkurse. Ein Beispiel ist der Wahlpflichtkurs Technisches Werken. Im Schuljahr 1985/86 wurden in diesem Kurs Segelflugmodelle gefertigt und ein Wasserdampfstrahltriebwerk zum Antrieb eines Schiffes gebaut.
+      - paragraph [ref=f14e58]: Die Realschule John-F.-Kennedy-Platz war von Februar 2002 bis zum Abschluss des Projekts 2005 eine von 64 Qualitätsnetzwerkschulen im Land Niedersachsen und hat in diesem Zusammenhang bereits im Mai 2004 eine Schulinspektion erfolgreich absolviert.
+      - paragraph [ref=f14e59]: Seit Januar 2008 ist die Schule als "Sportfreundliche Schule" zertifiziert. Zu den sportlichen Aktivitäten gehören z. B. der Radfahrtag, die Sporttage und der jährlich stattfindende Sponsorenlauf.
+      - paragraph [ref=f14e60]: Im Jahr 2002 zum Beispiel fand der Sponsorenlauf unter dem Motto "Hilfe für Schmiedeberg" statt, denn die dortige Mittelschule war überflutet worden. Nach dem Wiederaufbau der Mittelschule Schmiedeberg wurden die Sponsoren zum dortigen Schulfest eingeladen.
+      - paragraph [ref=f14e61]:
+        - text: Im April 2011 ist die Schule 100 Jahre alt geworden. Mit einer bunten Festwoche wurde dies angemessen gefeiert. Näheres dazu auf der Seite
+        - link "Schuljubiläum" [ref=f14e62] [cursor=pointer]:
+          - /url: schuljubilaeum.html
+        - text: .
+      - heading "Das Schullandheim Königskrug" [level=3] [ref=f14e63]
+      - paragraph [ref=f14e64]: Das Schullandheim Königskrug – getragen vom Schulverein der Realschule John-F.-Kennedy-Platz – bestand von 1948 bis 2015.
+      - paragraph [ref=f14e65]: Für Tausende Braunschweiger Schülerinnen und Schüler, für Verbände und Vereine, für Ehemalige der Realschule, aber auch für viele ausländische Gäste ist die Einrichtung nicht nur Begegnungsstätte mit der Natur gewesen. Das Schullandheim Königskrug war auch Anziehungspunkt für erholsame und erlebnisreiche Aufenthalte und die Pflege freundschaftlicher Kontakte im Harz.
+      - paragraph [ref=f14e66]: Dem herausragenden Engagement des Lehrers Herbert Balke verdanken wir die Entstehung unseres Schullandheimes. Aus eigener Kraft und Initiative – ohne Eingreifen der öffentlichen Hand entstand - mit tatkräftiger Unterstützung durch Schüler, Eltern, Lehrer und Ehemalige – das Schullandheim Königskrug.
+      - paragraph [ref=f14e67]: Zunächst wurde Haus 1 errichtet. Die finanzielle Grundlage dafür wurde allein von den Lehrkräften und den Schülerinnen und Schülern geschaffen, indem diese zum Waldeinsatz nach Braunlage fuhren.
+      - paragraph [ref=f14e68]: 1955 erwarb man die Skihütte des Göttinger Turn- und Sportklubs, die 1965 zu Haus 2 ausgebaut wurde.
+      - paragraph [ref=f14e69]: 1969/1970 wurde Haus 1 in seine bis zur Schließung bestehenden Form gebracht. 1976 wurde auch Haus 2 erweitert. Beide Häuser boten insgesamt gut 120 Schülerinnen und Schülern Quartier.
+      - heading "Interview mit dem ehemaligen John-F.-Kennedy-Schüler Herrn Professor Müller" [level=3] [ref=f14e70]
+      - paragraph [ref=f14e71]: Wir, die Schülerinnen und Schüler des WPK Deutsch hatten das Vergnügen, uns mit einem ehemaligen Schüler unserer Schule, Herrn Prof. Müller, unterhalten zu dürfen. In dem folgenden Interview haben wir uns darüber informiert, wie es damals in unserer Schule war.
+      - paragraph [ref=f14e72]:
+        - emphasis [ref=f14e73]: "Schüler:"
+        - text: Wann wurden sie eingeschult und wann haben Sie Ihren Abschluss gemacht?
+      - paragraph [ref=f14e74]:
+        - emphasis [ref=f14e75]: "Herr Prof. Müller:"
+        - text: Ich wurde 1949 eingeschult und habe meinen Abschluss 1955 gemacht.
+      - paragraph [ref=f14e76]:
+        - emphasis [ref=f14e77]: "Schüler:"
+        - text: Wie viele Schüler waren damals in einer Klasse?
+      - paragraph [ref=f14e78]:
+        - emphasis [ref=f14e79]: Herr Prof. Müller
+        - text: ": Am Anfang waren wir über 60 Schüler in einer Klasse. Später wurden wir aufgeteilt, denn es gab dann Schicht-Unterricht und es wurde samstags unterrichtet."
+      - paragraph [ref=f14e80]:
+        - emphasis [ref=f14e81]: "Schüler:"
+        - text: Hat man damals Schuluniformen getragen?
+      - paragraph [ref=f14e82]:
+        - emphasis [ref=f14e83]: "Herr Prof. Müller:"
+        - text: Nein, wir haben keine Schuluniformen getragen.
+      - paragraph [ref=f14e84]:
+        - emphasis [ref=f14e85]: "Schüler:"
+        - text: Gab es auch Ausländer in Ihrer Klasse?
+      - paragraph [ref=f14e86]:
+        - emphasis [ref=f14e87]: "Herr Prof. Müller:"
+        - text: Nein, es gab nur deutsche Schüler.
+      - paragraph [ref=f14e88]:
+        - emphasis [ref=f14e89]: "Schüler:"
+        - text: Gab es AG's in der Schule, wenn ja welche ?
+      - paragraph [ref=f14e90]:
+        - emphasis [ref=f14e91]: "Herr Prof. Müller:"
+        - text: Es gab nicht so viele, aber einige davon waren so fortschrittlich, wie Skilaufen, Turnen, Ballspiele und Schwimmen.
+      - paragraph [ref=f14e92]:
+        - emphasis [ref=f14e93]: "Schüler:"
+        - text: Wie lief der Unterricht ab?
+      - paragraph [ref=f14e94]:
+        - emphasis [ref=f14e95]: "Herr Prof. Müller:"
+        - text: Die Schüler waren selbstständig und sie mussten in den Fächern NTW und Mathe selbst arbeiten. Wenn jemand Unsinn gemacht hat, bekam er Strafen, wie z. B. Ohrfeigen oder er musste im Raum 19 nachsitzen.
+      - paragraph [ref=f14e96]:
+        - emphasis [ref=f14e97]: "Schüler:"
+        - text: Hatten Sie schon mal hitze- oder kältefrei?
+      - paragraph [ref=f14e98]:
+        - emphasis [ref=f14e99]: "Herr Prof. Müller:"
+        - text: Nein, aber wir saßen meistens mit nacktem Oberkörper, wenn die Temperaturen stiegen, in den Klassen.
+      - paragraph [ref=f14e100]:
+        - emphasis [ref=f14e101]: "Schüler:"
+        - text: Vielen Dank für das Interview!
+  - contentinfo [ref=f14e102]:
+    - list [ref=f14e103]:
+      - list [ref=f14e104]:
+        - listitem [ref=f14e105]:
+          - link "Schule ohne Rassismus - Schule mit Courage" [ref=f14e106] [cursor=pointer]:
+            - /url: http://www.schule-ohne-rassismus.org
+        - listitem [ref=f14e107]:
+          - link "Sportfreundliche Schule (3. Zert.)" [ref=f14e108] [cursor=pointer]:
+            - /url: http://www.mk.niedersachsen.de/startseite/schule/schuelerinnen_und_schueler_eltern/schulsport/schulsport-6289.html
+        - listitem [ref=f14e109]:
+          - link "Zivilcouragepreis 2014 der Polizeidirektion Braunschweig" [ref=f14e110] [cursor=pointer]:
+            - /url: http://www.unser38.de/braunschweig-innenstadt/menschen/von-einem-schulgeist-der-inspiriert-d7277.html
+      - generic [ref=f14e111]:
+        - text: © Copyright Realschule John-F.-Kennedy-Platz. All rights reserved. Design by
+        - link "Responsive Web Templates" [ref=f14e112] [cursor=pointer]:
+          - /url: http://www.html5webtemplates.co.uk

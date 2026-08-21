@@ -1,0 +1,124 @@
+- generic [ref=f2e1]:
+  - banner [ref=f2e2]:
+    - heading [level=1] [ref=f2e3]:
+      - link "www.rs-kennedy.de" [ref=f2e4] [cursor=pointer]:
+        - /url: index.html
+    - navigation [ref=f2e5]:
+      - list [ref=f2e6]:
+        - listitem [ref=f2e7]:
+          - link "Start" [ref=f2e8] [cursor=pointer]:
+            - /url: index.html
+        - listitem [ref=f2e9]:
+          - link "IServ-Login" [ref=f2e10] [cursor=pointer]:
+            - /url: https://www.rs-kennedy.de/idesk
+        - listitem [ref=f2e11]:
+          - link "Stundenplan" [ref=f2e12] [cursor=pointer]:
+            - /url: https://borys.webuntis.com/WebUntis/?school=rs%20jfk%20braunschweig#/basic/login
+        - listitem [ref=f2e13] [cursor=pointer]:
+          - link "Schulleben" [ref=f2e14]:
+            - /url: schulleben.html
+        - listitem [ref=f2e15]:
+          - link "Kontakt & Anfahrt" [ref=f2e16] [cursor=pointer]:
+            - /url: kontakt.html
+        - listitem [ref=f2e17]:
+          - link "Impressum" [ref=f2e18] [cursor=pointer]:
+            - /url: impressum.html
+        - listitem [ref=f2e19]:
+          - link "Datenschutz" [ref=f2e20] [cursor=pointer]:
+            - /url: datenschutz.html
+  - generic [ref=f2e21]:
+    - heading "Schulprofil" [level=2] [ref=f2e23]
+    - generic [ref=f2e25]:
+      - generic [ref=f2e27]:
+        - heading "Leitbild & Leitziele" [level=3] [ref=f2e28]
+        - heading "Unser Leitbild" [level=4] [ref=f2e29]
+        - paragraph [ref=f2e30]: Eigenverantwortliches und kooperatives Lernen und Arbeiten in einer gewaltfreien Schule, in der kein Platz für diskriminierende Äußerungen und Handlungen ist.
+        - link [ref=f2e31] [cursor=pointer]:
+          - /url: images/pic06.jpg
+        - heading "Leitziele," [level=4] [ref=f2e33]
+        - paragraph [ref=f2e34]: "die die Gesamtkonferenz (29.10.2018) nach Diskussion in schulinternen Gremien beschlossen hat:"
+        - paragraph [ref=f2e35]:
+          - strong [ref=f2e36]: "Leitziel 1:"
+        - paragraph [ref=f2e37]: Wir achten die Vielfalt, die unsere Schülerinnen und Schüler durch ihre verschiedene Herkunft, Kultur, Religion und Begabung – als Spiegelbild der Gesellschaft – in unsere Schule einbringen. Wir respektieren die Individualität jedes Einzelnen und berücksichtigen unterschiedliche Lernvoraussetzungen, indem wir individuell fördern und fordern
+        - paragraph [ref=f2e38]:
+          - strong [ref=f2e39]: "Leitziel 2:"
+        - paragraph [ref=f2e40]: Wir wollen eine Schule sein, in der durch respektvollen, wertschätzenden Umgang miteinander sowie engagierter Zusammenarbeit aller die Voraussetzung für eine vertrauensvolle Arbeitsatmosphäre geschaffen wird.
+        - paragraph [ref=f2e41]:
+          - strong [ref=f2e42]: "Leitziel 3:"
+        - paragraph [ref=f2e43]: Wir wollen, dass jeder Verantwortung für sich und andere übernimmt und verbindliche Regeln und Pflichten beachtet, die notwendig sind, um ein gutes Miteinander in unserer Schulgemeinschaft zu ermöglichen.
+        - paragraph [ref=f2e44]:
+          - strong [ref=f2e45]: "Leitziel 4:"
+        - paragraph [ref=f2e46]: Wir wollen unsere Schülerinnen und Schüler in ihrer Gesamtpersönlichkeit wahrnehmen, ihre Lernfreude erhalten und sie motivieren, Kreativität, Leistungsbereitschaft und Selbstständigkeit auszubauen.
+        - paragraph [ref=f2e47]:
+          - strong [ref=f2e48]: "Leitziel 5:"
+        - paragraph [ref=f2e49]: Wir erziehen unsere Schülerinnen und Schüler dazu, die demokratischen Werte unserer Gesellschaft zu achten und zu bewahren sowie sich couragiert, tolerant und verantwortungsbewusst in unterschiedlichen Lebenssituationen zu verhalten.
+        - paragraph [ref=f2e50]:
+          - strong [ref=f2e51]: "Leitziel 6:"
+        - paragraph [ref=f2e52]: Wir sichern und verbessern die Qualität des Unterrichts durch Fortbildungen der Lehrkräfte und durch Einbeziehung außerschulischer Lernorte sowie externer Fachleute in unsere Unterrichtsarbeit.
+        - paragraph [ref=f2e53]:
+          - strong [ref=f2e54]: "Leitziel 7:"
+        - paragraph [ref=f2e55]: Wir bereiten die Schülerinnen und Schüler in allen Fächern auf die verschiedenartigen Anforderungen ihres späteren beruflichen und gesellschaftlichen Lebens vor, indem intensive Berufsorientierung, Methodenvielfalt, Medienkompetenz und musisch-kulturelle Bildung Schwerpunkte unserer schulischen Arbeit darstellen.
+      - generic [ref=f2e57]:
+        - generic [ref=f2e58]:
+          - heading "Schulprogramm" [level=3] [ref=f2e59]
+          - paragraph [ref=f2e60]: Im Schulprogramm legt die Schule in Grundsätzen fest, wie sie den Bildungsauftrag erfüllen will. Das Schulprogramm gibt darüber Auskunft, welches Leitbild und welche Entwicklungsziele die pädagogische Arbeit und die sonstigen Tätigkeiten der Schule bestimmen. Hierbei werden die Entwicklung zur inklusiven Schule, in der für alle Schülerinnen und Schüler des regionalen Umfelds ein barrierefreier und gleichberechtigter Zugang ermöglicht wird, die Zusammensetzung der Schülerschaft und die Struktur des regionalen Umfelds beachtet. Weiterhin enthält das Schulprogramm Aussagen über die Schritte zur Erreichung der angestrebten Ziele.
+          - list [ref=f2e62]:
+            - listitem [ref=f2e63]:
+              - link "Mehr erfahren" [ref=f2e64] [cursor=pointer]:
+                - /url: files/schulprogramm.pdf
+        - separator [ref=f2e65]
+        - generic [ref=f2e66]:
+          - link [ref=f2e67] [cursor=pointer]:
+            - /url: angebot.html
+          - heading "Schulordnung" [level=3] [ref=f2e69]
+          - paragraph [ref=f2e70]: Die Schulordnung soll einen Rahmen für den Schulalltag geben, in dem alle Schülerinnen und Schüler zu einem angenehmen Schulalltag beitragen können.
+          - list [ref=f2e72]:
+            - listitem [ref=f2e73]:
+              - link "Mehr erfahren" [ref=f2e74] [cursor=pointer]:
+                - /url: schulordnung.pdf
+        - separator [ref=f2e75]
+        - generic [ref=f2e76]:
+          - link [ref=f2e77] [cursor=pointer]:
+            - /url: organisatorisches.html
+          - heading "Lage & Ausstattung" [level=3] [ref=f2e79]
+          - paragraph [ref=f2e80]: Die Realschule John-F.-Kennedy-Platz ist eine von sieben Realschulen in der Stadt Braunschweig. Der Schulstandort ist gekennzeichnet durch seine zentrale Lage in der Innenstadt und daher ...
+          - list [ref=f2e82]:
+            - listitem [ref=f2e83]:
+              - link "Mehr erfahren" [ref=f2e84] [cursor=pointer]:
+                - /url: lage_ausstattung.html
+        - separator [ref=f2e85]
+        - generic [ref=f2e86]:
+          - link [ref=f2e87] [cursor=pointer]:
+            - /url: chronik.html
+          - heading "Chronik" [level=3] [ref=f2e89]
+          - paragraph [ref=f2e90]: Wie alles begann ...
+          - list [ref=f2e92]:
+            - listitem [ref=f2e93]:
+              - link "Mehr erfahren" [ref=f2e94] [cursor=pointer]:
+                - /url: chronik.html
+        - separator [ref=f2e95]
+        - generic [ref=f2e96]:
+          - link [ref=f2e97] [cursor=pointer]:
+            - /url: jubilaeum.html
+          - heading "100 Jahre Realschule John-F.-Kennedy-Platz" [level=3] [ref=f2e99]
+          - paragraph [ref=f2e100]: Ein Rückblick auf unser 100-jähriges Jubiläum im Jahr 2011.
+          - list [ref=f2e102]:
+            - listitem [ref=f2e103]:
+              - link "Mehr erfahren" [ref=f2e104] [cursor=pointer]:
+                - /url: jubilaeum.html
+  - contentinfo [ref=f2e105]:
+    - list [ref=f2e106]:
+      - list [ref=f2e107]:
+        - listitem [ref=f2e108]:
+          - link "Schule ohne Rassismus - Schule mit Courage" [ref=f2e109] [cursor=pointer]:
+            - /url: http://www.schule-ohne-rassismus.org
+        - listitem [ref=f2e110]:
+          - link "Sportfreundliche Schule (3. Zert.)" [ref=f2e111] [cursor=pointer]:
+            - /url: http://www.mk.niedersachsen.de/startseite/schule/schuelerinnen_und_schueler_eltern/schulsport/schulsport-6289.html
+        - listitem [ref=f2e112]:
+          - link "Zivilcouragepreis 2014 der Polizeidirektion Braunschweig" [ref=f2e113] [cursor=pointer]:
+            - /url: http://www.unser38.de/braunschweig-innenstadt/menschen/von-einem-schulgeist-der-inspiriert-d7277.html
+      - generic [ref=f2e114]:
+        - text: © Copyright Realschule John-F.-Kennedy-Platz. All rights reserved. Design by
+        - link "Responsive Web Templates" [ref=f2e115] [cursor=pointer]:
+          - /url: http://www.html5webtemplates.co.uk
