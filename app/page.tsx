@@ -7,6 +7,7 @@ import { MotionLink } from "@/components/motion/MotionLink";
 import { HeroImage } from "@/components/motion/HeroImage";
 import { WordFadeIn } from "@/components/motion/WordFadeIn";
 import { ScrollHighlightText } from "@/components/motion/ScrollHighlightText";
+import { schullebenPosts } from "@/lib/schulleben";
 
 const quickLinks = [
   {
@@ -31,44 +32,17 @@ const quickLinks = [
   },
 ];
 
-const news = [
-  {
-    tag: "Schulleben",
-    title: "Ehemaliger Schüler und Fußballprofi Jannes Horn zu Besuch",
-    text: "Jannes Horn nahm sich viel Zeit für Fragen der Schülerinnen und Schüler und ein Wiedersehen mit seinen früheren Lehrkräften.",
-    image: "/jannes-horn.jpg",
-  },
-  {
-    tag: "Kreativität",
-    title: "Kunstprojekt „Buchzimmer“ – Kreativität auf hohem Niveau",
-    text: "Die Klassen 5a, 6b und 7c gestalteten Miniaturräume, inspiriert von der Welt der Bücher – prämiert im schulinternen Wettbewerb.",
-    image: "/buchzimmer.jpg",
-  },
-  {
-    tag: "Engagement",
-    title: "Spende an den Verein Weggefährten e. V.",
-    text: "Die Schülervertretung organisierte ein Frühlingsfest mit Tombola und spendete den gesamten Erlös von 293,31 € an einen Verein für krebskranke Kinder.",
-    image: "/spende-weggefaehrten.jpg",
-  },
-  {
-    tag: "Erinnerungskultur",
-    title: "Stadtweite Putzaktion der Stolpersteine",
-    text: "Zum 80. Jahrestag der Befreiung vom Nazi-Regime putzten unsere Schülerinnen und Schüler Stolpersteine und trugen die Geschichten der Opfer vor.",
-    image: "/stolpersteine-putzaktion.jpg",
-  },
-  {
-    tag: "Schulgarten",
-    title: "Der Schulgarten wächst weiter",
-    text: "Unter Leitung des WPK Schulgarten entsteht Schritt für Schritt eine grüne Lernumgebung direkt am Schulgebäude.",
-    image: "/fruehling.jpg",
-  },
-  {
-    tag: "Sport",
-    title: "Lauftag: Kilometer sammeln für einen guten Zweck",
-    text: "Beim jährlichen Lauftag sammelten unsere Schülerinnen und Schüler fleißig Kilometer und Spenden für Schulgarten und Sportbereich.",
-    image: "/lauftag.png",
-  },
+const homepageNewsSlugs = [
+  "jannes-horn-zu-besuch",
+  "zeitzeugen-stolpersteine",
+  "lauftag-2024",
+  "lars-lisa",
+  "friedenskonzert-2022",
+  "out-gefangen-im-netz",
 ];
+const news = homepageNewsSlugs.map(
+  (slug) => schullebenPosts.find((post) => post.slug === slug)!
+);
 
 export default function Home() {
   return (
@@ -256,54 +230,61 @@ export default function Home() {
             hover="none"
             className="group grid overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--surface)] transition-shadow duration-300 hover:shadow-xl hover:shadow-black/10 sm:grid-cols-2"
           >
-            <div className="relative aspect-[16/10] w-full overflow-hidden sm:aspect-auto">
-              <Image
-                src={news[0].image}
-                alt=""
-                fill
-                sizes="(min-width: 640px) 50vw, 100vw"
-                className="object-cover transition-transform duration-500 ease-out group-hover:scale-110"
-              />
-            </div>
-            <div className="flex flex-col justify-center p-8">
-              <span className="w-fit rounded-full bg-[var(--background)] px-3 py-1 text-xs font-semibold uppercase tracking-wide text-[var(--accent)] transition-colors duration-300 group-hover:bg-[var(--accent)] group-hover:text-white">
-                {news[0].tag}
-              </span>
-              <h3 className="mt-4 font-[family-name:var(--font-display)] text-2xl font-semibold leading-snug text-[var(--foreground)]">
-                {news[0].title}
-              </h3>
-              <p className="mt-3 leading-relaxed text-[var(--muted)]">
-                {news[0].text}
-              </p>
-            </div>
+            <Link
+              href={`/schulleben/${news[0].slug}`}
+              className="grid sm:col-span-2 sm:grid-cols-2"
+            >
+              <div className="relative aspect-[16/10] w-full overflow-hidden sm:aspect-auto">
+                <Image
+                  src={news[0].image}
+                  alt={news[0].imageAlt}
+                  fill
+                  sizes="(min-width: 640px) 50vw, 100vw"
+                  className="object-cover transition-transform duration-500 ease-out group-hover:scale-110"
+                />
+              </div>
+              <div className="flex flex-col justify-center p-8">
+                <span className="w-fit rounded-full bg-[var(--background)] px-3 py-1 text-xs font-semibold uppercase tracking-wide text-[var(--accent)] transition-colors duration-300 group-hover:bg-[var(--accent)] group-hover:text-white">
+                  {news[0].tag}
+                </span>
+                <h3 className="mt-4 font-[family-name:var(--font-display)] text-2xl font-semibold leading-snug text-[var(--foreground)]">
+                  {news[0].title}
+                </h3>
+                <p className="mt-3 leading-relaxed text-[var(--muted)]">
+                  {news[0].excerpt}
+                </p>
+              </div>
+            </Link>
           </StaggerItem>
         </Stagger>
         <Stagger className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {news.slice(1).map((item) => (
             <StaggerItem
-              key={item.title}
+              key={item.slug}
               className="group flex flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--surface)] transition-shadow duration-300 hover:shadow-xl hover:shadow-black/10"
             >
-              <div className="relative aspect-[16/10] w-full overflow-hidden">
-                <Image
-                  src={item.image}
-                  alt=""
-                  fill
-                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                  className="object-cover transition-transform duration-500 ease-out group-hover:scale-110"
-                />
-              </div>
-              <div className="flex flex-1 flex-col p-6">
-                <span className="w-fit rounded-full bg-[var(--background)] px-3 py-1 text-xs font-semibold uppercase tracking-wide text-[var(--accent)] transition-colors duration-300 group-hover:bg-[var(--accent)] group-hover:text-white">
-                  {item.tag}
-                </span>
-                <h3 className="mt-4 font-[family-name:var(--font-display)] text-lg font-semibold leading-snug text-[var(--foreground)]">
-                  {item.title}
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed text-[var(--muted)]">
-                  {item.text}
-                </p>
-              </div>
+              <Link href={`/schulleben/${item.slug}`} className="flex h-full flex-col">
+                <div className="relative aspect-[16/10] w-full overflow-hidden">
+                  <Image
+                    src={item.image}
+                    alt={item.imageAlt}
+                    fill
+                    sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                    className="object-cover transition-transform duration-500 ease-out group-hover:scale-110"
+                  />
+                </div>
+                <div className="flex flex-1 flex-col p-6">
+                  <span className="w-fit rounded-full bg-[var(--background)] px-3 py-1 text-xs font-semibold uppercase tracking-wide text-[var(--accent)] transition-colors duration-300 group-hover:bg-[var(--accent)] group-hover:text-white">
+                    {item.tag}
+                  </span>
+                  <h3 className="mt-4 font-[family-name:var(--font-display)] text-lg font-semibold leading-snug text-[var(--foreground)]">
+                    {item.title}
+                  </h3>
+                  <p className="mt-2 text-sm leading-relaxed text-[var(--muted)]">
+                    {item.excerpt}
+                  </p>
+                </div>
+              </Link>
             </StaggerItem>
           ))}
         </Stagger>
