@@ -12,6 +12,11 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Generated Cloudflare/Payload files
+    "cloudflare-env.d.ts",
+    ".open-next/**",
+    "payload-types.ts",
+    "app/(payload)/admin/importMap.js",
   ]),
 ]);
 

@@ -42,3 +42,11 @@ next-env.d.ts
 
 # ShipStudio metadata
 .shipstudio/
+
+# OpenNext / Cloudflare
+.open-next/
+.wrangler/
+.dev.vars
+
+# Payload local media (dev only, R2 is used in real environments)
+/media

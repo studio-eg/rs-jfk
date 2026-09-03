@@ -6,7 +6,10 @@
       "mcp__playwright__browser_snapshot",
       "mcp__playwright__browser_evaluate",
       "mcp__shipstudio-preview__preview_reload",
-      "mcp__shipstudio-preview__preview_console"
+      "mcp__shipstudio-preview__preview_console",
+      "mcp__shipstudio-preview__preview_status",
+      "mcp__shipstudio-preview__preview_navigate",
+      "Bash(npx payload *)"
     ]
   },
   "enabledMcpjsonServers": [

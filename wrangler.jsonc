@@ -1,0 +1,37 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "main": ".open-next/worker.js",
+  "name": "rs-jfk",
+  "compatibility_date": "2025-08-15",
+  "compatibility_flags": [
+    // Enable Node.js API
+    // see https://developers.cloudflare.com/workers/configuration/compatibility-flags/#nodejs-compatibility-flag
+    "nodejs_compat",
+    // Allow fetching URLs from the app
+    // see https://developers.cloudflare.com/workers/configuration/compatibility-flags/#global-fetch-strictly-public
+    "global_fetch_strictly_public",
+  ],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS",
+  },
+  "d1_databases": [
+    {
+      "binding": "D1",
+      // Placeholder until `wrangler d1 create rs-jfk-cms` is run against a real
+      // Cloudflare account (Phase 0). Local dev works fine with this placeholder,
+      // as long as "remote" stays false/unset — with it true, local dev tries to
+      // reach a real (nonexistent) Cloudflare D1 database instead of the local
+      // simulator and hangs forever since there's no `wrangler login` yet.
+      "database_id": "DATABASE_ID",
+      "database_name": "rs-jfk-cms",
+    },
+  ],
+  "r2_buckets": [
+    {
+      "binding": "R2",
+      // Placeholder until `wrangler r2 bucket create rs-jfk-media` is run (Phase 0).
+      "bucket_name": "rs-jfk-media",
+    },
+  ],
+}

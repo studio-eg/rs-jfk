@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { primaryNav, legalNav } from "@/lib/nav";
+import { getKontakt } from "@/lib/payload";
 
 const badges = [
   {
@@ -16,7 +17,9 @@ const badges = [
   },
 ];
 
-export function Footer() {
+export async function Footer() {
+  const kontakt = await getKontakt();
+
   return (
     <footer className="border-t border-[var(--border)] bg-[var(--ink)] text-white/80">
       <div className="mx-auto max-w-6xl px-6 py-14">
@@ -29,8 +32,8 @@ export function Footer() {
               John-F.-Kennedy-Platz
             </p>
             <p className="mt-3 text-sm leading-relaxed">
-              John-F.-Kennedy-Platz 1
-              <br /> 38100 Braunschweig
+              {kontakt.addressLine1}
+              <br /> {kontakt.addressLine2}
             </p>
           </div>
 
@@ -40,17 +43,17 @@ export function Footer() {
             </p>
             <ul className="mt-3 space-y-2 text-sm">
               <li>
-                <a href="tel:+49531470 5030" className="hover:text-white">
-                  Telefon: (0531) 470 5030
+                <a href={`tel:${kontakt.phoneHref}`} className="hover:text-white">
+                  Telefon: {kontakt.phone}
                 </a>
               </li>
-              <li>Telefax: (0531) 470 5031</li>
+              <li>Telefax: {kontakt.fax}</li>
               <li>
                 <a
-                  href="mailto:rskennedyplatz@braunschweig.de"
+                  href={`mailto:${kontakt.email}`}
                   className="hover:text-white"
                 >
-                  rskennedyplatz@braunschweig.de
+                  {kontakt.email}
                 </a>
               </li>
             </ul>
