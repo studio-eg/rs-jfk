@@ -8,6 +8,8 @@ export const metadata: Metadata = {
     "Leitbild, Leitziele, Lage, Ausstattung und Geschichte der Realschule John-F.-Kennedy-Platz.",
 };
 
+export const dynamic = "force-dynamic";
+
 export default async function SchulprofilPage() {
   const profil = await getSchulprofil();
   return <SchulprofilPageClient initialProfil={profil} />;

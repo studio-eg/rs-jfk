@@ -12,6 +12,8 @@ export const metadata: Metadata = {
     "Projekte, Aktionen und Ereignisse aus dem Schulleben der Realschule John-F.-Kennedy-Platz.",
 };
 
+export const dynamic = "force-dynamic";
+
 export default async function SchullebenPage() {
   const posts = await getPosts();
   const [featured, ...rest] = posts;

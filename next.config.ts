@@ -2,6 +2,17 @@ import type { NextConfig } from "next";
 import { withPayload } from "@payloadcms/next/withPayload";
 
 const nextConfig: NextConfig = {
+  // Next's built-in image optimizer needs to self-fetch the image to resize it,
+  // which doesn't work reliably from inside a Cloudflare Worker (no sharp, no
+  // simple loopback fetch) — it 404s with "upstream response is invalid".
+  // Serving the original file directly avoids this; there's no separate
+  // image-resizing service configured for this project.
+  images: { unoptimized: true },
+  turbopack: {
+    resolveAlias: {
+      "drizzle-kit/api": "./cloudflare-shims/drizzle-kit-api.ts",
+    },
+  },
   // The local D1 simulator (miniflare) is a single-threaded Durable Object —
   // running static-page generation across multiple parallel workers causes
   // intermittent "D1_ERROR: Failed to parse body as JSON" build failures

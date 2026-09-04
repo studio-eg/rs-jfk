@@ -1,12 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getPageBySlug, getPages } from "@/lib/payload";
+import { getPageBySlug } from "@/lib/payload";
 import PageClient from "./page.client";
 
-export async function generateStaticParams() {
-  const pages = await getPages();
-  return pages.map((page) => ({ slug: page.slug }));
-}
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,

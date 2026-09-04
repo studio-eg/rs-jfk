@@ -8,6 +8,8 @@ export const metadata: Metadata = {
     "Anmeldung, Schulbuchausleihe, Abschlussverfahren und Formulare der Realschule John-F.-Kennedy-Platz.",
 };
 
+export const dynamic = "force-dynamic";
+
 export default async function OrganisatorischesPage() {
   const org = await getOrganisatorisches();
   return <OrganisatorischesPageClient initialOrg={org} />;

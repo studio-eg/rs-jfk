@@ -18,12 +18,7 @@
   "d1_databases": [
     {
       "binding": "D1",
-      // Placeholder until `wrangler d1 create rs-jfk-cms` is run against a real
-      // Cloudflare account (Phase 0). Local dev works fine with this placeholder,
-      // as long as "remote" stays false/unset — with it true, local dev tries to
-      // reach a real (nonexistent) Cloudflare D1 database instead of the local
-      // simulator and hangs forever since there's no `wrangler login` yet.
-      "database_id": "DATABASE_ID",
+      "database_id": "afd84ea0-e019-4ae8-8630-b3b7c471fcfd",
       "database_name": "rs-jfk-cms",
     },
   ],

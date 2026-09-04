@@ -8,6 +8,8 @@ export const metadata: Metadata = {
     "Fachbereiche, Wahlpflichtkurse, Arbeitsgemeinschaften, Berufsorientierung und Gewaltprävention.",
 };
 
+export const dynamic = "force-dynamic";
+
 export default async function AngebotPage() {
   const angebot = await getAngebot();
   return <AngebotPageClient initialAngebot={angebot} />;

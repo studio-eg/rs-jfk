@@ -8,6 +8,8 @@ export const metadata: Metadata = {
     "Schulleitung, Verwaltung, Gremien und Mitwirkung an der Realschule John-F.-Kennedy-Platz.",
 };
 
+export const dynamic = "force-dynamic";
+
 export default async function PersonenPage() {
   const personen = await getPersonen();
   return <PersonenPageClient initialPersonen={personen} />;
