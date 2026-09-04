@@ -9,6 +9,7 @@ import { MotionLink } from "@/components/motion/MotionLink";
 import { HeroImage } from "@/components/motion/HeroImage";
 import { WordFadeIn } from "@/components/motion/WordFadeIn";
 import { ScrollHighlightText } from "@/components/motion/ScrollHighlightText";
+import { BlockRenderer } from "@/components/blocks/BlockRenderer";
 import { mediaUrl } from "@/lib/media";
 import { getLivePreviewServerURL } from "@/lib/livePreview";
 import type { Home, Post } from "@/payload-types";
@@ -315,6 +316,8 @@ export default function HomePageClient({
           </StaggerItem>
         </Stagger>
       </section>
+
+      <BlockRenderer blocks={data.pageSections} />
     </div>
   );
 }

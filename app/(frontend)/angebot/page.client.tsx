@@ -5,6 +5,7 @@ import { useLivePreview } from "@payloadcms/live-preview-react";
 import { PageHeader } from "@/components/PageHeader";
 import { FadeIn } from "@/components/motion/FadeIn";
 import { Stagger, StaggerItem } from "@/components/motion/Stagger";
+import { BlockRenderer } from "@/components/blocks/BlockRenderer";
 import { mediaUrl } from "@/lib/media";
 import { getLivePreviewServerURL } from "@/lib/livePreview";
 import type { Angebot } from "@/payload-types";
@@ -177,6 +178,8 @@ export default function AngebotPageClient({ initialAngebot }: { initialAngebot: 
           ))}
         </Stagger>
       </section>
+
+      <BlockRenderer blocks={angebot.pageSections} />
     </div>
   );
 }

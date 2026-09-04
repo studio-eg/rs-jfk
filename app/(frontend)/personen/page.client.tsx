@@ -5,6 +5,7 @@ import { useLivePreview } from "@payloadcms/live-preview-react";
 import { PageHeader } from "@/components/PageHeader";
 import { FadeIn } from "@/components/motion/FadeIn";
 import { Stagger, StaggerItem } from "@/components/motion/Stagger";
+import { BlockRenderer } from "@/components/blocks/BlockRenderer";
 import { mediaUrl } from "@/lib/media";
 import { getLivePreviewServerURL } from "@/lib/livePreview";
 import type { Personen } from "@/payload-types";
@@ -126,6 +127,8 @@ export default function PersonenPageClient({ initialPersonen }: { initialPersone
           <p className="mt-10 text-sm text-[var(--muted)]">{personen.closingNote}</p>
         </div>
       </section>
+
+      <BlockRenderer blocks={personen.pageSections} />
     </div>
   );
 }

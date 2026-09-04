@@ -58,9 +58,27 @@ Nearly everything on the site is now editable by you, without needing a develope
 2. The first time, you'll be asked to create an admin account (email + password) — this is your login, not shared with anyone.
 3. In the sidebar you'll see:
    - **Posts** — the 15 (and counting) Schulleben blog stories. Edit any post, or click "Create New" to add one — just fill in a title, pick a tag, write the text, and upload a photo.
+   - **Pages** — brand-new pages you build yourself from reusable sections (see "Reusable sections / page builder" below).
    - **Media** — every photo used on the site. Uploading here makes an image available to use elsewhere (e.g. in a Post).
    - Under a **Globals** section: one entry per page — **Home**, **Schulprofil**, **Angebot**, **Organisatorisches**, **Personen**, **Kontakt**, **Impressum**, **Datenschutz**. Each one holds that page's editable text, images, and lists (e.g. the Kontakt global holds the school's address/phone/email, and it automatically updates the footer and — once relevant — Impressum too, since they all show the same contact info).
 4. Click any field, change it, click **Save** (for a Global) or **Save & Publish** — the change shows up on the live site right away.
+
+### Reusable sections / page builder
+
+Every page now has an extra field near the bottom of its editor called **"Zusätzliche Bausteine"** (additional building blocks). This is a small library of ready-made, reusable sections you can add without any code:
+
+- **Text & Bild** — a heading, paragraph, and photo side by side (photo left or right)
+- **CTA-Banner** — a colored call-to-action banner with a button
+- **Zitat** — a large quote, with an optional name/role/photo
+- **Zahlen & Statistiken** — a row of highlighted numbers with labels
+- **Bildergalerie** — a grid of photos with captions
+- **FAQ / Fragen & Antworten** — a click-to-expand question list
+- **Personen-Übersicht** — a grid of people (name, role, email, photo) — same style as the Personen page
+- **Freitext** — plain rich text for anything else
+
+You can add any of these to the bottom of **any existing page** (they appear after that page's normal content), and you can also click **Pages → Create New** to build a **whole new page from scratch** — give it a title and web address (e.g. `elternbeirat` → `yoursite.com/elternbeirat`), then stack as many of these sections as you like. New pages are NOT automatically added to the top navigation menu — just ask, and it'll be added as a quick follow-up.
+
+Reserved web addresses (`kontakt`, `angebot`, etc. — anything already used by an existing page) are blocked when creating a new page, so you can't accidentally create a page that's unreachable.
 
 **Live Preview — see your changes as you type:** every page (all 8 Globals plus every Schulleben Post) now has a **Live Preview** toggle at the top of its edit screen, next to the "Edit" tab. Turn it on and a preview of the real page appears right next to the form — as you type in a field or change an image, the preview updates instantly, before you even click Save. Use the device-size buttons in the preview toolbar to check how it looks on mobile/tablet/desktop.
 
@@ -68,8 +86,10 @@ Nearly everything on the site is now editable by you, without needing a develope
 
 **Where the CMS lives in the code** (for reference, not something you normally need to touch):
 - `payload.config.ts` (project root) — the main CMS configuration.
-- `payload/collections/` — Posts, Media, Users (the repeatable content types).
+- `payload/collections/` — Posts, Media, Users, Pages (the repeatable content types).
 - `payload/globals/` — one file per page's editable fields (Home.ts, Schulprofil.ts, etc.).
+- `payload/blocks/` — the reusable "Zusätzliche Bausteine" section library (Text & Bild, CTA-Banner, Zitat, etc.), shared by every page and by `payload/collections/Pages.ts`.
+- `components/blocks/` — the matching React components that render each block type, plus `BlockRenderer.tsx` which picks the right one.
 - `lib/payload.ts` — the functions each page uses to fetch its content from the CMS.
 - `payload/livePreview.ts` — shared settings for the Live Preview toggle (device sizes, etc.), used by every Global and the Posts collection.
 - Every page under `app/(frontend)/` is split into a `page.tsx` (fetches the content) and a `page.client.tsx` (renders it, and stays in sync with Live Preview) — you shouldn't need to touch either half directly, but this is why each page folder now has two files instead of one.
@@ -99,6 +119,7 @@ Ask to have this done together when you're ready — it needs your own Cloudflar
 - **No real photography yet** — see "Imagery" above.
 
 ## Recent Changes
+- 2026-09-03: Added a reusable sections / page builder system to the CMS. Every existing page (Home, Schulprofil, Angebot, Organisatorisches, Personen, Kontakt, Impressum, Datenschutz) now has an optional "Zusätzliche Bausteine" area at the bottom where you can add ready-made sections (Text & Bild, CTA-Banner, Zitat, Zahlen & Statistiken, Bildergalerie, FAQ, Personen-Übersicht, Freitext) without touching code. Also added a new **Pages** collection in `/admin` so you can create entirely new pages from scratch by stacking these same sections — new pages get their own web address but aren't auto-added to the top navigation (ask, and it's a quick follow-up). See "Reusable sections / page builder" above for the full list and how to use it. New code: `payload/blocks/` (the section library), `payload/collections/Pages.ts`, `components/blocks/` (rendering). Verified end-to-end by creating a real test page with 4 different section types and appending a section to an existing page, then removing the test content.
 - 2026-09-01: Infoblätter & Formulare are now real downloadable PDFs too. Downloaded all 15 documents from the school's old site (14 Infoblätter + the Entschuldigungs-Formular) and attached each to its entry in the Organisatorisches global (`infoblaetter` — edit or replace any file in `/admin` under **Organisatorisches**). Along the way, restored 3 items that our earlier shortened version had dropped or merged: "Wohin gehe ich, wenn ...", "Waffenerlass", and split the combined "Arbeits- und Sozialverhalten" label into the two separate real documents (Arbeitsverhalten / Sozialverhalten) the school actually publishes. Same list design as before, labels are just clickable now.
 - 2026-09-01: Fixed the local preview not starting at all — `wrangler.jsonc`'s D1 database binding had `"remote": true`, which made local dev try to reach a real (not-yet-created) Cloudflare database instead of using the built-in local one, hanging forever. Removed that flag.
 - 2026-09-01: Schulbuchausleihe (textbook loan) now has real downloadable PDFs. Downloaded the 12 current 2026/2027 documents from the school's old site (one regular + one sonderpädagogischer-Förderbedarf version per grade, Klasse 5–10) and added them as a new editable list in the Organisatorisches global (`schulbuecherDokumente` — edit or replace any file in `/admin` under **Organisatorisches**). The Schulbuchausleihe card now has a "Formulare zur Schulbuchausleihe" button that jumps to this list, styled to match the existing Infoblätter & Formulare table.
@@ -122,6 +143,6 @@ Ask to have this done together when you're ready — it needs your own Cloudflar
 - **Most text, images, and lists:** use the `/admin` panel — see "Content management (CMS)" above. No code editing needed.
 - **Colors/fonts:** edit the CSS variables at the top of `app/(frontend)/globals.css` and the font imports in `app/(frontend)/layout.tsx`.
 - **Navigation links:** edit `lib/nav.ts` (structural — not in the CMS, see above).
-- **Add a new page:** create `app/(frontend)/<name>/page.tsx` and add it to `primaryNav` in `lib/nav.ts`. If it needs editable content, add a new Global in `payload/globals/` and register it in `payload.config.ts`.
+- **Add a new page:** easiest way is now `/admin` → **Pages** → **Create New**, then add reusable sections — no code needed (see "Reusable sections / page builder" above). Only build a page in code (`app/(frontend)/<name>/page.tsx` + a new Global) if it needs a layout the section library can't do.
 
 Note: the site's pages moved from `app/<name>/page.tsx` to `app/(frontend)/<name>/page.tsx` when the CMS was added (folders in parentheses don't affect the page's web address) — the admin panel now lives in a sibling `app/(payload)/` folder.

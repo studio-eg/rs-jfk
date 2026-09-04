@@ -14,6 +14,7 @@ import type { GetPlatformProxyOptions } from "wrangler";
 import { Users } from "./payload/collections/Users";
 import { Media } from "./payload/collections/Media";
 import { Posts } from "./payload/collections/Posts";
+import { Pages } from "./payload/collections/Pages";
 import { Home } from "./payload/globals/Home";
 import { Schulprofil } from "./payload/globals/Schulprofil";
 import { Angebot } from "./payload/globals/Angebot";
@@ -76,7 +77,7 @@ export default buildConfig({
       baseDir: path.resolve(dirname),
     },
   },
-  collections: [Users, Media, Posts],
+  collections: [Users, Media, Posts, Pages],
   globals: [
     Home,
     Schulprofil,

@@ -9,7 +9,9 @@
       "mcp__shipstudio-preview__preview_console",
       "mcp__shipstudio-preview__preview_status",
       "mcp__shipstudio-preview__preview_navigate",
-      "Bash(npx payload *)"
+      "Bash(npx payload *)",
+      "PowerShell(Get-NetTCPConnection *)",
+      "PowerShell(Get-Process *)"
     ]
   },
   "enabledMcpjsonServers": [

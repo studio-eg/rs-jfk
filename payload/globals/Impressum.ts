@@ -1,5 +1,6 @@
 import type { GlobalConfig } from "payload";
 import { livePreviewBreakpoints, livePreviewUrl } from "../livePreview";
+import { pageSectionsField } from "../blocks/sectionsField";
 
 export const Impressum: GlobalConfig = {
   slug: "impressum",
@@ -30,5 +31,6 @@ export const Impressum: GlobalConfig = {
         },
       ],
     },
+    pageSectionsField(),
   ],
 };

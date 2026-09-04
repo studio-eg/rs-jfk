@@ -3,6 +3,7 @@ import config from "@/payload.config";
 import type {
   Home,
   Post,
+  Page,
   Schulprofil,
   Angebot,
   Organisatorisch,
@@ -16,7 +17,7 @@ export const getPayloadClient = () => getPayload({ config });
 
 export async function getHome(): Promise<Home> {
   const payload = await getPayloadClient();
-  return payload.findGlobal({ slug: "home", depth: 1 });
+  return payload.findGlobal({ slug: "home", depth: 2 });
 }
 
 export async function getSchulprofil(): Promise<Schulprofil> {
@@ -69,6 +70,27 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
   const payload = await getPayloadClient();
   const result = await payload.find({
     collection: "posts",
+    depth: 1,
+    limit: 1,
+    where: { slug: { equals: slug } },
+  });
+  return result.docs[0] ?? null;
+}
+
+export async function getPages(): Promise<Page[]> {
+  const payload = await getPayloadClient();
+  const result = await payload.find({
+    collection: "pages",
+    depth: 1,
+    limit: 100,
+  });
+  return result.docs;
+}
+
+export async function getPageBySlug(slug: string): Promise<Page | null> {
+  const payload = await getPayloadClient();
+  const result = await payload.find({
+    collection: "pages",
     depth: 1,
     limit: 1,
     where: { slug: { equals: slug } },

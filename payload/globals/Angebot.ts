@@ -1,5 +1,6 @@
 import type { GlobalConfig } from "payload";
 import { livePreviewBreakpoints, livePreviewUrl } from "../livePreview";
+import { pageSectionsField } from "../blocks/sectionsField";
 
 export const Angebot: GlobalConfig = {
   slug: "angebot",
@@ -59,5 +60,6 @@ export const Angebot: GlobalConfig = {
         { name: "text", type: "text", required: true },
       ],
     },
+    pageSectionsField(),
   ],
 };

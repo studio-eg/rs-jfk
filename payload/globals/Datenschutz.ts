@@ -1,5 +1,6 @@
 import type { GlobalConfig } from "payload";
 import { livePreviewBreakpoints, livePreviewUrl } from "../livePreview";
+import { pageSectionsField } from "../blocks/sectionsField";
 
 export const Datenschutz: GlobalConfig = {
   slug: "datenschutz",
@@ -42,5 +43,6 @@ export const Datenschutz: GlobalConfig = {
     },
     { name: "aufsichtsbehoerdeText", type: "textarea", required: true },
     { name: "aufsichtsbehoerdeEmail", type: "text", required: true },
+    pageSectionsField(),
   ],
 };

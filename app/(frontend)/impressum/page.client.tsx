@@ -4,6 +4,7 @@ import { useLivePreview } from "@payloadcms/live-preview-react";
 import { PageHeader } from "@/components/PageHeader";
 import { Stagger, StaggerItem } from "@/components/motion/Stagger";
 import { TextWithLineBreaks } from "@/components/TextWithLineBreaks";
+import { BlockRenderer } from "@/components/blocks/BlockRenderer";
 import { getLivePreviewServerURL } from "@/lib/livePreview";
 import type { Impressum } from "@/payload-types";
 
@@ -40,6 +41,8 @@ export default function ImpressumPageClient({ initialImpressum }: { initialImpre
           </StaggerItem>
         ))}
       </Stagger>
+
+      <BlockRenderer blocks={impressum.pageSections} />
     </div>
   );
 }

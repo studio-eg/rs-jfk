@@ -1,5 +1,6 @@
 import type { GlobalConfig } from "payload";
 import { livePreviewBreakpoints, livePreviewUrl } from "../livePreview";
+import { pageSectionsField } from "../blocks/sectionsField";
 
 export const Personen: GlobalConfig = {
   slug: "personen",
@@ -36,5 +37,6 @@ export const Personen: GlobalConfig = {
       ],
     },
     { name: "closingNote", type: "textarea", required: true },
+    pageSectionsField(),
   ],
 };

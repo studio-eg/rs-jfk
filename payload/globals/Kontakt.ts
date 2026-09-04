@@ -1,5 +1,6 @@
 import type { GlobalConfig } from "payload";
 import { livePreviewBreakpoints, livePreviewUrl } from "../livePreview";
+import { pageSectionsField } from "../blocks/sectionsField";
 
 export const Kontakt: GlobalConfig = {
   slug: "kontakt",
@@ -25,5 +26,6 @@ export const Kontakt: GlobalConfig = {
     { name: "heroLead", type: "textarea", required: true },
     { name: "heroImage", type: "upload", relationTo: "media", required: true },
     { name: "heroImageAlt", type: "text", required: true },
+    pageSectionsField(),
   ],
 };

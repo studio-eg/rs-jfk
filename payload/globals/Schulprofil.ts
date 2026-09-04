@@ -1,5 +1,6 @@
 import type { GlobalConfig } from "payload";
 import { livePreviewBreakpoints, livePreviewUrl } from "../livePreview";
+import { pageSectionsField } from "../blocks/sectionsField";
 
 export const Schulprofil: GlobalConfig = {
   slug: "schulprofil",
@@ -53,5 +54,6 @@ export const Schulprofil: GlobalConfig = {
         { name: "text", type: "textarea", required: true },
       ],
     },
+    pageSectionsField(),
   ],
 };

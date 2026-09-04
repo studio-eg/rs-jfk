@@ -70,6 +70,7 @@ export interface Config {
     users: User;
     media: Media;
     posts: Post;
+    pages: Page;
     'payload-kv': PayloadKv;
     'payload-locked-documents': PayloadLockedDocument;
     'payload-preferences': PayloadPreference;
@@ -80,6 +81,7 @@ export interface Config {
     users: UsersSelect<false> | UsersSelect<true>;
     media: MediaSelect<false> | MediaSelect<true>;
     posts: PostsSelect<false> | PostsSelect<true>;
+    pages: PagesSelect<false> | PagesSelect<true>;
     'payload-kv': PayloadKvSelect<false> | PayloadKvSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
     'payload-preferences': PayloadPreferencesSelect<false> | PayloadPreferencesSelect<true>;
@@ -230,6 +232,183 @@ export interface Post {
   createdAt: string;
 }
 /**
+ * Frei erstellte Seiten aus Bausteinen. Neue Seiten erscheinen NICHT automatisch in der Navigation oben — das muss separat angefragt werden.
+ *
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "pages".
+ */
+export interface Page {
+  id: number;
+  title: string;
+  /**
+   * Used in the page's web address, e.g. /elternbeirat.
+   */
+  slug: string;
+  heroEyebrow?: string | null;
+  heroLead?: string | null;
+  heroImage?: (number | null) | Media;
+  heroImageAlt?: string | null;
+  /**
+   * Zusätzliche Bausteine, die am Ende dieser Seite angezeigt werden.
+   */
+  pageSections?:
+    | (
+        | TextImageBlock
+        | CTABannerBlock
+        | QuoteBlock
+        | StatsBlock
+        | GalleryBlock
+        | FAQBlock
+        | TeamGridBlock
+        | RichTextBlock
+      )[]
+    | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "TextImageBlock".
+ */
+export interface TextImageBlock {
+  heading: string;
+  body: string;
+  image: number | Media;
+  imageAlt: string;
+  imagePosition: 'right' | 'left';
+  id?: string | null;
+  blockName?: string | null;
+  blockType: 'textImage';
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "CTABannerBlock".
+ */
+export interface CTABannerBlock {
+  heading: string;
+  text: string;
+  buttonLabel: string;
+  /**
+   * e.g. /kontakt or https://example.com
+   */
+  buttonHref: string;
+  id?: string | null;
+  blockName?: string | null;
+  blockType: 'ctaBanner';
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "QuoteBlock".
+ */
+export interface QuoteBlock {
+  quote: string;
+  author?: string | null;
+  role?: string | null;
+  photo?: (number | null) | Media;
+  id?: string | null;
+  blockName?: string | null;
+  blockType: 'quote';
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "StatsBlock".
+ */
+export interface StatsBlock {
+  intro?: string | null;
+  items?:
+    | {
+        /**
+         * e.g. 850 or 98%
+         */
+        value: string;
+        label: string;
+        id?: string | null;
+      }[]
+    | null;
+  id?: string | null;
+  blockName?: string | null;
+  blockType: 'stats';
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "GalleryBlock".
+ */
+export interface GalleryBlock {
+  intro?: string | null;
+  images?:
+    | {
+        image: number | Media;
+        alt: string;
+        caption?: string | null;
+        id?: string | null;
+      }[]
+    | null;
+  id?: string | null;
+  blockName?: string | null;
+  blockType: 'gallery';
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "FAQBlock".
+ */
+export interface FAQBlock {
+  heading?: string | null;
+  items?:
+    | {
+        question: string;
+        answer: string;
+        id?: string | null;
+      }[]
+    | null;
+  id?: string | null;
+  blockName?: string | null;
+  blockType: 'faq';
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "TeamGridBlock".
+ */
+export interface TeamGridBlock {
+  heading?: string | null;
+  intro?: string | null;
+  members?:
+    | {
+        name: string;
+        role?: string | null;
+        email?: string | null;
+        photo?: (number | null) | Media;
+        id?: string | null;
+      }[]
+    | null;
+  id?: string | null;
+  blockName?: string | null;
+  blockType: 'teamGrid';
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "RichTextBlock".
+ */
+export interface RichTextBlock {
+  content: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  };
+  id?: string | null;
+  blockName?: string | null;
+  blockType: 'richText';
+}
+/**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-kv".
  */
@@ -264,6 +443,10 @@ export interface PayloadLockedDocument {
     | ({
         relationTo: 'posts';
         value: number | Post;
+      } | null)
+    | ({
+        relationTo: 'pages';
+        value: number | Page;
       } | null);
   globalSlug?: string | null;
   user: {
@@ -364,6 +547,146 @@ export interface PostsSelect<T extends boolean = true> {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "pages_select".
+ */
+export interface PagesSelect<T extends boolean = true> {
+  title?: T;
+  slug?: T;
+  heroEyebrow?: T;
+  heroLead?: T;
+  heroImage?: T;
+  heroImageAlt?: T;
+  pageSections?:
+    | T
+    | {
+        textImage?: T | TextImageBlockSelect<T>;
+        ctaBanner?: T | CTABannerBlockSelect<T>;
+        quote?: T | QuoteBlockSelect<T>;
+        stats?: T | StatsBlockSelect<T>;
+        gallery?: T | GalleryBlockSelect<T>;
+        faq?: T | FAQBlockSelect<T>;
+        teamGrid?: T | TeamGridBlockSelect<T>;
+        richText?: T | RichTextBlockSelect<T>;
+      };
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "TextImageBlock_select".
+ */
+export interface TextImageBlockSelect<T extends boolean = true> {
+  heading?: T;
+  body?: T;
+  image?: T;
+  imageAlt?: T;
+  imagePosition?: T;
+  id?: T;
+  blockName?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "CTABannerBlock_select".
+ */
+export interface CTABannerBlockSelect<T extends boolean = true> {
+  heading?: T;
+  text?: T;
+  buttonLabel?: T;
+  buttonHref?: T;
+  id?: T;
+  blockName?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "QuoteBlock_select".
+ */
+export interface QuoteBlockSelect<T extends boolean = true> {
+  quote?: T;
+  author?: T;
+  role?: T;
+  photo?: T;
+  id?: T;
+  blockName?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "StatsBlock_select".
+ */
+export interface StatsBlockSelect<T extends boolean = true> {
+  intro?: T;
+  items?:
+    | T
+    | {
+        value?: T;
+        label?: T;
+        id?: T;
+      };
+  id?: T;
+  blockName?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "GalleryBlock_select".
+ */
+export interface GalleryBlockSelect<T extends boolean = true> {
+  intro?: T;
+  images?:
+    | T
+    | {
+        image?: T;
+        alt?: T;
+        caption?: T;
+        id?: T;
+      };
+  id?: T;
+  blockName?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "FAQBlock_select".
+ */
+export interface FAQBlockSelect<T extends boolean = true> {
+  heading?: T;
+  items?:
+    | T
+    | {
+        question?: T;
+        answer?: T;
+        id?: T;
+      };
+  id?: T;
+  blockName?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "TeamGridBlock_select".
+ */
+export interface TeamGridBlockSelect<T extends boolean = true> {
+  heading?: T;
+  intro?: T;
+  members?:
+    | T
+    | {
+        name?: T;
+        role?: T;
+        email?: T;
+        photo?: T;
+        id?: T;
+      };
+  id?: T;
+  blockName?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "RichTextBlock_select".
+ */
+export interface RichTextBlockSelect<T extends boolean = true> {
+  content?: T;
+  id?: T;
+  blockName?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-kv_select".
  */
 export interface PayloadKvSelect<T extends boolean = true> {
@@ -437,6 +760,21 @@ export interface Home {
   ctaTitle: string;
   ctaText: string;
   ctaButtonLabel: string;
+  /**
+   * Zusätzliche Bausteine, die am Ende dieser Seite angezeigt werden.
+   */
+  pageSections?:
+    | (
+        | TextImageBlock
+        | CTABannerBlock
+        | QuoteBlock
+        | StatsBlock
+        | GalleryBlock
+        | FAQBlock
+        | TeamGridBlock
+        | RichTextBlock
+      )[]
+    | null;
   updatedAt?: string | null;
   createdAt?: string | null;
 }
@@ -478,6 +816,21 @@ export interface Schulprofil {
         text: string;
         id?: string | null;
       }[]
+    | null;
+  /**
+   * Zusätzliche Bausteine, die am Ende dieser Seite angezeigt werden.
+   */
+  pageSections?:
+    | (
+        | TextImageBlock
+        | CTABannerBlock
+        | QuoteBlock
+        | StatsBlock
+        | GalleryBlock
+        | FAQBlock
+        | TeamGridBlock
+        | RichTextBlock
+      )[]
     | null;
   updatedAt?: string | null;
   createdAt?: string | null;
@@ -529,6 +882,21 @@ export interface Angebot {
         id?: string | null;
       }[]
     | null;
+  /**
+   * Zusätzliche Bausteine, die am Ende dieser Seite angezeigt werden.
+   */
+  pageSections?:
+    | (
+        | TextImageBlock
+        | CTABannerBlock
+        | QuoteBlock
+        | StatsBlock
+        | GalleryBlock
+        | FAQBlock
+        | TeamGridBlock
+        | RichTextBlock
+      )[]
+    | null;
   updatedAt?: string | null;
   createdAt?: string | null;
 }
@@ -574,6 +942,21 @@ export interface Organisatorisch {
         id?: string | null;
       }[]
     | null;
+  /**
+   * Zusätzliche Bausteine, die am Ende dieser Seite angezeigt werden.
+   */
+  pageSections?:
+    | (
+        | TextImageBlock
+        | CTABannerBlock
+        | QuoteBlock
+        | StatsBlock
+        | GalleryBlock
+        | FAQBlock
+        | TeamGridBlock
+        | RichTextBlock
+      )[]
+    | null;
   updatedAt?: string | null;
   createdAt?: string | null;
 }
@@ -606,6 +989,21 @@ export interface Personen {
       }[]
     | null;
   closingNote: string;
+  /**
+   * Zusätzliche Bausteine, die am Ende dieser Seite angezeigt werden.
+   */
+  pageSections?:
+    | (
+        | TextImageBlock
+        | CTABannerBlock
+        | QuoteBlock
+        | StatsBlock
+        | GalleryBlock
+        | FAQBlock
+        | TeamGridBlock
+        | RichTextBlock
+      )[]
+    | null;
   updatedAt?: string | null;
   createdAt?: string | null;
 }
@@ -640,6 +1038,21 @@ export interface Kontakt {
   heroLead: string;
   heroImage: number | Media;
   heroImageAlt: string;
+  /**
+   * Zusätzliche Bausteine, die am Ende dieser Seite angezeigt werden.
+   */
+  pageSections?:
+    | (
+        | TextImageBlock
+        | CTABannerBlock
+        | QuoteBlock
+        | StatsBlock
+        | GalleryBlock
+        | FAQBlock
+        | TeamGridBlock
+        | RichTextBlock
+      )[]
+    | null;
   updatedAt?: string | null;
   createdAt?: string | null;
 }
@@ -663,6 +1076,21 @@ export interface Impressum {
           | null;
         id?: string | null;
       }[]
+    | null;
+  /**
+   * Zusätzliche Bausteine, die am Ende dieser Seite angezeigt werden.
+   */
+  pageSections?:
+    | (
+        | TextImageBlock
+        | CTABannerBlock
+        | QuoteBlock
+        | StatsBlock
+        | GalleryBlock
+        | FAQBlock
+        | TeamGridBlock
+        | RichTextBlock
+      )[]
     | null;
   updatedAt?: string | null;
   createdAt?: string | null;
@@ -700,6 +1128,21 @@ export interface Datenschutz {
     | null;
   aufsichtsbehoerdeText: string;
   aufsichtsbehoerdeEmail: string;
+  /**
+   * Zusätzliche Bausteine, die am Ende dieser Seite angezeigt werden.
+   */
+  pageSections?:
+    | (
+        | TextImageBlock
+        | CTABannerBlock
+        | QuoteBlock
+        | StatsBlock
+        | GalleryBlock
+        | FAQBlock
+        | TeamGridBlock
+        | RichTextBlock
+      )[]
+    | null;
   updatedAt?: string | null;
   createdAt?: string | null;
 }
@@ -728,6 +1171,18 @@ export interface HomeSelect<T extends boolean = true> {
   ctaTitle?: T;
   ctaText?: T;
   ctaButtonLabel?: T;
+  pageSections?:
+    | T
+    | {
+        textImage?: T | TextImageBlockSelect<T>;
+        ctaBanner?: T | CTABannerBlockSelect<T>;
+        quote?: T | QuoteBlockSelect<T>;
+        stats?: T | StatsBlockSelect<T>;
+        gallery?: T | GalleryBlockSelect<T>;
+        faq?: T | FAQBlockSelect<T>;
+        teamGrid?: T | TeamGridBlockSelect<T>;
+        richText?: T | RichTextBlockSelect<T>;
+      };
   updatedAt?: T;
   createdAt?: T;
   globalType?: T;
@@ -766,6 +1221,18 @@ export interface SchulprofilSelect<T extends boolean = true> {
         year?: T;
         text?: T;
         id?: T;
+      };
+  pageSections?:
+    | T
+    | {
+        textImage?: T | TextImageBlockSelect<T>;
+        ctaBanner?: T | CTABannerBlockSelect<T>;
+        quote?: T | QuoteBlockSelect<T>;
+        stats?: T | StatsBlockSelect<T>;
+        gallery?: T | GalleryBlockSelect<T>;
+        faq?: T | FAQBlockSelect<T>;
+        teamGrid?: T | TeamGridBlockSelect<T>;
+        richText?: T | RichTextBlockSelect<T>;
       };
   updatedAt?: T;
   createdAt?: T;
@@ -817,6 +1284,18 @@ export interface AngebotSelect<T extends boolean = true> {
         text?: T;
         id?: T;
       };
+  pageSections?:
+    | T
+    | {
+        textImage?: T | TextImageBlockSelect<T>;
+        ctaBanner?: T | CTABannerBlockSelect<T>;
+        quote?: T | QuoteBlockSelect<T>;
+        stats?: T | StatsBlockSelect<T>;
+        gallery?: T | GalleryBlockSelect<T>;
+        faq?: T | FAQBlockSelect<T>;
+        teamGrid?: T | TeamGridBlockSelect<T>;
+        richText?: T | RichTextBlockSelect<T>;
+      };
   updatedAt?: T;
   createdAt?: T;
   globalType?: T;
@@ -862,6 +1341,18 @@ export interface OrganisatorischesSelect<T extends boolean = true> {
         dateiSopaed?: T;
         id?: T;
       };
+  pageSections?:
+    | T
+    | {
+        textImage?: T | TextImageBlockSelect<T>;
+        ctaBanner?: T | CTABannerBlockSelect<T>;
+        quote?: T | QuoteBlockSelect<T>;
+        stats?: T | StatsBlockSelect<T>;
+        gallery?: T | GalleryBlockSelect<T>;
+        faq?: T | FAQBlockSelect<T>;
+        teamGrid?: T | TeamGridBlockSelect<T>;
+        richText?: T | RichTextBlockSelect<T>;
+      };
   updatedAt?: T;
   createdAt?: T;
   globalType?: T;
@@ -894,6 +1385,18 @@ export interface PersonenSelect<T extends boolean = true> {
         id?: T;
       };
   closingNote?: T;
+  pageSections?:
+    | T
+    | {
+        textImage?: T | TextImageBlockSelect<T>;
+        ctaBanner?: T | CTABannerBlockSelect<T>;
+        quote?: T | QuoteBlockSelect<T>;
+        stats?: T | StatsBlockSelect<T>;
+        gallery?: T | GalleryBlockSelect<T>;
+        faq?: T | FAQBlockSelect<T>;
+        teamGrid?: T | TeamGridBlockSelect<T>;
+        richText?: T | RichTextBlockSelect<T>;
+      };
   updatedAt?: T;
   createdAt?: T;
   globalType?: T;
@@ -917,6 +1420,18 @@ export interface KontaktSelect<T extends boolean = true> {
   heroLead?: T;
   heroImage?: T;
   heroImageAlt?: T;
+  pageSections?:
+    | T
+    | {
+        textImage?: T | TextImageBlockSelect<T>;
+        ctaBanner?: T | CTABannerBlockSelect<T>;
+        quote?: T | QuoteBlockSelect<T>;
+        stats?: T | StatsBlockSelect<T>;
+        gallery?: T | GalleryBlockSelect<T>;
+        faq?: T | FAQBlockSelect<T>;
+        teamGrid?: T | TeamGridBlockSelect<T>;
+        richText?: T | RichTextBlockSelect<T>;
+      };
   updatedAt?: T;
   createdAt?: T;
   globalType?: T;
@@ -937,6 +1452,18 @@ export interface ImpressumSelect<T extends boolean = true> {
               id?: T;
             };
         id?: T;
+      };
+  pageSections?:
+    | T
+    | {
+        textImage?: T | TextImageBlockSelect<T>;
+        ctaBanner?: T | CTABannerBlockSelect<T>;
+        quote?: T | QuoteBlockSelect<T>;
+        stats?: T | StatsBlockSelect<T>;
+        gallery?: T | GalleryBlockSelect<T>;
+        faq?: T | FAQBlockSelect<T>;
+        teamGrid?: T | TeamGridBlockSelect<T>;
+        richText?: T | RichTextBlockSelect<T>;
       };
   updatedAt?: T;
   createdAt?: T;
@@ -968,6 +1495,18 @@ export interface DatenschutzSelect<T extends boolean = true> {
       };
   aufsichtsbehoerdeText?: T;
   aufsichtsbehoerdeEmail?: T;
+  pageSections?:
+    | T
+    | {
+        textImage?: T | TextImageBlockSelect<T>;
+        ctaBanner?: T | CTABannerBlockSelect<T>;
+        quote?: T | QuoteBlockSelect<T>;
+        stats?: T | StatsBlockSelect<T>;
+        gallery?: T | GalleryBlockSelect<T>;
+        faq?: T | FAQBlockSelect<T>;
+        teamGrid?: T | TeamGridBlockSelect<T>;
+        richText?: T | RichTextBlockSelect<T>;
+      };
   updatedAt?: T;
   createdAt?: T;
   globalType?: T;

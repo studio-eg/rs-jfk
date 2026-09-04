@@ -1,5 +1,6 @@
 import type { GlobalConfig } from "payload";
 import { livePreviewBreakpoints, livePreviewUrl } from "../livePreview";
+import { pageSectionsField } from "../blocks/sectionsField";
 
 export const Organisatorisches: GlobalConfig = {
   slug: "organisatorisches",
@@ -57,5 +58,6 @@ export const Organisatorisches: GlobalConfig = {
         { name: "dateiSopaed", type: "upload", relationTo: "media" },
       ],
     },
+    pageSectionsField(),
   ],
 };

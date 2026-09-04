@@ -4,6 +4,7 @@ import { useLivePreview } from "@payloadcms/live-preview-react";
 import { PageHeader } from "@/components/PageHeader";
 import { Stagger, StaggerItem } from "@/components/motion/Stagger";
 import { TextWithLineBreaks } from "@/components/TextWithLineBreaks";
+import { BlockRenderer } from "@/components/blocks/BlockRenderer";
 import { getLivePreviewServerURL } from "@/lib/livePreview";
 import type { Datenschutz } from "@/payload-types";
 
@@ -70,6 +71,8 @@ export default function DatenschutzPageClient({ initialDatenschutz }: { initialD
           </p>
         </StaggerItem>
       </Stagger>
+
+      <BlockRenderer blocks={datenschutz.pageSections} />
     </div>
   );
 }

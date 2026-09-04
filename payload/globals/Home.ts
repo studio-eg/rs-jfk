@@ -1,5 +1,6 @@
 import type { GlobalConfig } from "payload";
 import { livePreviewBreakpoints, livePreviewUrl } from "../livePreview";
+import { pageSectionsField } from "../blocks/sectionsField";
 
 export const Home: GlobalConfig = {
   slug: "home",
@@ -85,5 +86,6 @@ export const Home: GlobalConfig = {
       type: "text",
       required: true,
     },
+    pageSectionsField(),
   ],
 };
