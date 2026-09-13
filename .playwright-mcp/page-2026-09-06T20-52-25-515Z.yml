@@ -1,0 +1,117 @@
+- generic [active] [ref=f37e1]:
+  - banner [ref=f37e2]:
+    - generic [ref=f37e3]:
+      - link "Logo der Realschule John-F.-Kennedy-Platz Realschule John-F.-Kennedy-Platz" [ref=f37e4] [cursor=pointer]:
+        - /url: /
+        - img "Logo der Realschule John-F.-Kennedy-Platz" [ref=f37e6]
+        - generic [ref=f37e7]:
+          - generic [ref=f37e8]: Realschule
+          - generic [ref=f37e9]: John-F.-Kennedy-Platz
+      - generic [ref=f37e10]:
+        - navigation [ref=f37e11]:
+          - link "Startseite" [ref=f37e12] [cursor=pointer]:
+            - /url: /
+          - link "Schulprofil" [ref=f37e13] [cursor=pointer]:
+            - /url: /schulprofil
+          - link "Angebot" [ref=f37e14] [cursor=pointer]:
+            - /url: /angebot
+          - link "Schulleben" [ref=f37e15] [cursor=pointer]:
+            - /url: /schulleben
+          - link "Organisatorisches" [ref=f37e16] [cursor=pointer]:
+            - /url: /organisatorisches
+          - link "Personen" [ref=f37e17] [cursor=pointer]:
+            - /url: /personen
+          - link "Kontakt" [ref=f37e18] [cursor=pointer]:
+            - /url: /kontakt
+        - generic [ref=f37e19]:
+          - link "Stundenplan" [ref=f37e20] [cursor=pointer]:
+            - /url: https://borys.webuntis.com/WebUntis/?school=rs%20jfk%20braunschweig#/basic/login
+          - link "IServ-Login" [ref=f37e21] [cursor=pointer]:
+            - /url: https://www.rs-kennedy.de/idesk
+  - generic [ref=f37e22]:
+    - generic [ref=f37e23]:
+      - img "Schulhof und Fassade der Realschule John-F.-Kennedy-Platz" [ref=f37e25]
+      - generic [ref=f37e27]:
+        - paragraph [ref=f37e28]: Kontakt
+        - heading "Kontakt & Anfahrt" [level=1] [ref=f37e29]
+        - paragraph [ref=f37e30]: Wir sind zentral in der Braunschweiger Innenstadt gelegen und gut erreichbar.
+    - generic [ref=f37e31]:
+      - generic [ref=f37e32]:
+        - heading "Realschule John-F.-Kennedy-Platz!" [level=2] [ref=f37e33]
+        - generic [ref=f37e34]:
+          - paragraph [ref=f37e35]: John-F.-Kennedy-Platz 1
+          - paragraph [ref=f37e36]: 38100 Braunschweig
+        - generic [ref=f37e37]:
+          - generic [ref=f37e38]:
+            - term [ref=f37e39]: Telefon
+            - definition [ref=f37e40]:
+              - link "(0531) 470 5030" [ref=f37e41] [cursor=pointer]:
+                - /url: tel:+495314705030
+          - generic [ref=f37e42]:
+            - term [ref=f37e43]: Telefax
+            - definition [ref=f37e44]: (0531) 470 5031
+          - generic [ref=f37e45]:
+            - term [ref=f37e46]: E-Mail
+            - definition [ref=f37e47]:
+              - link "rskennedyplatz@braunschweig.de" [ref=f37e48] [cursor=pointer]:
+                - /url: mailto:rskennedyplatz@braunschweig.de
+        - generic [ref=f37e50]:
+          - heading "Sprechzeiten Beratungslehrkraft" [level=3] [ref=f37e51]
+          - paragraph [ref=f37e52]: Termine vereinbaren Sie bitte direkt mit Frau Kanngießer per E-Mail an kanngiesser@rs-kennedy.de.
+      - iframe [ref=f37e54]:
+        - generic [ref=f38e6]:
+          - region "Map" [ref=f38e7]
+          - iframe [aria-hidden] [ref=f38e25]
+  - contentinfo [ref=f37e55]:
+    - generic [ref=f37e56]:
+      - generic [ref=f37e57]:
+        - generic [ref=f37e58]:
+          - paragraph [ref=f37e59]:
+            - generic [ref=f37e60]: Realschule
+            - text: John-F.-Kennedy-Platz
+          - paragraph [ref=f37e61]: John-F.-Kennedy-Platz 1 38100 Braunschweig
+        - generic [ref=f37e62]:
+          - paragraph [ref=f37e63]: Kontakt
+          - list [ref=f37e64]:
+            - listitem [ref=f37e65]:
+              - 'link "Telefon: (0531) 470 5030" [ref=f37e66] [cursor=pointer]':
+                - /url: tel:+495314705030
+            - listitem [ref=f37e67]: "Telefax: (0531) 470 5031"
+            - listitem [ref=f37e68]:
+              - link "rskennedyplatz@braunschweig.de" [ref=f37e69] [cursor=pointer]:
+                - /url: mailto:rskennedyplatz@braunschweig.de
+        - generic [ref=f37e70]:
+          - paragraph [ref=f37e71]: Navigation
+          - list [ref=f37e72]:
+            - listitem [ref=f37e73]:
+              - link "Startseite" [ref=f37e74] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f37e75]:
+              - link "Schulprofil" [ref=f37e76] [cursor=pointer]:
+                - /url: /schulprofil
+            - listitem [ref=f37e77]:
+              - link "Angebot" [ref=f37e78] [cursor=pointer]:
+                - /url: /angebot
+            - listitem [ref=f37e79]:
+              - link "Schulleben" [ref=f37e80] [cursor=pointer]:
+                - /url: /schulleben
+            - listitem [ref=f37e81]:
+              - link "Organisatorisches" [ref=f37e82] [cursor=pointer]:
+                - /url: /organisatorisches
+        - generic [ref=f37e83]:
+          - paragraph [ref=f37e84]: Rechtliches
+          - list [ref=f37e85]:
+            - listitem [ref=f37e86]:
+              - link "Impressum" [ref=f37e87] [cursor=pointer]:
+                - /url: /impressum
+            - listitem [ref=f37e88]:
+              - link "Datenschutz" [ref=f37e89] [cursor=pointer]:
+                - /url: /datenschutz
+      - generic [ref=f37e90]:
+        - link "Schule ohne Rassismus – Schule mit Courage" [ref=f37e91] [cursor=pointer]:
+          - /url: https://www.schule-ohne-rassismus.org
+        - link "Sportfreundliche Schule (3. Zertifizierung)" [ref=f37e92] [cursor=pointer]:
+          - /url: https://www.mk.niedersachsen.de/startseite/schule/schuelerinnen_und_schueler_eltern/schulsport/schulsport-6289.html
+        - link "Zivilcouragepreis der Polizeidirektion Braunschweig" [ref=f37e93] [cursor=pointer]:
+          - /url: https://www.polizei-beratung.de/themen-und-tipps/zivilcourage/
+      - paragraph [ref=f37e94]: © 2026 Realschule John-F.-Kennedy-Platz, Braunschweig. Alle Rechte vorbehalten.

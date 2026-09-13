@@ -92,6 +92,7 @@ export interface Config {
   };
   fallbackLocale: null;
   globals: {
+    header: Header;
     home: Home;
     schulprofil: Schulprofil;
     angebot: Angebot;
@@ -102,6 +103,7 @@ export interface Config {
     datenschutz: Datenschutz;
   };
   globalsSelect: {
+    header: HeaderSelect<false> | HeaderSelect<true>;
     home: HomeSelect<false> | HomeSelect<true>;
     schulprofil: SchulprofilSelect<false> | SchulprofilSelect<true>;
     angebot: AngebotSelect<false> | AngebotSelect<true>;
@@ -727,6 +729,52 @@ export interface PayloadMigrationsSelect<T extends boolean = true> {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "header".
+ */
+export interface Header {
+  id: number;
+  logoEyebrow: string;
+  logoText: string;
+  logoImage?: (number | null) | Media;
+  logoImageAlt?: string | null;
+  /**
+   * Die Hauptlinks in der Navigation oben. Für eine frei erstellte Seite den Adressteil eintragen, z.B. /elternbeirat.
+   */
+  navItems?:
+    | {
+        label: string;
+        /**
+         * z.B. /kontakt oder /elternbeirat
+         */
+        href: string;
+        /**
+         * Öffnet den Link in einem neuen Tab.
+         */
+        external?: boolean | null;
+        id?: string | null;
+      }[]
+    | null;
+  /**
+   * Der Button mit dem Rahmen (z.B. Stundenplan).
+   */
+  secondaryButton: {
+    label: string;
+    href: string;
+    external?: boolean | null;
+  };
+  /**
+   * Der farbig ausgefüllte Button (z.B. IServ-Login).
+   */
+  primaryButton: {
+    label: string;
+    href: string;
+    external?: boolean | null;
+  };
+  updatedAt?: string | null;
+  createdAt?: string | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "home".
  */
 export interface Home {
@@ -1145,6 +1193,41 @@ export interface Datenschutz {
     | null;
   updatedAt?: string | null;
   createdAt?: string | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "header_select".
+ */
+export interface HeaderSelect<T extends boolean = true> {
+  logoEyebrow?: T;
+  logoText?: T;
+  logoImage?: T;
+  logoImageAlt?: T;
+  navItems?:
+    | T
+    | {
+        label?: T;
+        href?: T;
+        external?: T;
+        id?: T;
+      };
+  secondaryButton?:
+    | T
+    | {
+        label?: T;
+        href?: T;
+        external?: T;
+      };
+  primaryButton?:
+    | T
+    | {
+        label?: T;
+        href?: T;
+        external?: T;
+      };
+  updatedAt?: T;
+  createdAt?: T;
+  globalType?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema

@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { primaryNav, legalNav } from "@/lib/nav";
+import { legalNav } from "@/lib/nav";
 import { getKontakt } from "@/lib/payload";
+import type { Header } from "@/payload-types";
 
 const badges = [
   {
@@ -17,8 +18,9 @@ const badges = [
   },
 ];
 
-export async function Footer() {
+export async function Footer({ initialHeader }: { initialHeader: Header }) {
   const kontakt = await getKontakt();
+  const navItems = initialHeader.navItems ?? [];
 
   return (
     <footer className="border-t border-[var(--border)] bg-[var(--ink)] text-white/80">
@@ -64,8 +66,8 @@ export async function Footer() {
               Navigation
             </p>
             <ul className="mt-3 space-y-2 text-sm">
-              {primaryNav.slice(0, 5).map((item) => (
-                <li key={item.href}>
+              {navItems.slice(0, 5).map((item) => (
+                <li key={item.id ?? item.href}>
                   <Link href={item.href} className="hover:text-white">
                     {item.label}
                   </Link>

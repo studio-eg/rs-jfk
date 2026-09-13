@@ -1,5 +1,6 @@
 "use client";
 
+import { Fragment } from "react";
 import { motion, useReducedMotion, Variants } from "framer-motion";
 
 const EASE = [0.33, 1, 0.68, 1] as const;
@@ -20,6 +21,7 @@ export function WordFadeIn({
   className?: string;
 }) {
   const reduceMotion = useReducedMotion();
+  if (!text) return null;
   const lines = text.split("\n");
 
   const container: Variants = {
@@ -45,15 +47,16 @@ export function WordFadeIn({
         return (
           <span key={li} className="block">
             {words.map((w, wi) => (
-              <motion.span
-                key={wi}
-                variants={word}
-                className="inline-block"
-                suppressHydrationWarning
-              >
-                {w}
+              <Fragment key={wi}>
+                <motion.span
+                  variants={word}
+                  className="inline-block"
+                  suppressHydrationWarning
+                >
+                  {w}
+                </motion.span>
                 {wi !== words.length - 1 ? " " : ""}
-              </motion.span>
+              </Fragment>
             ))}
           </span>
         );

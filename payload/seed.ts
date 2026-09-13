@@ -12,8 +12,13 @@ import { getPayload, type Payload } from "payload";
 
 import config from "../payload.config";
 import { schullebenPosts } from "../lib/schulleben";
-import { externalLinks } from "../lib/nav";
 import type { Post } from "../payload-types";
+
+const externalLinks = {
+  iserv: "https://www.rs-kennedy.de/idesk",
+  stundenplan:
+    "https://borys.webuntis.com/WebUntis/?school=rs%20jfk%20braunschweig#/basic/login",
+} as const;
 
 const dirname = path.dirname(fileURLToPath(import.meta.url));
 const publicDir = path.resolve(dirname, "..", "public");
@@ -141,6 +146,51 @@ async function seedPosts(payload: Payload) {
 
     console.log(`Seeded post "${post.slug}" (${i + 1}/${total}).`);
   }
+}
+
+async function seedHeader(payload: Payload) {
+  const current = await payload.findGlobal({ slug: "header" });
+  const logoImageId = await ensureMedia(payload, "/jfk-logo.png", "JFK-Logo");
+
+  if (current.navItems && current.navItems.length > 0) {
+    if (!current.logoImage) {
+      await payload.updateGlobal({ slug: "header", data: { logoImage: logoImageId } });
+      console.log("Backfilled Header logoImage.");
+    } else {
+      console.log("Skipping Header global — already seeded.");
+    }
+    return;
+  }
+
+  await payload.updateGlobal({
+    slug: "header",
+    data: {
+      logoEyebrow: "Realschule",
+      logoText: "John-F.-Kennedy-Platz",
+      logoImage: logoImageId,
+      navItems: [
+        { label: "Startseite", href: "/", external: false },
+        { label: "Schulprofil", href: "/schulprofil", external: false },
+        { label: "Angebot", href: "/angebot", external: false },
+        { label: "Schulleben", href: "/schulleben", external: false },
+        { label: "Organisatorisches", href: "/organisatorisches", external: false },
+        { label: "Personen", href: "/personen", external: false },
+        { label: "Kontakt", href: "/kontakt", external: false },
+      ],
+      secondaryButton: {
+        label: "Stundenplan",
+        href: externalLinks.stundenplan,
+        external: true,
+      },
+      primaryButton: {
+        label: "IServ-Login",
+        href: externalLinks.iserv,
+        external: true,
+      },
+    },
+  });
+
+  console.log("Seeded Header global.");
 }
 
 async function seedHome(payload: Payload) {
@@ -663,6 +713,7 @@ async function run() {
   const payload = await getPayload({ config });
 
   await seedPosts(payload);
+  await seedHeader(payload);
   await seedHome(payload);
   await seedSchulprofil(payload);
   await seedAngebot(payload);

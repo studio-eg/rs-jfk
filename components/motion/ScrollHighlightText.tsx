@@ -53,7 +53,7 @@ export function ScrollHighlightText({
     offset: ["start 0.9", "start 0.35"],
   });
 
-  const words = text.split(" ");
+  const words = (text ?? "").split(" ");
 
   return (
     <blockquote ref={ref} className={className}>

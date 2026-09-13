@@ -1,0 +1,149 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "JFK Realschule John-F.-Kennedy-Platz" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: JFK
+        - generic [ref=e7]:
+          - generic [ref=e8]: Realschule
+          - generic [ref=e9]: John-F.-Kennedy-Platz
+      - generic [ref=e10]:
+        - navigation [ref=e11]:
+          - link "Startseite" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - link "Schulprofil" [ref=e13] [cursor=pointer]:
+            - /url: /schulprofil
+          - link "Angebot" [ref=e14] [cursor=pointer]:
+            - /url: /angebot
+          - link "Schulleben" [ref=e15] [cursor=pointer]:
+            - /url: /schulleben
+          - link "Organisatorisches" [ref=e16] [cursor=pointer]:
+            - /url: /organisatorisches
+          - link "Personen" [ref=e17] [cursor=pointer]:
+            - /url: /personen
+          - link "Kontakt" [ref=e18] [cursor=pointer]:
+            - /url: /kontakt
+        - generic [ref=e19]:
+          - link "Stundenplan" [ref=e20] [cursor=pointer]:
+            - /url: https://borys.webuntis.com/WebUntis/?school=rs%20jfk%20braunschweig#/basic/login
+          - link "IServ-Login" [ref=e21] [cursor=pointer]:
+            - /url: https://www.rs-kennedy.de/idesk
+  - generic [ref=e22]:
+    - generic [ref=e24]:
+      - paragraph [ref=e25]: Wer wir sind
+      - heading "Personen & Gremien" [level=1] [ref=e26]
+      - paragraph [ref=e27]: Schulleitung, Kollegium und die Gremien, die unsere Schulgemeinschaft mitgestalten.
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - img "Felix Müller und Johannes Nadjib, kommissarische Schulleitung" [ref=e31]
+        - generic [ref=e32]:
+          - heading "Schulleitung" [level=2] [ref=e33]
+          - paragraph [ref=e34]: "In allen aktuellen Anliegen wenden Sie sich bitte an die kommissarische Schulleitung:"
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - paragraph [ref=e37]: Sabine Schawe
+          - paragraph [ref=e38]: Realschulrektorin
+          - link "schawe@rs-kennedy.de" [ref=e39] [cursor=pointer]:
+            - /url: mailto:schawe@rs-kennedy.de
+        - generic [ref=e40]:
+          - paragraph [ref=e41]: Felix Müller
+          - paragraph [ref=e42]: Realschulrektor (komm.)
+          - link "felix.mueller@braunschweig.de" [ref=e43] [cursor=pointer]:
+            - /url: mailto:felix.mueller@braunschweig.de
+        - generic [ref=e44]:
+          - paragraph [ref=e45]: Johannes Nadjib
+          - paragraph [ref=e46]: Realschulkonrektor (komm.)
+          - link "johannes.nadjib@braunschweig.de" [ref=e47] [cursor=pointer]:
+            - /url: mailto:johannes.nadjib@braunschweig.de
+      - paragraph [ref=e48]: Jede Schule hat eine Schulleiterin oder einen Schulleiter, die/der die Gesamtverantwortung für die Schule und deren Qualitätsentwicklung trägt, Lehrkräfte im Unterricht berät und für die Einhaltung der Rechts- und Verwaltungsvorschriften sorgt.
+    - generic [ref=e50]:
+      - heading "Mitwirkung & Gremien" [level=2] [ref=e52]
+      - generic [ref=e53]:
+        - generic [ref=e56]:
+          - text: "01"
+          - heading "Verwaltung" [level=3] [ref=e57]
+          - paragraph [ref=e58]: Schulsekretärinnen erledigen den Verwaltungs- und Schreibdienst in allen Schulangelegenheiten. Schulassistent:innen entlasten die Lehrkräfte bei der Vor- und Nachbereitung des Unterrichts. Unser Hausmeister sorgt für die haustechnischen Anlagen und Außenanlagen.
+        - generic [ref=e61]:
+          - text: "02"
+          - heading "Schulvorstand" [level=3] [ref=e62]
+          - paragraph [ref=e63]: Im Schulvorstand wirken Schulleitung, Lehrkräfte, Erziehungsberechtigte sowie Schülerinnen und Schüler zusammen, um die Qualitätsentwicklung der Schule zu gestalten.
+        - generic [ref=e66]:
+          - text: "03"
+          - heading "Lehrerkollegium" [level=3] [ref=e67]
+          - paragraph [ref=e68]: Unsere Lehrkräfte erziehen und unterrichten in eigener pädagogischer Verantwortung und stehen in einem unmittelbaren Dienstverhältnis zum Land Niedersachsen.
+        - generic [ref=e71]:
+          - text: "04"
+          - heading "Kommunale Schulsozialarbeit & Beratung" [level=3] [ref=e72]
+          - paragraph [ref=e73]: Die Schulsozialarbeit unterstützt einzelfallbezogen dabei, Chancengleichheit herzustellen. Unsere Beratungslehrkraft moderiert die Beratungskonferenz und pflegt den Austausch mit externen Beratungsstellen der Stadt Braunschweig.
+        - generic [ref=e74]:
+          - generic [ref=e75]: S
+          - generic [ref=e77]:
+            - text: "05"
+            - heading "Schülervertretung" [level=3] [ref=e78]
+            - paragraph [ref=e79]: Schülerinnen und Schüler wirken über Klassensprecher:innen, den Schülerrat und Vertreter:innen in Konferenzen und im Schulvorstand aktiv an der Schulgemeinschaft mit.
+        - generic [ref=e80]:
+          - generic [ref=e81]: S
+          - generic [ref=e83]:
+            - text: "06"
+            - heading "Schulelternrat" [level=3] [ref=e84]
+            - paragraph [ref=e85]: Die Vorsitzenden der Klassenelternschaften bilden den Schulelternrat, der mindestens zweimal jährlich tagt und Vertreter:innen in die Gesamtkonferenz entsendet.
+        - generic [ref=e86]:
+          - generic [ref=e87]: S
+          - generic [ref=e89]:
+            - text: "07"
+            - heading "Schulelternverein" [level=3] [ref=e90]
+            - paragraph [ref=e91]: Der Schulelternverein unterstützt die Ausstattung der Schule mit Lehrmitteln, hilft bedürftigen Schülerinnen und Schülern bei Klassenfahrten und finanziert Schulveranstaltungen.
+      - paragraph [ref=e92]: Eine namentliche Übersicht unseres Lehrerkollegiums sowie der Klassenlehrkräfte finden Kolleginnen, Kollegen, Schülerinnen und Schüler über IServ.
+  - contentinfo [ref=e93]:
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - paragraph [ref=e97]:
+            - generic [ref=e98]: Realschule
+            - text: John-F.-Kennedy-Platz
+          - paragraph [ref=e99]: John-F.-Kennedy-Platz 1 38100 Braunschweig
+        - generic [ref=e100]:
+          - paragraph [ref=e101]: Kontakt
+          - list [ref=e102]:
+            - listitem [ref=e103]:
+              - 'link "Telefon: (0531) 470 5030" [ref=e104] [cursor=pointer]':
+                - /url: tel:+495314705030
+            - listitem [ref=e105]: "Telefax: (0531) 470 5031"
+            - listitem [ref=e106]:
+              - link "rskennedyplatz@braunschweig.de" [ref=e107] [cursor=pointer]:
+                - /url: mailto:rskennedyplatz@braunschweig.de
+        - generic [ref=e108]:
+          - paragraph [ref=e109]: Navigation
+          - list [ref=e110]:
+            - listitem [ref=e111]:
+              - link "Startseite" [ref=e112] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e113]:
+              - link "Schulprofil" [ref=e114] [cursor=pointer]:
+                - /url: /schulprofil
+            - listitem [ref=e115]:
+              - link "Angebot" [ref=e116] [cursor=pointer]:
+                - /url: /angebot
+            - listitem [ref=e117]:
+              - link "Schulleben" [ref=e118] [cursor=pointer]:
+                - /url: /schulleben
+            - listitem [ref=e119]:
+              - link "Organisatorisches" [ref=e120] [cursor=pointer]:
+                - /url: /organisatorisches
+        - generic [ref=e121]:
+          - paragraph [ref=e122]: Rechtliches
+          - list [ref=e123]:
+            - listitem [ref=e124]:
+              - link "Impressum" [ref=e125] [cursor=pointer]:
+                - /url: /impressum
+            - listitem [ref=e126]:
+              - link "Datenschutz" [ref=e127] [cursor=pointer]:
+                - /url: /datenschutz
+      - generic [ref=e128]:
+        - link "Schule ohne Rassismus – Schule mit Courage" [ref=e129] [cursor=pointer]:
+          - /url: https://www.schule-ohne-rassismus.org
+        - link "Sportfreundliche Schule (3. Zertifizierung)" [ref=e130] [cursor=pointer]:
+          - /url: https://www.mk.niedersachsen.de/startseite/schule/schuelerinnen_und_schueler_eltern/schulsport/schulsport-6289.html
+        - link "Zivilcouragepreis der Polizeidirektion Braunschweig" [ref=e131] [cursor=pointer]:
+          - /url: https://www.polizei-beratung.de/themen-und-tipps/zivilcourage/
+      - paragraph [ref=e132]: © 2026 Realschule John-F.-Kennedy-Platz, Braunschweig. Alle Rechte vorbehalten.

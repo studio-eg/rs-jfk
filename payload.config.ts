@@ -15,6 +15,7 @@ import { Users } from "./payload/collections/Users";
 import { Media } from "./payload/collections/Media";
 import { Posts } from "./payload/collections/Posts";
 import { Pages } from "./payload/collections/Pages";
+import { Header } from "./payload/globals/Header";
 import { Home } from "./payload/globals/Home";
 import { Schulprofil } from "./payload/globals/Schulprofil";
 import { Angebot } from "./payload/globals/Angebot";
@@ -79,6 +80,7 @@ export default buildConfig({
   },
   collections: [Users, Media, Posts, Pages],
   globals: [
+    Header,
     Home,
     Schulprofil,
     Angebot,

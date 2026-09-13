@@ -51,7 +51,7 @@ export default function HomePageClient({
         <div className="absolute inset-0 bg-gradient-to-t from-[var(--ink)] via-[var(--ink)]/85 to-[var(--ink)]/60" />
         <Stagger
           staggerDelay={0.12}
-          className="relative mx-auto max-w-6xl px-6 py-24 sm:py-32"
+          className="relative mx-auto max-w-6xl px-6 pb-24 pt-32 sm:pb-32 sm:pt-40"
         >
           <StaggerItem hover="none">
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-[var(--accent)]">

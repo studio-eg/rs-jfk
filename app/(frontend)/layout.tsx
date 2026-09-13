@@ -4,6 +4,7 @@ import "./globals.css";
 import { AgentationProvider } from "@/components/AgentationProvider";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { getHeader } from "@/lib/payload";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
@@ -29,17 +30,19 @@ export const metadata: Metadata = {
     "Realschule John-F.-Kennedy-Platz in Braunschweig – eigenverantwortliches und kooperatives Lernen in einer gewaltfreien Schule.",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const header = await getHeader();
+
   return (
     <html lang="de" className={`${fraunces.variable} ${lato.variable}`}>
       <body className="font-[family-name:var(--font-body)] antialiased">
-        <Navbar />
+        <Navbar initialHeader={header} />
         {children}
-        <Footer />
+        <Footer initialHeader={header} />
         <AgentationProvider />
       </body>
     </html>

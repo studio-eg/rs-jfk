@@ -59,7 +59,7 @@ export function PageHeader({
         variants={container}
         initial="hidden"
         animate="show"
-        className="relative mx-auto max-w-6xl px-6 py-16 sm:py-20"
+        className="relative mx-auto max-w-6xl px-6 pb-16 pt-28 sm:pb-20 sm:pt-32"
         suppressHydrationWarning
       >
         {eyebrow && (

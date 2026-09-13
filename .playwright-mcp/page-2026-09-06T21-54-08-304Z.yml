@@ -1,0 +1,218 @@
+- generic [active] [ref=f8e1]:
+  - banner [ref=f8e2]:
+    - generic [ref=f8e3]:
+      - link "JFK Realschule John-F.-Kennedy-Platz" [ref=f8e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f8e5]: JFK
+        - generic [ref=f8e7]:
+          - generic [ref=f8e8]: Realschule
+          - generic [ref=f8e9]: John-F.-Kennedy-Platz
+      - generic [ref=f8e10]:
+        - navigation [ref=f8e11]:
+          - link "Startseite" [ref=f8e12] [cursor=pointer]:
+            - /url: /
+          - link "Schulprofil" [ref=f8e13] [cursor=pointer]:
+            - /url: /schulprofil
+          - link "Angebot" [ref=f8e14] [cursor=pointer]:
+            - /url: /angebot
+          - link "Schulleben" [ref=f8e15] [cursor=pointer]:
+            - /url: /schulleben
+          - link "Organisatorisches" [ref=f8e16] [cursor=pointer]:
+            - /url: /organisatorisches
+          - link "Personen" [ref=f8e17] [cursor=pointer]:
+            - /url: /personen
+          - link "Kontakt" [ref=f8e18] [cursor=pointer]:
+            - /url: /kontakt
+        - generic [ref=f8e19]:
+          - link "Stundenplan" [ref=f8e20] [cursor=pointer]:
+            - /url: https://borys.webuntis.com/WebUntis/?school=rs%20jfk%20braunschweig#/basic/login
+          - link "IServ-Login" [ref=f8e21] [cursor=pointer]:
+            - /url: https://www.rs-kennedy.de/idesk
+  - generic [ref=f8e22]:
+    - generic [ref=f8e23]:
+      - img "Lichtdurchflutetes Treppenhaus der Realschule John-F.-Kennedy-Platz" [ref=f8e25]
+      - generic [ref=f8e27]:
+        - paragraph [ref=f8e29]: Realschule · Braunschweig
+        - heading "Eigenverantwortlich lernen. Gemeinsam wachsen." [level=1] [ref=f8e30]:
+          - generic [ref=f8e31]:
+            - generic [ref=f8e32]:
+              - generic [ref=f8e33]: Eigenverantwortlich
+              - generic [ref=f8e34]: lernen.
+            - generic [ref=f8e35]:
+              - generic [ref=f8e36]: Gemeinsam
+              - generic [ref=f8e37]: wachsen.
+        - paragraph [ref=f8e39]: Eigenverantwortliches und kooperatives Lernen und Arbeiten in einer gewaltfreien Schule, in der kein Platz für diskriminierende Äußerungen und Handlungen ist.
+        - generic [ref=f8e41]:
+          - link "Unsere Schule kennenlernen" [ref=f8e42] [cursor=pointer]:
+            - /url: /schulprofil
+          - link "Kontakt & Anfahrt" [ref=f8e43] [cursor=pointer]:
+            - /url: /kontakt
+    - generic [ref=f8e45]:
+      - generic [ref=f8e46]:
+        - generic [ref=f8e47]:
+          - heading "Anmeldung" [level=3] [ref=f8e48]
+          - paragraph [ref=f8e49]: Informationen zur Anmeldung für die Jahrgänge 5 sowie 6–10 und zu unseren Aufnahmeterminen.
+        - link "Zur Anmeldung →" [ref=f8e50] [cursor=pointer]:
+          - /url: /organisatorisches
+          - text: Zur Anmeldung
+          - generic [ref=f8e51]: →
+      - generic [ref=f8e52]:
+        - generic [ref=f8e53]:
+          - heading "Stundenplan & Vertretung" [level=3] [ref=f8e54]
+          - paragraph [ref=f8e55]: Aktuelle Stunden- und Vertretungspläne finden Sie in WebUntis.
+        - link "WebUntis öffnen →" [ref=f8e56] [cursor=pointer]:
+          - /url: https://borys.webuntis.com/WebUntis/?school=rs%20jfk%20braunschweig#/basic/login
+          - text: WebUntis öffnen
+          - generic [ref=f8e57]: →
+      - generic [ref=f8e58]:
+        - generic [ref=f8e59]:
+          - heading "IServ" [level=3] [ref=f8e60]
+          - paragraph [ref=f8e61]: Kommunikation, Krankmeldungen und Unterrichtsmaterial für Eltern, Schüler:innen und Kollegium.
+        - link "Zu IServ →" [ref=f8e62] [cursor=pointer]:
+          - /url: https://www.rs-kennedy.de/idesk
+          - text: Zu IServ
+          - generic [ref=f8e63]: →
+    - generic [ref=f8e65]:
+      - generic [ref=f8e66]:
+        - generic [aria-hidden]: „
+      - paragraph [ref=f8e68]: Unser Leitbild
+      - blockquote [ref=f8e70]:
+        - generic [ref=f8e71]: Wir
+        - generic [ref=f8e72]: achten
+        - generic [ref=f8e73]: die
+        - generic [ref=f8e74]: Vielfalt
+        - generic [ref=f8e75]: unserer
+        - generic [ref=f8e76]: Schülerinnen
+        - generic [ref=f8e77]: und
+        - generic [ref=f8e78]: Schüler,
+        - generic [ref=f8e79]: fördern
+        - generic [ref=f8e80]: und
+        - generic [ref=f8e81]: fordern
+        - generic [ref=f8e82]: individuell
+        - generic [ref=f8e83]: und
+        - generic [ref=f8e84]: schaffen
+        - generic [ref=f8e85]: eine
+        - generic [ref=f8e86]: vertrauensvolle
+        - generic [ref=f8e87]: Arbeitsatmosphäre
+        - generic [ref=f8e88]: –
+        - generic [ref=f8e89]: getragen
+        - generic [ref=f8e90]: von
+        - generic [ref=f8e91]: Respekt,
+        - generic [ref=f8e92]: Verantwortung
+        - generic [ref=f8e93]: und
+        - generic [ref=f8e94]: demokratischen
+        - generic [ref=f8e95]: Werten.
+      - link "Alle Leitziele lesen →" [ref=f8e97] [cursor=pointer]:
+        - /url: /schulprofil
+        - text: Alle Leitziele lesen
+        - generic [ref=f8e98]: →
+    - generic [ref=f8e99]:
+      - generic [ref=f8e100]:
+        - generic [ref=f8e101]:
+          - paragraph [ref=f8e102]: Aktuelles
+          - heading "Aus dem Schulleben" [level=2] [ref=f8e103]
+        - link "Alle Beiträge →" [ref=f8e104] [cursor=pointer]:
+          - /url: /schulleben
+      - link "Jannes Horn beim Besuch an der Realschule John-F.-Kennedy-Platz Schulleben Ehemaliger Schüler und Fußballprofi Jannes Horn zu Besuch Nach einem Austausch mit einer Lehrkraft besuchte der ehemalige Schüler und heutige Fußballprofi Jannes Horn seine alte Schule und beantwortete Fragen der Schülerinnen und Schüler." [ref=f8e107] [cursor=pointer]:
+        - /url: /schulleben/jannes-horn-zu-besuch
+        - img "Jannes Horn beim Besuch an der Realschule John-F.-Kennedy-Platz" [ref=f8e109]
+        - generic [ref=f8e110]:
+          - generic [ref=f8e111]: Schulleben
+          - heading "Ehemaliger Schüler und Fußballprofi Jannes Horn zu Besuch" [level=3] [ref=f8e112]
+          - paragraph [ref=f8e113]: Nach einem Austausch mit einer Lehrkraft besuchte der ehemalige Schüler und heutige Fußballprofi Jannes Horn seine alte Schule und beantwortete Fragen der Schülerinnen und Schüler.
+      - generic [ref=f8e114]:
+        - 'link "Präsentation des Zeitzeugenprojekts in der Roten Halle Erinnerungskultur Zeitzeugenprojekt: Schülerinnen und Schüler recherchieren Lebensgeschichten von NS-Opfern Zehntklässlerinnen und Zehntklässler recherchierten die Lebensgeschichten von Familien, für die neue Stolpersteine verlegt wurden, und stellten ihre Ergebnisse öffentlich vor." [ref=f8e116] [cursor=pointer]':
+          - /url: /schulleben/zeitzeugen-stolpersteine
+          - img "Präsentation des Zeitzeugenprojekts in der Roten Halle" [ref=f8e118]
+          - generic [ref=f8e119]:
+            - generic [ref=f8e120]: Erinnerungskultur
+            - 'heading "Zeitzeugenprojekt: Schülerinnen und Schüler recherchieren Lebensgeschichten von NS-Opfern" [level=3] [ref=f8e121]'
+            - paragraph [ref=f8e122]: Zehntklässlerinnen und Zehntklässler recherchierten die Lebensgeschichten von Familien, für die neue Stolpersteine verlegt wurden, und stellten ihre Ergebnisse öffentlich vor.
+        - 'link "Schülerinnen und Schüler beim Lauftag 2024 Sport Lauftag 2024: Kilometer und Spenden für Schulgarten und Sport Beim jährlichen Lauftag sammelten unsere Schülerinnen und Schüler Kilometer und Spenden für Schulgarten und Sportbereich." [ref=f8e124] [cursor=pointer]':
+          - /url: /schulleben/lauftag-2024
+          - img "Schülerinnen und Schüler beim Lauftag 2024" [ref=f8e126]
+          - generic [ref=f8e127]:
+            - generic [ref=f8e128]: Sport
+            - 'heading "Lauftag 2024: Kilometer und Spenden für Schulgarten und Sport" [level=3] [ref=f8e129]'
+            - paragraph [ref=f8e130]: Beim jährlichen Lauftag sammelten unsere Schülerinnen und Schüler Kilometer und Spenden für Schulgarten und Sportbereich.
+        - 'link "LARS & LISA Präventionsprogramm an der Schule Prävention LARS & LISA: Präventionsprogramm stärkt die Klasse 8b Mit dem von der Stadt Braunschweig geförderten Programm LARS & LISA stärkt die Klasse 8b in zehn Doppelstunden die eigene psychosoziale Kompetenz und Resilienz." [ref=f8e132] [cursor=pointer]':
+          - /url: /schulleben/lars-lisa
+          - img "LARS & LISA Präventionsprogramm an der Schule" [ref=f8e134]
+          - generic [ref=f8e135]:
+            - generic [ref=f8e136]: Prävention
+            - 'heading "LARS & LISA: Präventionsprogramm stärkt die Klasse 8b" [level=3] [ref=f8e137]'
+            - paragraph [ref=f8e138]: Mit dem von der Stadt Braunschweig geförderten Programm LARS & LISA stärkt die Klasse 8b in zehn Doppelstunden die eigene psychosoziale Kompetenz und Resilienz.
+        - link "Realschule John-F.-Kennedy-Platz Musik 3. Friedenskonzert in der Magnikirche Der Fachbereich Musik lud gemeinsam mit Peter Stoppok und mehreren Braunschweiger Chören zum 3. Friedenskonzert für Vielfalt, Toleranz und Frieden ein." [ref=f8e140] [cursor=pointer]:
+          - /url: /schulleben/friedenskonzert-2022
+          - img "Realschule John-F.-Kennedy-Platz" [ref=f8e142]
+          - generic [ref=f8e143]:
+            - generic [ref=f8e144]: Musik
+            - heading "3. Friedenskonzert in der Magnikirche" [level=3] [ref=f8e145]
+            - paragraph [ref=f8e146]: Der Fachbereich Musik lud gemeinsam mit Peter Stoppok und mehreren Braunschweiger Chören zum 3. Friedenskonzert für Vielfalt, Toleranz und Frieden ein.
+        - 'link "Theaterstück „Out – Gefangen im Netz“ an der Schule Prävention „Out – Gefangen im Netz“: Theaterstück gegen Cybermobbing Das Lessing Theater Wolfenbüttel zeigte an unserer Schule ein Theaterstück über Cybermobbing und die Gefahren des Internets." [ref=f8e148] [cursor=pointer]':
+          - /url: /schulleben/out-gefangen-im-netz
+          - img "Theaterstück „Out – Gefangen im Netz“ an der Schule" [ref=f8e150]
+          - generic [ref=f8e151]:
+            - generic [ref=f8e152]: Prävention
+            - 'heading "„Out – Gefangen im Netz“: Theaterstück gegen Cybermobbing" [level=3] [ref=f8e153]'
+            - paragraph [ref=f8e154]: Das Lessing Theater Wolfenbüttel zeigte an unserer Schule ein Theaterstück über Cybermobbing und die Gefahren des Internets.
+    - generic [ref=f8e157]:
+      - generic [ref=f8e158]:
+        - heading "Fragen zur Anmeldung oder zum Schulalltag?" [level=2] [ref=f8e159]
+        - paragraph [ref=f8e160]: Unser Sekretariat hilft Ihnen gerne persönlich weiter.
+      - link "Kontakt aufnehmen" [ref=f8e161] [cursor=pointer]:
+        - /url: /kontakt
+  - contentinfo [ref=f8e162]:
+    - generic [ref=f8e163]:
+      - generic [ref=f8e164]:
+        - generic [ref=f8e165]:
+          - paragraph [ref=f8e166]:
+            - generic [ref=f8e167]: Realschule
+            - text: John-F.-Kennedy-Platz
+          - paragraph [ref=f8e168]: John-F.-Kennedy-Platz 1 38100 Braunschweig
+        - generic [ref=f8e169]:
+          - paragraph [ref=f8e170]: Kontakt
+          - list [ref=f8e171]:
+            - listitem [ref=f8e172]:
+              - 'link "Telefon: (0531) 470 5030" [ref=f8e173] [cursor=pointer]':
+                - /url: tel:+495314705030
+            - listitem [ref=f8e174]: "Telefax: (0531) 470 5031"
+            - listitem [ref=f8e175]:
+              - link "rskennedyplatz@braunschweig.de" [ref=f8e176] [cursor=pointer]:
+                - /url: mailto:rskennedyplatz@braunschweig.de
+        - generic [ref=f8e177]:
+          - paragraph [ref=f8e178]: Navigation
+          - list [ref=f8e179]:
+            - listitem [ref=f8e180]:
+              - link "Startseite" [ref=f8e181] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f8e182]:
+              - link "Schulprofil" [ref=f8e183] [cursor=pointer]:
+                - /url: /schulprofil
+            - listitem [ref=f8e184]:
+              - link "Angebot" [ref=f8e185] [cursor=pointer]:
+                - /url: /angebot
+            - listitem [ref=f8e186]:
+              - link "Schulleben" [ref=f8e187] [cursor=pointer]:
+                - /url: /schulleben
+            - listitem [ref=f8e188]:
+              - link "Organisatorisches" [ref=f8e189] [cursor=pointer]:
+                - /url: /organisatorisches
+        - generic [ref=f8e190]:
+          - paragraph [ref=f8e191]: Rechtliches
+          - list [ref=f8e192]:
+            - listitem [ref=f8e193]:
+              - link "Impressum" [ref=f8e194] [cursor=pointer]:
+                - /url: /impressum
+            - listitem [ref=f8e195]:
+              - link "Datenschutz" [ref=f8e196] [cursor=pointer]:
+                - /url: /datenschutz
+      - generic [ref=f8e197]:
+        - link "Schule ohne Rassismus – Schule mit Courage" [ref=f8e198] [cursor=pointer]:
+          - /url: https://www.schule-ohne-rassismus.org
+        - link "Sportfreundliche Schule (3. Zertifizierung)" [ref=f8e199] [cursor=pointer]:
+          - /url: https://www.mk.niedersachsen.de/startseite/schule/schuelerinnen_und_schueler_eltern/schulsport/schulsport-6289.html
+        - link "Zivilcouragepreis der Polizeidirektion Braunschweig" [ref=f8e200] [cursor=pointer]:
+          - /url: https://www.polizei-beratung.de/themen-und-tipps/zivilcourage/
+      - paragraph [ref=f8e201]: © 2026 Realschule John-F.-Kennedy-Platz, Braunschweig. Alle Rechte vorbehalten.
+  - alert [ref=f8e202]

@@ -1,6 +1,7 @@
 import { getPayload } from "payload";
 import config from "@/payload.config";
 import type {
+  Header,
   Home,
   Post,
   Page,
@@ -15,8 +16,20 @@ import type {
 
 export const getPayloadClient = () => getPayload({ config });
 
+export async function getHeader(): Promise<Header> {
+  const payload = await getPayloadClient();
+  return payload.findGlobal({ slug: "header", depth: 1 });
+}
+
 export async function getHome(): Promise<Home> {
   const payload = await getPayloadClient();
+  // See the retry note on getKontakt() below — the same local D1 race can
+  // hit any global's read, and an empty heroTitle here crashes WordFadeIn.
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const home = await payload.findGlobal({ slug: "home", depth: 2 });
+    if (home.heroTitle) return home;
+    if (attempt < 2) await new Promise((resolve) => setTimeout(resolve, 150));
+  }
   return payload.findGlobal({ slug: "home", depth: 2 });
 }
 
@@ -42,6 +55,16 @@ export async function getPersonen(): Promise<Personen> {
 
 export async function getKontakt(): Promise<Kontakt> {
   const payload = await getPayloadClient();
+  // The local D1 simulator is single-threaded and can return an empty read
+  // under concurrent access (see the `cpus: 1` note in next.config.ts) — this
+  // global's pageSections field makes its query heavy enough to hit that race
+  // in practice. Retry a few times, checking the fields users actually
+  // notice (banner image + school name), before giving up.
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const kontakt = await payload.findGlobal({ slug: "kontakt", depth: 1 });
+    if (kontakt.schoolName && kontakt.heroImage) return kontakt;
+    if (attempt < 2) await new Promise((resolve) => setTimeout(resolve, 150));
+  }
   return payload.findGlobal({ slug: "kontakt", depth: 1 });
 }
 
