@@ -45,10 +45,10 @@ export default function HomePageClient({
             fill
             priority
             sizes="100vw"
-            className="object-cover opacity-30"
+            className="object-cover opacity-65"
           />
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-[var(--ink)] via-[var(--ink)]/85 to-[var(--ink)]/60" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[var(--ink)] via-[var(--ink)]/50 to-[var(--ink)]/25" />
         <Stagger
           staggerDelay={0.12}
           className="relative mx-auto max-w-6xl px-6 pb-24 pt-32 sm:pb-32 sm:pt-40"
