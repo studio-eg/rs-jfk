@@ -113,7 +113,7 @@ Changes here update both the header and the footer's navigation column at once, 
 
 ## Deployment status (Cloudflare)
 
-**The site is live** at **https://rs-jfk.aydin-d8a.workers.dev** — deployed 2026-09-04 to your Cloudflare account (Workers, with a real D1 database and R2 file storage). The `/admin` panel works there too, with the same login and content you had locally. If you want a custom domain (e.g. `rs-kennedy.de`) instead of the `workers.dev` address, that's a quick follow-up — just ask.
+**The site is live** at **https://realschule-jfk.de** (also at https://rs-jfk.aydin-d8a.workers.dev) — first deployed 2026-09-04 to your Cloudflare account (Workers, with a real D1 database and R2 file storage). The `/admin` panel works there too. The old address `rs-kennedy.de` is run by IServ and redirects to `realschule-jfk.de`. The site is due to move to a German server: see "VPS migration plan" below.
 
 To publish future *code* changes, just ask to have the site redeployed — that rebuilds the site and updates the live Worker. Content edited in `/admin` goes live immediately without a redeploy, since every page now fetches fresh from the database on each request — only *code* changes need a redeploy.
 
@@ -134,6 +134,118 @@ The live site and the local preview keep separate content. Anything edited in th
 
 The backup is in a temporary folder on this computer, so it may not be there for long.
 
+## VPS migration plan
+
+**To pick this up, say "start the migration" and Part A begins.**
+
+The client wants the site moved from Cloudflare to a German VPS (a rented server), with Cloudflare removed fully and the domain `realschule-jfk.de` kept. Nothing may break, and email must keep working.
+
+### Where things stand (2026-11-02)
+
+**Done:**
+- Audited the project and compared it with the live site. See "Audit findings" below.
+- Decided: remove Cloudflare fully, with the domain settings moving back to IONOS.
+- Compared the server options and wrote this plan.
+
+**Waiting on:**
+- The client's reply on which server to buy.
+- The items under "What you need to gather" below.
+
+**Not started:** nothing has been migrated, no code has changed for this, and the live site, domain, email and Cloudflare are untouched. Part A doesn't need the server, so it can start at any time.
+
+### Server options for the client
+
+| Option | Specs | Price | In Germany? |
+|---|---|---|---|
+| **netcup VPS 1000 G12.5 (recommended)** | 4 vCPU, 8 GB, 128 GB | about €14.50/month on 12 months, plus a Germany charge | Yes, Nürnberg can be chosen |
+| netcup VPS 500 G12.5 | 2 vCPU, 4 GB, 64 GB | about €9.30/month on 12 months, Germany included | Yes, Nürnberg can be chosen |
+| IONOS VPS L+ | 4 vCPU, 8 GB, 240 GB | about €22/month after 3 months | Only if IONOS confirms it |
+| IONOS VPS M+ | 2 vCPU, 4 GB, 120 GB | about €12/month after 3 months | Only if IONOS confirms it |
+| netcup VPS Lite 2 | 4 vCPU, 8 GB, 160 GB | €9.50/month | **Not guaranteed:** Nürnberg, Vienna or Amsterdam, and it can't be changed later |
+
+- **VPS S+** (1 vCPU, 2 GB) is too small to rebuild the site.
+- **IONOS XL+ and XXL+** would work but are far more than this site needs.
+- The IONOS pages list only "EU, USA and UK" as locations, so Germany must be confirmed before ordering.
+- Prices came from provider pages on 2026-11-02, and some details weren't clearly labelled. Confirm them when ordering.
+- Part A measures how much memory a rebuild needs, which settles whether the 4 GB plans are enough.
+
+### Audit findings
+
+| Area | Finding | What it means |
+|---|---|---|
+| Software | Next.js 16.3.3, Payload 3.88, React 19, Node 24 | All run normally on a VPS |
+| Database | Cloudflare D1, 3.1 MB, 149 tables | Moves to a SQLite file with the same table structure |
+| Files | Cloudflare R2: 77 files, 42.3 MB; 13 names have spaces or umlauts | Move to the server's disk |
+| Memory | 788 MB peak in development mode | Fits every option; rebuild not measured yet |
+| Disk | About 1.5 GB for the app, 45 MB of content | Fits every option |
+| Cloudflare ties | `payload.config.ts`, `next.config.ts`, `package.json`, `wrangler.jsonc`, `open-next.config.ts`, `cloudflare-env.d.ts`, `cloudflare-shims/` | Small and contained. Pages and components don't change |
+| Logins | 4 admin accounts | Passwords should keep working; everyone logs in again once |
+| Domain | Cloudflare nameservers, no `www` address | `rs-kennedy.de` (IServ) redirects here and must keep working |
+| Email | IONOS mail: MX, SPF, DMARC, autodiscover | **Biggest risk.** Every record must be recreated exactly |
+
+### Decisions
+
+- **SQLite file, not Postgres:** same table structure, lowest risk, and plenty for one site with 4 editors.
+- **Files on the server's disk:** web addresses stay `/api/media/file/...`, so saved links keep working.
+- **Automatic database updates off (`push: false`), locally too:** they are the likely cause of the lost menu links.
+- **Keep `images: { unoptimized: true }`** so photos behave as they do today.
+- **All Part A code stays on a branch.** `studio-eg/showcase` remains the Cloudflare version until the switch, so the live site can still be updated and redeployed.
+
+### Part A: needs no server
+
+1. **Convert the code** on branch `studio-eg/vps-migration`. Read the deployment guide in `node_modules/next/dist/docs/` first.
+   - `payload.config.ts`: use `@payloadcms/db-sqlite` with `push: false`; remove `r2Storage` and `getCloudflareContextFromWrangler`.
+   - `payload/collections/Media.ts`: add a `staticDir` from an environment setting.
+   - `next.config.ts`: remove the `drizzle-kit` alias and the `cpus: 1` workaround.
+   - `package.json`: swap the packages at matching versions, remove OpenNext and wrangler, and update the scripts.
+   - Delete `wrangler.jsonc`, `open-next.config.ts`, `cloudflare-env.d.ts` and `cloudflare-shims/`.
+2. **Rehearse the data move.** The live site is only read from, though the export may pause its database for a moment.
+   - Export the database and reorder it: tables in foreign-key order, then data, then indexes.
+   - Download all 77 files, handling the 13 unusual names.
+   - Load both into a test copy on this computer, kept apart from the current local preview data.
+   - Turn this into one repeatable script, because it runs again at the real switch.
+3. **Test it the way the real server will run it.** Do a production build in a scratch copy and record peak memory and time, then run the production version and compare it with the live site.
+4. **Prepare the server files** in a `deploy/` folder, so setup takes hours rather than days: setup script (firewall, SSH keys only, fail2ban, automatic updates, swap, Node 24, Caddy), Caddy config for HTTPS and the `www` redirect, system service, nightly backup and restore scripts, and a deploy script.
+5. **Write the switch-over checklist** with rollback steps, here in `SITE.md`.
+
+Part A stops there. Nothing is deployed, and the branch is pushed only if you ask.
+
+### What you need to gather
+
+- **Cloudflare DNS export** (DNS → Records → Export). Public lookups can't show every record, such as DKIM, and this protects the email.
+- **DNSSEC status** in Cloudflare (on or off).
+- **Answers from the client:**
+  - Which server?
+  - Must it be in Germany, or is the EU enough?
+  - Do they need a data-processing agreement (AV-Vertrag)?
+  - Who edits in `/admin`, and when can editing pause?
+  - Is the Google Maps embed on the Kontakt page acceptable?
+
+### Part B: after the server is bought
+
+1. **Set up:** run the setup script, then put the site on a test address, `neu.realschule-jfk.de`, blocked from search engines. Choose where backups go for that provider and do one restore test.
+2. **Switch the website:** agree a time, pause `/admin` edits, run the final data copy and verify it. Remove the Worker's domain link and add A/AAAA records in Cloudflare with the proxy off. Visitors see at most a few minutes of disruption, and email is untouched.
+3. **Remove Cloudflare DNS, after about 3 quiet days:** recreate every record in IONOS DNS, compare record by record, turn off DNSSEC if it's on, then switch the nameservers back to IONOS and test email both ways.
+4. **Finish:** keep the Cloudflare Worker, database and storage for 14 days as a fallback, then delete them only with your approval. Merge the branch, remove the test address, and update this file.
+
+**Going back if something fails:** before step 3, reconnect the Worker and the old site returns within minutes. After step 3, switch the nameservers back, which is slower because DNS changes can take hours. Any edits made on the new server would need copying back.
+
+### How we'll check it worked
+
+**Part A:**
+1. Every value in all 149 tables and all 77 files match the live site.
+2. All 28 pages match the live site in text, images and links, including the 7 menu links.
+3. `/admin` on the test copy works: login, edit, photo upload, Live Preview, and creating and deleting a test page.
+4. Stopping and restarting the production version keeps all content.
+5. `studio-eg/showcase` is unchanged, and the live site is unaffected.
+
+**Part B:** repeat those checks on the server, then check HTTPS on the main and `www` addresses, PDF downloads, the mobile menu, the `rs-kennedy.de` redirect, email both ways with SPF and DMARC passing, and a full server restart.
+
+### Worth raising with the client (outside this move)
+
+- The Kontakt page embeds Google Maps directly, which sends visitor data to Google.
+- The homepage references about 26 MB of images, because photos are sent at full size. Resizing is possible on a VPS and is a good follow-up.
+
 ## Important notes / things to revisit
 - **3 Schulleben posts still need a real event photo**: Weihnachtskonzert 2019, Friedenskonzert 2018, and "Hör zu" currently fall back to a generic school photo (`pic06.jpg`). Checked the live site directly — these three only have video/audio files linked, no photos, so there was nothing real to use. Swap in real photos from the school if they're ever provided (edit the `image`/`imageAlt` fields for those posts in `lib/schulleben.ts`).
 - **Enrollment dates omitted on purpose:** the live site's Anmeldung dates (spring 2026) are already in the past — they were not carried over. The Organisatorisches page describes the process generically; update it each year with the current Infoabend/Anmeldung dates.
@@ -141,6 +253,7 @@ The backup is in a temporary folder on this computer, so it may not be there for
 - **No real photography yet** — see "Imagery" above.
 
 ## Recent Changes
+- 2026-11-02: **Planned the move to a German VPS.** Audited the project, compared server options and wrote the plan (see "VPS migration plan" above). Nothing has been migrated yet, and the client still has to choose the server. Also corrected this file's "Deployment status" section, which didn't mention that the live address is `realschule-jfk.de`.
 - 2026-11-02: **Restored the 7 missing menu links in the local preview.** The top menu and the footer's navigation list had no page links locally, because the links had disappeared from the local database after the sync below. Copied them from the live site. Nothing changed on the live site, no code changed, and nothing was deployed. Local and live now match on every value, photo and page. The likely cause is the local preview's automatic database update rebuilding the Header table, but that isn't proven.
 - 2026-11-02: **Copied the live site's content into the local preview**, so both now show the same thing. The two use separate databases, and everything edited in the live `/admin` since early September had never reached this computer. Brought across: 4 new Schulleben posts (Interaktives Theater, Berufsorientierung zum Anfassen, Lauftag am Lünischteich, Expertenvortrag der Sparkasse) with their photos; new Schulleitung, Kollegium and Sekretariat/Hausmeister photos on Personen; "Verwaltung" renamed to "Sekretariat & Hausmeister" with new text; new Schulsozialarbeit text; the new "Aktuelles" selection on the homepage; the shorter Datenschutz contact (Natalie Rahman-K. only); new Kontakt Sprechzeiten text; and the logo uploaded on the live site, which now replaces the local one. No website code changed. Sabine Schawe is now listed last under Schulleitung with no real email address (`#`), and the school name on Kontakt still reads "Realschule John-F.-Kennedy-Platz!" with an exclamation mark — both are copied exactly as they are on the live site. The local `/admin` now uses the same accounts and passwords as the live one.
 - 2026-09-13: Lightened the homepage hero photo — the client felt it was too dark. Raised the photo's own opacity in two passes (30% → 50% → 65%) and lightened the dark overlay sitting on top of it (was fading to 85%/60% dark, now 50%/25%), so more of the real photo shows through while the white headline text stays easy to read. Only the homepage hero changed (`app/(frontend)/page.client.tsx`) — the matching dark banner on inner pages (`PageHeader`) was left as-is.
